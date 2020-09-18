@@ -27,7 +27,7 @@ const Home = () => {
                             <Button style={{ color: '#fff', backgroundColor: '#7c60ff', height: 50, borderRadius: 4 }}>Contact Sales</Button>
                         </Col>
                         <Col span={12} style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'center', flexDirection: 'column' }}>
-                            <img height={750} src={WorldConnections} />
+                            <img height={750} src={WorldConnections} alt='alternate'/>
                         </Col>
                     </Row>
 
@@ -41,7 +41,7 @@ const Home = () => {
                             <p style={{ color: '#39426A', fontSize:16, fontWeight: '500', lineHeight: '25px' }}>Who we are</p>
                             <p style={{ color: '#39426A', fontSize:44, fontWeight: '800', lineHeight: '135.2%' }}>At Gaptstack, we are on a mission to build a digital ecosystem</p>
                             <p style={{ color: '#39426A', fontSize: 16, lineHeight: '30px' }}>We believe in giving businesses the liberty to automate buy & sell processes, unlock & build business networks and access funding at scale.</p>
-                            <a href="#">Read More</a>
+                            <Button type='link'>Read More</Button>
                         </Col>
                     </Row>
                 </Col>
@@ -145,7 +145,7 @@ const Home = () => {
                                      nav
                                      margin={20} >
                             <div style={{ backgroundColor: '#fff', borderRadius: '5px', boxShadow: '0px 0px 4px rgba(0, 0, 0, 0.1)', padding: 20 }}>
-                                <img className="img" src= {CoolKidsMeeting}/>
+                                <img className="img" src= {CoolKidsMeeting} alt='alternate'/>
                                 <p style={{ fontSize: 34, color: '#39426A', fontWeight: 800 }}>Gapstack for Banks</p>
                                 <p style={{ fontSize: 16, color: '#39426A', lineHeight: '30px' }}>
                                     Deepen your relationship with the value chain ecosystem and understand your customer's business more intimately. Gapstack gives you insights to your customers operations and de-risks supply chain financing.
@@ -153,7 +153,7 @@ const Home = () => {
                             </div>
 
                             <div style={{ backgroundColor: '#fff', borderRadius: '5px', boxShadow: '0px 0px 4px rgba(0, 0, 0, 0.1)', padding: 20 }}>
-                                <img className="img" src= {CoolKidsDiscussion}/>
+                                <img className="img" src= {CoolKidsDiscussion} alt='alternate'/>
                                 <p style={{ fontSize: 34, color: '#39426A', fontWeight: 800 }}>Gapstack for Business</p>
                                 <p style={{ fontSize: 16, color: '#39426A', lineHeight: '30px' }}>
                                     Automate & digitize your entire business operations and get funding when you need it. From Bank guarantees such as bid bonds to advance payment guarantees. Get it all.
@@ -161,7 +161,7 @@ const Home = () => {
                             </div>
 
                             <div style={{ backgroundColor: '#fff', borderRadius: '5px', boxShadow: '0px 0px 4px rgba(0, 0, 0, 0.1)', padding: 20 }}>
-                                <img className="img" src= {CoolKidsMeeting}/>
+                                <img className="img" src= {CoolKidsMeeting} alt='alternate'/>
                                 <p style={{ fontSize: 34, color: '#39426A', fontWeight: 800 }}>Gapstack for Agents</p>
                                 <p style={{ fontSize: 16, color: '#39426A', lineHeight: '30px' }}>
                                     Gapstack provides and end to end process flow for customer due diligence, financing and guarantee workflows and Automated integrations to the banks you serve.
@@ -213,36 +213,36 @@ const Home = () => {
                                 <p style={{ fontSize: 34, color: '#39426A', fontWeight: 800 }}>Gapstack receives Ksh. 1.5 Billion funding</p>
                                 <p style={{ fontSize: 20, color: '#777C93' }}>8/10/2020</p>
                                 <p style={{ fontSize: 16, color: '#39426A', lineHeight: '30px' }}>
-                                    Kenyan start up receives Ksh. 1.5 Billion funding from a venture capital. The funds will majorly be used to... <a href='#'>Read More</a>
+                                    Kenyan start up receives Ksh. 1.5 Billion funding from a venture capital. The funds will majorly be used to... <Button type='link'>Read More</Button>
                                 </p>
-                                <a href="#">Google</a>
+                                <Button type='link'>Google</Button>
                             </div>
 
                             <div style={{ padding: 20 }}>
                                 <p style={{ fontSize: 34, color: '#39426A', fontWeight: 800 }}>Global trade now faces a $3.4 trillion financing gap</p>
                                 <p style={{ fontSize: 20, color: '#777C93' }}>8/10/2020</p>
                                 <p style={{ fontSize: 16, color: '#39426A', lineHeight: '30px' }}>
-                                    To overcome the financing hurdles faced by SMEs, technology will play an important role. One promising and s... <a href='#'>Read More</a>
+                                    To overcome the financing hurdles faced by SMEs, technology will play an important role. One promising and s... <Button type='link'>Read More</Button>
                                 </p>
-                                <a href="#">CNBC</a>
+                                <Button type='link'>CNBC</Button>
                             </div>
 
                             <div style={{ padding: 20 }}>
                                 <p style={{ fontSize: 34, color: '#39426A', fontWeight: 800 }}>Pandemic boosts social infra PPPs in Peru</p>
                                 <p style={{ fontSize: 20, color: '#777C93' }}>8/10/2020</p>
                                 <p style={{ fontSize: 16, color: '#39426A', lineHeight: '30px' }}>
-                                    The Covid-19 pandemic has highlighted Peru's need for greater investment in social infrastructure, which is d... <a href='#'>Read More</a>
+                                    The Covid-19 pandemic has highlighted Peru's need for greater investment in social infrastructure, which is d... <Button type='link'>Read More</Button>
                                 </p>
-                                <a href="#">Google</a>
+                                <Button type='link'>Google</Button>
                             </div>
 
                             <div style={{ padding: 20 }}>
                                 <p style={{ fontSize: 34, color: '#39426A', fontWeight: 800 }}>Financing in for Serbia/Kosovo Peace Highway</p>
                                 <p style={{ fontSize: 20, color: '#777C93' }}>8/10/2020</p>
                                 <p style={{ fontSize: 16, color: '#39426A', lineHeight: '30px' }}>
-                                    The Development Finance Corporation (DFC) and Export-Import Bank (EXIM) yesterday (15 September 2020) signed L... <a href='#'>Read More</a>
+                                    The Development Finance Corporation (DFC) and Export-Import Bank (EXIM) yesterday (15 September 2020) signed L... <Button type='link'>Read More</Button>
                                 </p>
-                                <a href="#">Google</a>
+                                <Button type='link'>Google</Button>
                             </div>
                         </OwlCarousel>
                     </Row>
@@ -272,7 +272,7 @@ const Home = () => {
                                     <Button style={{ color: '#7C60FF', backgroundColor: '#fff', borderRadius: 4, height: 50 }}>Create a Free Account</Button>
                                 </Col>
                                 <Col style={{ display: 'flex', alignItems: 'center' }}>
-                                    <a href="#" style={{ color: '#fff', textDecoration: 'underline' }}>Let Us Call You</a>
+                                    <Button type='link' style={{ color: '#fff', textDecoration: 'underline' }}>Let Us Call You</Button>
                                 </Col>
                             </Row>
                         </Col>
@@ -285,7 +285,7 @@ const Home = () => {
                     <Row gutter={16}>
                         <Col span={6}>
                             <Row style={{ marginBottom: 10 }}>
-                                <img height={30} src={gapstackLogo} />
+                                <img height={30} src={gapstackLogo} alt='alternate'/>
                             </Row>
                             <p style={{ marginBottom: 10, color: '#40a9ff'}}>info@gapstack.com</p>
 

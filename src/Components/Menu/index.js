@@ -6,21 +6,21 @@ const Menu = () => {
     return(
         <Row style={{ height: 130, alignItems: 'center', padding: 20 }}>
             <Col offset={2} span={10} style={{ display: 'flex', alignItems: 'center'}}>
-                <img height={25} src={gapstackLogo} />
+                <img height={25} src={gapstackLogo} alt='logo'/>
             </Col>
             <Col span={11}>
                 <Row style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center' }}>
                     <Col span={3}>
-                        <a href="#" style={{ color: '#39426A'}}>Platform</a>
+                        <Button type='link' style={{ color: '#39426A'}}>Platform</Button>
                     </Col>
                     <Col span={3}>
-                        <a href="#" style={{ color: '#39426A'}}>Solutions</a>
+                        <Button type='link' style={{ color: '#39426A'}}>Solutions</Button>
                     </Col>
                     <Col span={3}>
-                        <a href="#" style={{ color: '#39426A'}}>About Us</a>
+                        <Button type='link' style={{ color: '#39426A'}}>About Us</Button>
                     </Col>
                     <Col span={3}>
-                        <a href="#" style={{ color: '#39426A'}}>Contact Us</a>
+                        <Button type='link' style={{ color: '#39426A'}}>Contact Us</Button>
                     </Col>
                     <Col span={3}>
                         <Button style={{ color: '#fff', backgroundColor: '#7c60ff', height: 50, borderRadius: 4}}> Get Started</Button>
