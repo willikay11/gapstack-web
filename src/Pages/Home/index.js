@@ -31,16 +31,16 @@ const Home = () => {
                             <Button style={{ color: '#fff', backgroundColor: '#7c60ff', height: 50, borderRadius: 4 }}>Contact Sales</Button>
                             <Row gutter={16} style={{ marginTop: 40 }}>
                                 <Col span={4}>
-                                    <img height={40} src={EquityLogo} />
+                                    <img height={40} src={EquityLogo} alt='alternate' />
                                 </Col>
                                 <Col span={6}>
-                                    <img height={40} src={NCBALogo} />
+                                    <img height={40} src={NCBALogo} alt='alternate' />
                                 </Col>
                                 <Col span={7}>
-                                    <img height={40} src={IMLogo} />
+                                    <img height={40} src={IMLogo} alt='alternate' />
                                 </Col>
                                 <Col span={7}>
-                                    <img height={40} src={CreditBank} />
+                                    <img height={40} src={CreditBank} alt='alternate' />
                                 </Col>
                             </Row>
                         </Col>
