@@ -9,6 +9,10 @@ import HandImage from '../../assets/hand-image.png';
 import OwlCarousel from 'react-owl-carousel';
 import CoolKidsMeeting from '../../assets/Cool-Kids-Pitch-Meeting.svg';
 import CoolKidsDiscussion from '../../assets/Cool-Kids-Discussion.svg';
+import EquityLogo from '../../assets/equity.jpg';
+import NCBALogo from '../../assets/ncba.jpg';
+import IMLogo from '../../assets/i&m.jpg';
+import CreditBank from '../../assets/credit-bank.jpg';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
@@ -22,9 +26,23 @@ const Home = () => {
                 <Col offset={2} span={22}>
                     <Row style={{ height: '100%' }}>
                         <Col span={12} style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'center', flexDirection: 'column' }}>
-                            <p style={{ fontSize: 70, color: '#39426A' }}>Gapstack</p>
+                            <p style={{ fontSize: 70, color: '#39426A', fontWeight: 800 }}>Gapstack</p>
                             <p style={{ fontSize: 44, color: '#39426A', textTransform: 'capitalize' }}>powerful digital trade & supply chain financing platform</p>
                             <Button style={{ color: '#fff', backgroundColor: '#7c60ff', height: 50, borderRadius: 4 }}>Contact Sales</Button>
+                            <Row gutter={16} style={{ marginTop: 40 }}>
+                                <Col span={4}>
+                                    <img height={40} src={EquityLogo} />
+                                </Col>
+                                <Col span={6}>
+                                    <img height={40} src={NCBALogo} />
+                                </Col>
+                                <Col span={7}>
+                                    <img height={40} src={IMLogo} />
+                                </Col>
+                                <Col span={7}>
+                                    <img height={40} src={CreditBank} />
+                                </Col>
+                            </Row>
                         </Col>
                         <Col span={12} style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'center', flexDirection: 'column' }}>
                             <img height={750} src={WorldConnections} alt='alternate'/>
@@ -124,7 +142,7 @@ const Home = () => {
                         alignItems: 'center'
                     }}>
                         <div style={{ backgroundColor: 'rgba(57, 66, 106, 0.8)', height: '100%', position: 'absolute', top: 0, bottom: 0, left: 0, right: 0 }}/>
-                        <p style={{ color: '#fff', fontSize: '44px', lineHeight: '135.2%', zIndex: 10 }}>Built for Growth. Trusted by Businesses.</p>
+                        <p style={{ color: '#fff', fontSize: '44px', lineHeight: '135.2%', zIndex: 10, fontWeight: 800 }}>Built for Growth. Trusted by Businesses.</p>
                     </Row>
                 </Col>
             </Row>
