@@ -6,12 +6,12 @@ import Particles from "react-particles-js";
 
 const Hero = ({ scrollToSolutions, scrollToContactForm }) => {
     return(
-        <Row style={{ position: 'relative' }}>
+        <Row style={{ position: 'relative', height: '100vh' }}>
             <Col span={24}>
                 <Menu scrollToSolutions={scrollToSolutions} scrollToContactForm={scrollToContactForm} />
 
-                <Fade style={{ position: 'relative', zIndex: 10 }} triggerOnce={true} fraction={0.3}>
-                    <Row style={{ height: 800}}>
+                <Fade style={{ position: 'relative', zIndex: 10, flexGrow: 1, height: '100%' }} triggerOnce={true} fraction={0.3}>
+                    <Row style={{ height: 'inherit'}}>
                         <Col xs={{ span: 20, offset: 2 }}
                              sm={{ span: 20, offset: 2 }}
                              md={{ span: 20, offset: 2 }}
