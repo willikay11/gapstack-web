@@ -33,7 +33,7 @@ const Dashboard = () => {
                         </Row>
 
                         <Row gutter={32}>
-                            <Col xs={24} sm={24} md={24} lg={8} xl={8} className="item">
+                            <Col xs={24} sm={24} md={12} lg={8} xl={8} className="item">
                                 <FaWallet color='#008D3D' size={54} className="icon" />
                                 <p className="title">Allows know what you pay</p>
                                 <p className="description" >
@@ -41,7 +41,7 @@ const Dashboard = () => {
                                 </p>
                             </Col>
 
-                            <Col xs={24} sm={24} md={24} lg={8} xl={8} className="item">
+                            <Col xs={24} sm={24} md={12} lg={8} xl={8} className="item">
                                 <FaCodeBranch color='#1E87F0' size={54} className="icon" />
                                 <p className="title">Start your integration</p>
                                 <p className="description">
