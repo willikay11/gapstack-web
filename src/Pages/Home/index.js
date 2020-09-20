@@ -21,8 +21,8 @@ const Home = () => {
                 <Col span={24}>
                     <Menu />
 
-                    <Fade triggerOnce={true} fraction={0.3}>
-                        <Row style={{ height: 800, position: 'relative', zIndex: 10 }}>
+                    <Fade style={{ position: 'relative', zIndex: 10 }} triggerOnce={true} fraction={0.3}>
+                        <Row style={{ height: 800}}>
                             <Col offset={4} span={16}>
                                 <Row style={{ height: '100%' }}>
                                     <Col span={16} style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'center', flexDirection: 'column' }}>
