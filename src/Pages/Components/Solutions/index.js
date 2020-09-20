@@ -54,18 +54,18 @@ const Solutions = ({ refProp }) => {
                         <Row className="owl-carousel-container">
                             <OwlCarousel className="owl-theme" {...options}>
                                 <div className="item">
-                                    <img className="img image" src={CoolKidsMeeting} alt='alternate'/>
-                                    <p className="title">Gapstack for Banks</p>
-                                    <p className="description">
-                                        Deepen your relationship with the value chain ecosystem and understand your customer's business more intimately. Gapstack gives you insights to your customers operations and de-risks supply chain financing.
-                                    </p>
-                                </div>
-
-                                <div className="item">
                                     <img className="img image" src= {CoolKidsDiscussion} height='350px' alt='alternate'/>
                                     <p className="title">Gapstack for Business</p>
                                     <p style={{ fontSize: 16, color: '#39426A', lineHeight: '30px' }}>
                                         Automate & digitize your entire business operations and get funding when you need it. From Bank guarantees such as bid bonds to advance payment guarantees. Get it all.
+                                    </p>
+                                </div>
+
+                                <div className="item">
+                                    <img className="img image" src={CoolKidsMeeting} alt='alternate'/>
+                                    <p className="title">Gapstack for Banks</p>
+                                    <p className="description">
+                                        Deepen your relationship with the value chain ecosystem and understand your customer's business more intimately. Gapstack gives you insights to your customers operations and de-risks supply chain financing.
                                     </p>
                                 </div>
 
