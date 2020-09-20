@@ -15,9 +15,13 @@ const Why = () => {
         <WhyWrapper>
             <Fade triggerOnce={true} fraction={0.3}>
                 <Row className="container">
-                    <Col offset={4} span={16}>
+                    <Col xs={{ span: 20, offset: 2 }}
+                         sm={{ span: 20, offset: 2 }}
+                         md={{ span: 20, offset: 2 }}
+                         lg={{ span: 16, offset: 4 }}
+                         xl={{ span: 16, offset: 4 }}>
                         <Row>
-                            <Col span={8}>
+                            <Col xs={24} sm={24} md={24} xl={8} lg={8}>
                                 <p className="title">Why Gapstack</p>
                             </Col>
                         </Row>

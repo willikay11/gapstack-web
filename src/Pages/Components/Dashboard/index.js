@@ -15,7 +15,11 @@ const Dashboard = () => {
         <DashboardWrapper>
             <Fade triggerOnce={true} fraction={0.3}>
                 <Row className="container">
-                    <Col offset={4} span={16} className="image-container">
+                    <Col xs={{ span:20, offset:2 }}
+                         sm={{ span:20, offset:2 }}
+                         md={{ span:20, offset:2 }}
+                         lg={{ span:16, offset:4 }}
+                         xl={{ span:16, offset:4 }} className="image-container">
                         <Row>
                             <Col span={24}>
                                 <img src={DashboardImage} alt="alternate" width='100%' />
@@ -23,13 +27,13 @@ const Dashboard = () => {
                         </Row>
 
                         <Row className="title-container">
-                            <Col span={8}>
+                            <Col xs={24} sm={24} md={24} lg={8} xl={8}>
                                 <p className="title">The Business Growth Platform</p>
                             </Col>
                         </Row>
 
                         <Row gutter={32}>
-                            <Col span={8} className="item">
+                            <Col xs={24} sm={24} md={24} lg={8} xl={8} className="item">
                                 <MdReceipt color='#008D3D' size={54} className="icon" />
                                 <p className="title">Allows know what you pay</p>
                                 <p className="description" >
@@ -37,7 +41,7 @@ const Dashboard = () => {
                                 </p>
                             </Col>
 
-                            <Col span={8} className="item">
+                            <Col xs={24} sm={24} md={24} lg={8} xl={8} className="item">
                                 <MdReceipt color='#008D3D' size={54} className="icon" />
                                 <p className="title">Start your integration</p>
                                 <p className="description">
