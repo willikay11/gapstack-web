@@ -18,7 +18,7 @@ const Contact = () => {
                         alignItems: 'center'
                     }}>
                         <div style={{ background: 'linear-gradient(90deg, rgba(124, 96, 255, 0.9) 31.02%, rgba(0, 0, 0, 0.25) 99.17%)', height: '100%', position: 'absolute', top: 0, bottom: 0, left: 0, right: 0 }}/>
-                        <Col offset={4} span={10}>
+                        <Col offset={4} xs={20} sm={20} md={20} lg={10} xl={10}>
                             <p style={{ color: '#fff', fontSize: '44px', lineHeight: '135.2%', zIndex: 10 }}>Ready to get started?</p>
                             <p style={{ fontSize: 16, lineHeight: '30px', color: '#fff' }}>
                                 We are on deck to help you build your businesses digital trade ecosystem today
