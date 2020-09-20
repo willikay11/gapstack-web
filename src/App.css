@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
 }
@@ -38,6 +42,12 @@
 }
 
 .owl-stage {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 1px;
+}
+
+.button-link {
+  padding: 0;
+  width: 100%;
+  margin-bottom: 1em;
+  text-align: left;
 }

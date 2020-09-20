@@ -2,36 +2,33 @@ import React from "react";
 import { Row, Col, Button } from "antd";
 import gapstackLogo from '../../assets/gapStackLogo.svg';
 
-const Menu = () => {
+const Menu = ({ scrollToSolutions, scrollToContactForm }) => {
     return(
-        <Row style={{ height: 130, alignItems: 'center', padding: 20 }}>
-            <Col offset={2} span={10} style={{ display: 'flex', alignItems: 'center'}}>
+        <Row style={{ height: 130, alignItems: 'center', padding: '20px 0px', position: 'relative', zIndex: 10 }}>
+            <Col xs={{ span: 10, offset: 2 }}
+                 sm={{ span: 10, offset: 2 }}
+                 md={{ span: 10, offset: 2 }}
+                 lg={{ span: 8, offset: 4 }}
+                 xl={{ span: 8, offset: 4 }} style={{ display: 'flex', alignItems: 'center'}}>
                 <img height={25} src={gapstackLogo} alt='logo'/>
             </Col>
-            <Col span={11}>
-                <Row style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center' }}>
-                    <Col span={3}>
-                        <Button type='link' style={{ color: '#39426A'}}>Platform</Button>
+            <Col xs={{ span: 10, offset: 2 }}
+                 sm={{ span: 10, offset: 2 }}
+                 md={{ span: 10, offset: 2 }}
+                 lg={{ span: 8, offset: 2 }}
+                 xl={{ span: 8, offset: 2 }}>
+                <Row gutter={32} style={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'center' }}>
+                    <Col xs={9} sm={9} md={9} lg={4} xl={6}>
+                        <Button type='link' style={{ color: '#39426A'}} onClick={() => scrollToSolutions()}>Solutions</Button>
                     </Col>
-                    <Col span={3}>
-                        <Button type='link' style={{ color: '#39426A'}}>Solutions</Button>
-                    </Col>
-                    <Col span={3}>
-                        <Button type='link' style={{ color: '#39426A'}}>About Us</Button>
-                    </Col>
-                    <Col span={3}>
-                        <Button type='link' style={{ color: '#39426A'}}>Contact Us</Button>
-                    </Col>
-                    <Col span={3}>
-                        <Button style={{ color: '#fff', backgroundColor: '#7c60ff', height: 50, borderRadius: 4}}> Get Started</Button>
+                    <Col xs={12} sm={12} md={12} lg={4} xl={6}>
+                        <Button style={{ color: '#fff', backgroundColor: '#7c60ff', height: 50, borderRadius: 4}}
+                                onClick={() => scrollToContactForm()}
+                        > Contact Sales</Button>
                     </Col>
                 </Row>
             </Col>
         </Row>
-        // <div style={{ width: '100%', backgroundColor: '#fff', minHeight: 100, padding: 20, display: 'flex', alignItems: 'center' }}>
-        //     <div style={{ display: 'flex', justifyContent: 'flex-start', flex: 1 }}>Logo</div>
-        //     <div style={{ display: 'flex', justifyContent: 'flex-start', flex: 1 }}>Menu Links</div>
-        // </div>
     )
 }
 
