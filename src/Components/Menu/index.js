@@ -4,34 +4,21 @@ import gapstackLogo from '../../assets/gapStackLogo.svg';
 
 const Menu = () => {
     return(
-        <Row style={{ height: 130, alignItems: 'center', padding: 20 }}>
-            <Col offset={2} span={10} style={{ display: 'flex', alignItems: 'center'}}>
+        <Row style={{ height: 130, alignItems: 'center', padding: '20px 0px', position: 'relative', zIndex: 10 }}>
+            <Col offset={2} span={13} style={{ display: 'flex', alignItems: 'center'}}>
                 <img height={25} src={gapstackLogo} alt='logo'/>
             </Col>
-            <Col span={11}>
-                <Row style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center' }}>
-                    <Col span={3}>
-                        <Button type='link' style={{ color: '#39426A'}}>Platform</Button>
-                    </Col>
-                    <Col span={3}>
+            <Col span={8}>
+                <Row gutter={32} style={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'center' }}>
+                    <Col span={4}>
                         <Button type='link' style={{ color: '#39426A'}}>Solutions</Button>
                     </Col>
-                    <Col span={3}>
-                        <Button type='link' style={{ color: '#39426A'}}>About Us</Button>
-                    </Col>
-                    <Col span={3}>
-                        <Button type='link' style={{ color: '#39426A'}}>Contact Us</Button>
-                    </Col>
-                    <Col span={3}>
-                        <Button style={{ color: '#fff', backgroundColor: '#7c60ff', height: 50, borderRadius: 4}}> Get Started</Button>
+                    <Col span={4}>
+                        <Button style={{ color: '#fff', backgroundColor: '#7c60ff', height: 50, borderRadius: 4}}> Contact Sales</Button>
                     </Col>
                 </Row>
             </Col>
         </Row>
-        // <div style={{ width: '100%', backgroundColor: '#fff', minHeight: 100, padding: 20, display: 'flex', alignItems: 'center' }}>
-        //     <div style={{ display: 'flex', justifyContent: 'flex-start', flex: 1 }}>Logo</div>
-        //     <div style={{ display: 'flex', justifyContent: 'flex-start', flex: 1 }}>Menu Links</div>
-        // </div>
     )
 }
 

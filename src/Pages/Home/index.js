@@ -2,60 +2,79 @@ import React from "react";
 import Menu from "../../Components/Menu";
 import {Button, Col, Row} from "antd";
 import { MdPeople, MdPayment, MdReceipt, MdAccountBalance, MdPieChart, MdCopyright } from "react-icons/md";
+import Particles from "react-particles-js";
 import gapstackLogo from '../../assets/gapStackLogo.svg';
 import BusinessBackgroundImage from '../../assets/business-image.png';
-import WorldConnections from '../../assets/world-connections.jpg';
 import HandImage from '../../assets/hand-image.png';
 import OwlCarousel from 'react-owl-carousel';
 import CoolKidsMeeting from '../../assets/Cool-Kids-Pitch-Meeting.svg';
 import CoolKidsDiscussion from '../../assets/Cool-Kids-Discussion.svg';
-import EquityLogo from '../../assets/equity.jpg';
-import NCBALogo from '../../assets/ncba.jpg';
-import IMLogo from '../../assets/i&m.jpg';
-import CreditBank from '../../assets/credit-bank.jpg';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-
 
 const Home = () => {
     return (
         <div style={{ display: 'flex', height: '100%', flexFlow: 'column'}}>
-            <Menu />
+            <Row style={{ position: 'relative'}}>
+                <Col span={24}>
+                    <Menu />
 
-            <Row style={{ height: 800 }}>
-                <Col offset={2} span={22}>
-                    <Row style={{ height: '100%' }}>
-                        <Col span={12} style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'center', flexDirection: 'column' }}>
-                            <p style={{ fontSize: 70, color: '#39426A', fontWeight: 800 }}>Gapstack</p>
-                            <p style={{ fontSize: 44, color: '#39426A', textTransform: 'capitalize' }}>powerful digital trade & supply chain financing platform</p>
-                            <Button style={{ color: '#fff', backgroundColor: '#7c60ff', height: 50, borderRadius: 4 }}>Contact Sales</Button>
-                            <Row gutter={16} style={{ marginTop: 40 }}>
-                                <Col span={4}>
-                                    <img height={40} src={EquityLogo} alt='alternate' />
+                    <Row style={{ height: 800, position: 'relative', zIndex: 10 }}>
+                        <Col offset={2} span={22}>
+                            <Row style={{ height: '100%' }}>
+                                <Col span={16} style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'center', flexDirection: 'column' }}>
+                                    {/*<p style={{ fontSize: 70, color: '#39426A', fontWeight: 800 }}>Gapstack</p>*/}
+                                    <p style={{ fontSize: 44, color: '#39426A', textTransform: 'capitalize', lineHeight: '135.2%', fontWeight: 'bold', fontStyle: 'normal' }}>powerful digital trade & supply chain financing platform</p>
+
+                                    <Row>
+                                        <Col span={15}>
+                                            <p style={{ fontSize: 16, color: '#39426A', lineHeight: '135.2%', fontWeight: 500, fontStyle: 'normal' }}>When you register as a supplier, TradeDepot becomes a full-time distributor of your products. We buy and store the inventory, and take care of everything from shipping and pricing to customer service and returns.</p>
+                                        </Col>
+                                    </Row>
+                                    {/*<p style={{ fontSize: 16, color: '#39426A', lineHeight: '135.2%', fontWeight: 500, fontStyle: 'normal' }}>When you register as a supplier, TradeDepot becomes a full-time distributor of your products. We buy and store the inventory, and take care of everything from shipping and pricing to customer service and returns.</p>*/}
+                                    <Button style={{ color: '#fff', backgroundColor: '#7c60ff', height: 50, borderRadius: 4, marginTop: 50 }}>Contact Sales</Button>
                                 </Col>
-                                <Col span={6}>
-                                    <img height={40} src={NCBALogo} alt='alternate' />
-                                </Col>
-                                <Col span={7}>
-                                    <img height={40} src={IMLogo} alt='alternate' />
-                                </Col>
-                                <Col span={7}>
-                                    <img height={40} src={CreditBank} alt='alternate' />
-                                </Col>
+                                {/*<Col span={12} style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'center', flexDirection: 'column' }}>*/}
+                                {/*    <img height={750} src={WorldConnections} alt='alternate'/>*/}
+                                {/*</Col>*/}
                             </Row>
-                        </Col>
-                        <Col span={12} style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'center', flexDirection: 'column' }}>
-                            <img height={750} src={WorldConnections} alt='alternate'/>
                         </Col>
                     </Row>
 
+                    <Particles
+                        style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: 0 }}
+                        params={{
+                            particles: {
+                                number: {
+                                    value: 80,
+                                    density: {
+                                        enable: true,
+                                    }
+                                },
+                                links: {
+                                    color: "#b3b2b2",
+                                    distance: 150,
+                                    enable: true,
+                                    opacity: 0.5,
+                                    width: 1,
+                                },
+                                shape: {
+                                    type: "circle",
+                                },
+                                size: {
+                                    random: true,
+                                    value: 5,
+                                },
+                            },
+                        }}
+                    />
                 </Col>
             </Row>
 
-            <Row style={{ height: 500 }}>
-                <Col offset={3} span={21}>
+            <Row style={{ height: 500, marginTop: 50 }}>
+                <Col offset={2} span={20}>
                     <Row>
-                        <Col span={10}>
+                        <Col span={12}>
                             <p style={{ color: '#39426A', fontSize:16, fontWeight: '500', lineHeight: '25px' }}>Who we are</p>
                             <p style={{ color: '#39426A', fontSize:44, fontWeight: '800', lineHeight: '135.2%' }}>At Gaptstack, we are on a mission to build a digital ecosystem</p>
                             <p style={{ color: '#39426A', fontSize: 16, lineHeight: '30px' }}>We believe in giving businesses the liberty to automate buy & sell processes, unlock & build business networks and access funding at scale.</p>
@@ -66,15 +85,15 @@ const Home = () => {
             </Row>
 
             <Row style={{ minHeight: 500, marginBottom: 100 }}>
-                <Col offset={3} span={21}>
+                <Col offset={2} span={20}>
                     <Row>
                         <Col span={6}>
                             <p style={{ fontSize: '50px', color: '#39426A', lineHeight: '135.2%', fontWeight: '800'}}>Why Gapstack</p>
                         </Col>
                     </Row>
 
-                    <Row gutter={[16, 16]}>
-                        <Col span={7}>
+                    <Row gutter={[16, 80]}>
+                        <Col span={8}>
                             <MdPeople color='#7C60FF' size={54}/>
                             <p style={{ color: '#39426A', fontSize: '20px', fontWeight: 600 }}>Connected Buyers & Suppliers</p>
                             <p style={{ color: '#39426A', fontSize: '16px', fontWeight: "normal", marginBottom: '.5rem' }}>Create & send your invoices and orders on Gapstack</p>
@@ -83,7 +102,7 @@ const Home = () => {
                             <p style={{ color: '#39426A', fontSize: '16px', fontWeight: "normal", marginBottom: '.5rem' }}>- Track payment of invoices</p>
                         </Col>
 
-                        <Col span={7}>
+                        <Col span={8}>
                             <MdPayment color='#E74C3C' size={54} />
                             <p style={{ color: '#39426A', fontSize: '20px', fontWeight: 600 }}>Seamless Payments</p>
                             <p style={{ color: '#39426A', fontSize: '16px', fontWeight: "normal", lineHeight: '30px' }}>
@@ -91,7 +110,7 @@ const Home = () => {
                             </p>
                         </Col>
 
-                        <Col span={7}>
+                        <Col span={8}>
                             <MdReceipt color='#008D3D' size={54} />
                             <p style={{ color: '#39426A', fontSize: '20px', fontWeight: 600 }}>Get Early Payment on Your Invoices</p>
                             <p style={{ color: '#39426A', fontSize: '16px', fontWeight: "normal", lineHeight: '30px' }}>
@@ -99,7 +118,7 @@ const Home = () => {
                             </p>
                         </Col>
 
-                        <Col span={7}>
+                        <Col span={8}>
                             <MdAccountBalance color='#39426A' size={54} />
                             <p style={{ color: '#39426A', fontSize: '20px', fontWeight: 600 }}>Pay Your Suppliers Early</p>
                             <p style={{ color: '#39426A', fontSize: '16px', fontWeight: "normal", lineHeight: '30px' }}>
@@ -107,7 +126,7 @@ const Home = () => {
                             </p>
                         </Col>
 
-                        <Col span={7}>
+                        <Col span={8}>
                             <MdPieChart color='#E74C3C' size={54} />
                             <p style={{ color: '#39426A', fontSize: '20px', fontWeight: 600 }}>Robust Data & Analytics</p>
                             <p style={{ color: '#39426A', fontSize: '16px', fontWeight: "normal", lineHeight: '30px' }}>
@@ -115,7 +134,7 @@ const Home = () => {
                             </p>
                         </Col>
 
-                        <Col span={7}>
+                        <Col span={8}>
                             <MdReceipt color='#E74C3C' size={54} />
                             <p style={{ color: '#39426A', fontSize: '20px', fontWeight: 600 }}>Cross Border Payments</p>
                             <p style={{ color: '#39426A', fontSize: '16px', fontWeight: "normal", lineHeight: '30px' }}>
