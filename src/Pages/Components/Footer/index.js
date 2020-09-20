@@ -15,7 +15,11 @@ const Footer = () => {
         <FooterWrapper>
             <Fade triggerOnce={true} fraction={0.3}>
                 <Row className="container">
-                    <Col offset={4} span={16}>
+                    <Col xs={{ span:22, offset:2 }}
+                         sm={{ span:22, offset:2 }}
+                         md={{ span:2, offset:2 }}
+                         lg={{ span:16, offset:4 }}
+                         xl={{ span:16, offset:4 }}>
                         <Row gutter={[16, 32]}>
                             <Col xs={24} sm={24} md={24} lg={6} xl={6} className="item">
                                 <Row style={{ marginBottom: 10 }}>

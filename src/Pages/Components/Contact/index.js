@@ -17,7 +17,11 @@ const Contact = () => {
                     <Col span={24}>
                         <Row className="background-container">
                             <div className="linear-gradient-background" />
-                            <Col offset={4} xs={20} sm={20} md={20} lg={10} xl={10}>
+                            <Col xs={{span:20, offset: 2}}
+                                 sm={{ span:20, offset:2 }}
+                                 md={{ span:20, offset:2 }}
+                                 lg={{ span:10, offset:4 }}
+                                 xl={{ span:10, offset:4 }}>
                                 <p className="title" >Ready to get started?</p>
                                 <p className="description">
                                     We are on deck to help you build your businesses digital trade ecosystem today
