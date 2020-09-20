@@ -5,7 +5,7 @@ import gapstackLogo from '../../assets/gapStackLogo.svg';
 const Menu = () => {
     return(
         <Row style={{ height: 130, alignItems: 'center', padding: '20px 0px', position: 'relative', zIndex: 10 }}>
-            <Col offset={2} span={13} style={{ display: 'flex', alignItems: 'center'}}>
+            <Col offset={4} span={12} style={{ display: 'flex', alignItems: 'center'}}>
                 <img height={25} src={gapstackLogo} alt='logo'/>
             </Col>
             <Col span={8}>
