@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import styled from 'styled-components';
 import Who from "../Components/Who";
 import Why from "../Components/Why";
@@ -6,7 +6,7 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import { style } from './styles';
 import Dashboard from "../Components/Dashboard";
-import Users from "../Components/Users";
+import Solutions from "../Components/Solutions";
 import Footer from "../Components/Footer";
 import Contact from "../Components/Contact";
 import Hero from "../Components/HeroBanner";
@@ -15,11 +15,19 @@ const HomeWrapper = styled.div`
   ${style}
 `;
 
+const scrollToSolutions = (ref) => window.scrollTo(0, ref.current.offsetTop);
+const scrollContactForm = (ref) => window.scrollTo(0, ref.current.offsetTop);
+
 const Home = () => {
+    const solutions = useRef(null);
+    const contactForm = useRef(null);
+    const executeScrollToSolutions = () => scrollToSolutions(solutions);
+    const executeScrollToContactForm = () => scrollContactForm(contactForm);
+
     return (
         <HomeWrapper>
             <div className="home-container">
-                <Hero />
+                <Hero scrollToSolutions={executeScrollToSolutions} scrollToContactForm={executeScrollToContactForm}/>
 
                 <Who />
 
@@ -27,13 +35,11 @@ const Home = () => {
 
                 <Dashboard />
 
-                <Users />
+                <Solutions refProp={solutions}/>
 
-                <Contact />
+                <Contact refProp={contactForm}/>
 
-                <Footer />
-
-
+                <Footer scrollToSolutions={executeScrollToSolutions} scrollToContactForm={executeScrollToContactForm} />
             </div>
         </HomeWrapper>
     )

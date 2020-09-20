@@ -4,11 +4,11 @@ import Menu from "../../../Components/Menu";
 import {Fade} from "react-awesome-reveal";
 import Particles from "react-particles-js";
 
-const Hero = () => {
+const Hero = ({ scrollToSolutions, scrollToContactForm }) => {
     return(
         <Row style={{ position: 'relative' }}>
             <Col span={24}>
-                <Menu />
+                <Menu scrollToSolutions={scrollToSolutions} scrollToContactForm={scrollToContactForm} />
 
                 <Fade style={{ position: 'relative', zIndex: 10 }} triggerOnce={true} fraction={0.3}>
                     <Row style={{ height: 800}}>
@@ -30,7 +30,7 @@ const Hero = () => {
                                             <p style={{ fontSize: 16, color: '#39426A', lineHeight: '30px', fontWeight: 500, fontStyle: 'normal' }}>When you register as a supplier, TradeDepot becomes a full-time distributor of your products. We buy and store the inventory, and take care of everything from shipping and pricing to customer service and returns.</p>
                                         </Col>
                                     </Row>
-                                    <Button style={{ color: '#fff', backgroundColor: '#7c60ff', height: 50, borderRadius: 4, marginTop: 50 }}>Contact Sales</Button>
+                                    <Button onClick={() => scrollToContactForm()} style={{ color: '#fff', backgroundColor: '#7c60ff', height: 50, borderRadius: 4, marginTop: 50 }}>Contact Sales</Button>
                                 </Col>
                             </Row>
                         </Col>

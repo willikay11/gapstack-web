@@ -2,7 +2,7 @@ import React from "react";
 import { Row, Col, Button } from "antd";
 import gapstackLogo from '../../assets/gapStackLogo.svg';
 
-const Menu = () => {
+const Menu = ({ scrollToSolutions, scrollToContactForm }) => {
     return(
         <Row style={{ height: 130, alignItems: 'center', padding: '20px 0px', position: 'relative', zIndex: 10 }}>
             <Col xs={{ span: 10, offset: 2 }}
@@ -19,10 +19,12 @@ const Menu = () => {
                  xl={{ span: 8, offset: 2 }}>
                 <Row gutter={32} style={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'center' }}>
                     <Col xs={9} sm={9} md={4} lg={4} xl={6}>
-                        <Button type='link' style={{ color: '#39426A'}}>Solutions</Button>
+                        <Button type='link' style={{ color: '#39426A'}} onClick={() => scrollToSolutions()}>Solutions</Button>
                     </Col>
                     <Col xs={12} sm={12} md={4} lg={4} xl={6}>
-                        <Button style={{ color: '#fff', backgroundColor: '#7c60ff', height: 50, borderRadius: 4}}> Contact Sales</Button>
+                        <Button style={{ color: '#fff', backgroundColor: '#7c60ff', height: 50, borderRadius: 4}}
+                                onClick={() => scrollToContactForm()}
+                        > Contact Sales</Button>
                     </Col>
                 </Row>
             </Col>

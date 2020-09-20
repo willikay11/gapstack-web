@@ -33,9 +33,9 @@ const options = {
     }
 }
 
-const Users = () => {
+const Solutions = ({ refProp }) => {
     return (
-        <UsersWrapper>
+        <UsersWrapper ref={refProp}>
             <Fade triggerOnce={true} fraction={0.3}>
                 <Row className="container">
                     <Col xs={{ offset: 2, span: 22 }}
@@ -84,4 +84,4 @@ const Users = () => {
     );
 }
 
-export default Users;
+export default Solutions;

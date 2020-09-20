@@ -1,6 +1,6 @@
 import React from "react";
 import {Fade} from "react-awesome-reveal";
-import {Col, Row} from "antd";
+import {Button, Col, Row} from "antd";
 import gapstackLogo from "../../../assets/gapStackLogo.svg";
 import {MdCopyright} from "react-icons/md";
 import styled from "styled-components";
@@ -10,7 +10,7 @@ const FooterWrapper = styled.div`
   ${style}
 `;
 
-const Footer = () => {
+const Footer = ({ scrollToSolutions, scrollToContactForm }) => {
     return (
         <FooterWrapper>
             <Fade triggerOnce={true} fraction={0.3}>
@@ -35,29 +35,29 @@ const Footer = () => {
                             <Col xs={24} sm={24} md={24} lg={6} xl={6} className="item">
                                 <p className="title">Solutions</p>
 
-                                <p>For Banks</p>
-                                <p>For Businesses</p>
-                                <p>For Agents</p>
+                                <Button className="button-link" type='link' onClick={() => scrollToSolutions()}>For Banks</Button>
+                                <Button className="button-link" type='link' onClick={() => scrollToSolutions()}>For Businesses</Button>
+                                <Button className="button-link" type='link' onClick={() => scrollToSolutions()}>For Agents</Button>
                             </Col>
 
-                            <Col xs={24} sm={24} md={24} lg={6} xl={6} className="item">
-                                <p className="title">Company</p>
+                            {/*<Col xs={24} sm={24} md={24} lg={6} xl={6} className="item">*/}
+                            {/*    <p className="title">Company</p>*/}
 
-                                <p>About</p>
-                                <p>Careers</p>
-                                <p>Contact Us</p>
-                                <p>Press</p>
-                                <p>Terms & Conditions</p>
-                                <p>Privacy Policy</p>
-                            </Col>
+                            {/*    <p>About</p>*/}
+                            {/*    <p>Careers</p>*/}
+                            {/*    <p>Contact Us</p>*/}
+                            {/*    <p>Press</p>*/}
+                            {/*    <p>Terms & Conditions</p>*/}
+                            {/*    <p>Privacy Policy</p>*/}
+                            {/*</Col>*/}
 
-                            <Col xs={24} sm={24} md={24} lg={6} xl={6} className="item">
-                                <p className="title">Resources</p>
+                            {/*<Col xs={24} sm={24} md={24} lg={6} xl={6} className="item">*/}
+                            {/*    <p className="title">Resources</p>*/}
 
-                                <p>Blog</p>
-                                <p>Support</p>
-                                <p>Developers</p>
-                            </Col>
+                            {/*    <p>Blog</p>*/}
+                            {/*    <p>Support</p>*/}
+                            {/*    <p>Developers</p>*/}
+                            {/*</Col>*/}
                         </Row>
                     </Col>
                 </Row>

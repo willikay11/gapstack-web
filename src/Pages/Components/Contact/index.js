@@ -9,9 +9,9 @@ const ContactWrapper = styled.div`
   ${style}
 `;
 
-const Contact = () => {
+const Contact = ({ refProp }) => {
     return (
-        <ContactWrapper backgroundImage={HandImage}>
+        <ContactWrapper ref={refProp} backgroundImage={HandImage}>
             <Fade triggerOnce={true} fraction={0.3}>
                 <Row className="container">
                     <Col span={24}>
@@ -28,11 +28,11 @@ const Contact = () => {
                                 </p>
                                 <Row gutter={16}>
                                     <Col>
-                                        <Button style={{ color: '#7C60FF', backgroundColor: '#fff', borderRadius: 4, height: 50 }}>Create a Free Account</Button>
+                                        <Button style={{ color: '#7C60FF', backgroundColor: '#fff', borderRadius: 4, height: 50 }}>Leave us a message</Button>
                                     </Col>
-                                    <Col style={{ display: 'flex', alignItems: 'center' }}>
-                                        <Button type='link' style={{ color: '#fff', textDecoration: 'underline' }}>Let Us Call You</Button>
-                                    </Col>
+                                    {/*<Col style={{ display: 'flex', alignItems: 'center' }}>*/}
+                                    {/*    <Button type='link' style={{ color: '#fff', textDecoration: 'underline' }}>Let Us Call You</Button>*/}
+                                    {/*</Col>*/}
                                 </Row>
                             </Col>
                         </Row>

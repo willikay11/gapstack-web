@@ -1,7 +1,7 @@
 import React from "react";
 import {Col, Row} from "antd";
 import DashboardImage from "../../../assets/Dashboard.svg";
-import {MdReceipt} from "react-icons/md";
+import { FaWallet, FaCodeBranch } from "react-icons/all";
 import {Fade} from "react-awesome-reveal";
 import styled from "styled-components";
 import { style } from "./styles";
@@ -13,7 +13,7 @@ const DashboardWrapper = styled.div`
 const Dashboard = () => {
     return (
         <DashboardWrapper>
-            <Fade triggerOnce={true} fraction={0.3}>
+            <Fade triggerOnce={true} fraction={0.1}>
                 <Row className="container">
                     <Col xs={{ span:20, offset:2 }}
                          sm={{ span:20, offset:2 }}
@@ -34,7 +34,7 @@ const Dashboard = () => {
 
                         <Row gutter={32}>
                             <Col xs={24} sm={24} md={24} lg={8} xl={8} className="item">
-                                <MdReceipt color='#008D3D' size={54} className="icon" />
+                                <FaWallet color='#008D3D' size={54} className="icon" />
                                 <p className="title">Allows know what you pay</p>
                                 <p className="description" >
                                     Drive loyalty with your suppliers and grow your ecosystem by providing faster payments to your suppliers through early payments.
@@ -42,7 +42,7 @@ const Dashboard = () => {
                             </Col>
 
                             <Col xs={24} sm={24} md={24} lg={8} xl={8} className="item">
-                                <MdReceipt color='#008D3D' size={54} className="icon" />
+                                <FaCodeBranch color='#1E87F0' size={54} className="icon" />
                                 <p className="title">Start your integration</p>
                                 <p className="description">
                                     Built on highly resilient microservices architecture with cloud and on prem hybrid to

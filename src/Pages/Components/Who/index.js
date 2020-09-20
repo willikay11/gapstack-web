@@ -23,7 +23,7 @@ const Who = () => {
                                 <p className="sub-title">Who we are</p>
                                 <p className="title">At Gaptstack, we are on a mission to build a digital ecosystem</p>
                                 <p className="description">We believe in giving businesses the liberty to automate buy & sell processes, unlock & build business networks and access funding at scale.</p>
-                                <Button type='link'>Read More</Button>
+                                <Button className="button-link" type='link'>Read More</Button>
                             </Col>
                         </Row>
                     </Col>
