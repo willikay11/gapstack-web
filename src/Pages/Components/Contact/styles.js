@@ -1,7 +1,7 @@
 import { css } from 'styled-components';
-import { device } from '../../../styles/deviceSizes';
+// import { device } from '../../../styles/deviceSizes';
 
-const gapstackPurple = '#39426A';
+// const gapstackPurple = '#39426A';
 
 const style = ({ backgroundImage }) => css`
   .container {
