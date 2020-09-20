@@ -1,10 +1,11 @@
 import React from "react";
 import Menu from "../../Components/Menu";
 import {Button, Col, Row} from "antd";
-import { MdPeople, MdPayment, MdReceipt, MdAccountBalance, MdPieChart, MdCopyright } from "react-icons/md";
+import { MdPeople, MdPayment, MdReceipt, MdAccountBalance, MdPieChart, MdCopyright, MdLocalOffer } from "react-icons/md";
+import { FaWallet, FaChartBar, FaGlobe } from 'react-icons/fa'
 import Particles from "react-particles-js";
 import gapstackLogo from '../../assets/gapStackLogo.svg';
-import BusinessBackgroundImage from '../../assets/business-image.png';
+import DashboardImage from '../../assets/Dashboard.svg';
 import HandImage from '../../assets/hand-image.png';
 import OwlCarousel from 'react-owl-carousel';
 import CoolKidsMeeting from '../../assets/Cool-Kids-Pitch-Meeting.svg';
@@ -23,20 +24,15 @@ const Home = () => {
                         <Col offset={2} span={22}>
                             <Row style={{ height: '100%' }}>
                                 <Col span={16} style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'center', flexDirection: 'column' }}>
-                                    {/*<p style={{ fontSize: 70, color: '#39426A', fontWeight: 800 }}>Gapstack</p>*/}
                                     <p style={{ fontSize: 44, color: '#39426A', textTransform: 'capitalize', lineHeight: '135.2%', fontWeight: 'bold', fontStyle: 'normal' }}>powerful digital trade & supply chain financing platform</p>
 
                                     <Row>
                                         <Col span={15}>
-                                            <p style={{ fontSize: 16, color: '#39426A', lineHeight: '135.2%', fontWeight: 500, fontStyle: 'normal' }}>When you register as a supplier, TradeDepot becomes a full-time distributor of your products. We buy and store the inventory, and take care of everything from shipping and pricing to customer service and returns.</p>
+                                            <p style={{ fontSize: 16, color: '#39426A', lineHeight: '30px', fontWeight: 500, fontStyle: 'normal' }}>When you register as a supplier, TradeDepot becomes a full-time distributor of your products. We buy and store the inventory, and take care of everything from shipping and pricing to customer service and returns.</p>
                                         </Col>
                                     </Row>
-                                    {/*<p style={{ fontSize: 16, color: '#39426A', lineHeight: '135.2%', fontWeight: 500, fontStyle: 'normal' }}>When you register as a supplier, TradeDepot becomes a full-time distributor of your products. We buy and store the inventory, and take care of everything from shipping and pricing to customer service and returns.</p>*/}
                                     <Button style={{ color: '#fff', backgroundColor: '#7c60ff', height: 50, borderRadius: 4, marginTop: 50 }}>Contact Sales</Button>
                                 </Col>
-                                {/*<Col span={12} style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'center', flexDirection: 'column' }}>*/}
-                                {/*    <img height={750} src={WorldConnections} alt='alternate'/>*/}
-                                {/*</Col>*/}
                             </Row>
                         </Col>
                     </Row>
@@ -84,7 +80,7 @@ const Home = () => {
                 </Col>
             </Row>
 
-            <Row style={{ minHeight: 500, marginBottom: 100 }}>
+            <Row style={{ minHeight: 500,marginTop: 50 }}>
                 <Col offset={2} span={20}>
                     <Row>
                         <Col span={6}>
@@ -111,7 +107,7 @@ const Home = () => {
                         </Col>
 
                         <Col span={8}>
-                            <MdReceipt color='#008D3D' size={54} />
+                            <MdLocalOffer color='#008D3D' size={54} />
                             <p style={{ color: '#39426A', fontSize: '20px', fontWeight: 600 }}>Get Early Payment on Your Invoices</p>
                             <p style={{ color: '#39426A', fontSize: '16px', fontWeight: "normal", lineHeight: '30px' }}>
                                 Connect with your bank and improve your cashflows by discounting or factoring your customer invoices
@@ -119,7 +115,7 @@ const Home = () => {
                         </Col>
 
                         <Col span={8}>
-                            <MdAccountBalance color='#39426A' size={54} />
+                            <FaWallet color='#39426A' size={54} />
                             <p style={{ color: '#39426A', fontSize: '20px', fontWeight: 600 }}>Pay Your Suppliers Early</p>
                             <p style={{ color: '#39426A', fontSize: '16px', fontWeight: "normal", lineHeight: '30px' }}>
                                 Drive loyalty with your suppliers and grow your ecosystem by providing faster payments to your suppliers through early payments
@@ -127,7 +123,7 @@ const Home = () => {
                         </Col>
 
                         <Col span={8}>
-                            <MdPieChart color='#E74C3C' size={54} />
+                            <FaChartBar color='#F6B93B' size={54} />
                             <p style={{ color: '#39426A', fontSize: '20px', fontWeight: 600 }}>Robust Data & Analytics</p>
                             <p style={{ color: '#39426A', fontSize: '16px', fontWeight: "normal", lineHeight: '30px' }}>
                                 Generate insight into your entire operations by slicing and dicing data on your business through our analytics engine
@@ -135,7 +131,7 @@ const Home = () => {
                         </Col>
 
                         <Col span={8}>
-                            <MdReceipt color='#E74C3C' size={54} />
+                            <FaGlobe color='#E55039' size={54} />
                             <p style={{ color: '#39426A', fontSize: '20px', fontWeight: 600 }}>Cross Border Payments</p>
                             <p style={{ color: '#39426A', fontSize: '16px', fontWeight: "normal", lineHeight: '30px' }}>
                                 Automate your business and improve cashflow. Create sales orders & invoices or upload supplier documents and connect to your bank to receive early payments
@@ -149,25 +145,48 @@ const Home = () => {
                 </Col>
             </Row>
 
-            <Row style={{ height: 400 }}>
-                <Col span={24}>
-                    <Row style={{
-                        backgroundImage: `url(${BusinessBackgroundImage})`,
-                        height: '100%',
-                        backgroundSize: 'cover',
-                        backgroundRepeat: 'no-repeat',
-                        display: 'flex',
-                        justifyContent: 'center',
-                        alignItems: 'center'
-                    }}>
-                        <div style={{ backgroundColor: 'rgba(57, 66, 106, 0.8)', height: '100%', position: 'absolute', top: 0, bottom: 0, left: 0, right: 0 }}/>
-                        <p style={{ color: '#fff', fontSize: '44px', lineHeight: '135.2%', zIndex: 10, fontWeight: 800 }}>Built for Growth. Trusted by Businesses.</p>
+            <Row style={{ minHeight: 400, marginTop: 50, backgroundColor: '#f3f4f8' }}>
+                <Col offset={2} span={20} style={{ marginTop: 100, marginBottom: 100 }}>
+                    <Row>
+                        <Col span={24}>
+                            <img src={DashboardImage} alt="alternate" width='100%' />
+                        </Col>
+                    </Row>
+
+                    <Row style={{ marginTop: 50, marginBottom: 30 }}>
+                        <Col span={8}>
+                            <p style={{
+                                fontStyle: 'normal',
+                                fontWeight: 'bold',
+                                fontSize: 44,
+                                lineHeight: '59px',
+                                color: '#39426A'
+                            }}>The Business Growth Platform</p>
+                        </Col>
+                    </Row>
+
+                    <Row gutter={32}>
+                        <Col span={8}>
+                            <MdReceipt color='#008D3D' size={54} style={{ marginBottom: 30 }} />
+                            <p style={{ color: '#39426A', fontSize: '20px', fontWeight: 600, fontStyle: 'normal' }}>Allows know what you pay</p>
+                            <p style={{ color: '#39426A', fontSize: '16px', fontWeight: "normal", lineHeight: '30px' }}>
+                                Drive loyalty with your suppliers and grow your ecosystem by providing faster payments to your suppliers through early payments.
+                            </p>
+                        </Col>
+
+                        <Col span={8}>
+                            <MdReceipt color='#008D3D' size={54} style={{ marginBottom: 30 }} />
+                            <p style={{ color: '#39426A', fontSize: '20px', fontWeight: 600, fontStyle: 'normal' }}>Start your integration</p>
+                            <p style={{ color: '#39426A', fontSize: '16px', fontWeight: "normal", lineHeight: '30px' }}>
+                                Built on highly resilient microservices architecture with cloud and on prem hybrid to
+                            </p>
+                        </Col>
                     </Row>
                 </Col>
             </Row>
 
             <Row style={{ minHeight: 500, marginTop: 50, marginBottom: 50 }}>
-                <Col offset={3} span={21}>
+                <Col offset={2} span={22}>
                     <Row>
                         <Col span={10}>
                             <p style={{ color: '#E74C3C', fontSize:16, fontWeight: '500', lineHeight: '25px' }}>How we do it</p>
@@ -182,7 +201,7 @@ const Home = () => {
                                      nav
                                      margin={20} >
                             <div style={{ backgroundColor: '#fff', borderRadius: '5px', boxShadow: '0px 0px 4px rgba(0, 0, 0, 0.1)', padding: 20 }}>
-                                <img className="img" src= {CoolKidsMeeting} alt='alternate'/>
+                                <img className="img" src={CoolKidsMeeting} height='350px' alt='alternate'/>
                                 <p style={{ fontSize: 34, color: '#39426A', fontWeight: 800 }}>Gapstack for Banks</p>
                                 <p style={{ fontSize: 16, color: '#39426A', lineHeight: '30px' }}>
                                     Deepen your relationship with the value chain ecosystem and understand your customer's business more intimately. Gapstack gives you insights to your customers operations and de-risks supply chain financing.
@@ -190,7 +209,7 @@ const Home = () => {
                             </div>
 
                             <div style={{ backgroundColor: '#fff', borderRadius: '5px', boxShadow: '0px 0px 4px rgba(0, 0, 0, 0.1)', padding: 20 }}>
-                                <img className="img" src= {CoolKidsDiscussion} alt='alternate'/>
+                                <img className="img" src= {CoolKidsDiscussion} height='350px' alt='alternate'/>
                                 <p style={{ fontSize: 34, color: '#39426A', fontWeight: 800 }}>Gapstack for Business</p>
                                 <p style={{ fontSize: 16, color: '#39426A', lineHeight: '30px' }}>
                                     Automate & digitize your entire business operations and get funding when you need it. From Bank guarantees such as bid bonds to advance payment guarantees. Get it all.
@@ -198,88 +217,11 @@ const Home = () => {
                             </div>
 
                             <div style={{ backgroundColor: '#fff', borderRadius: '5px', boxShadow: '0px 0px 4px rgba(0, 0, 0, 0.1)', padding: 20 }}>
-                                <img className="img" src= {CoolKidsMeeting} alt='alternate'/>
+                                <img className="img" src= {CoolKidsMeeting} height='350px' alt='alternate'/>
                                 <p style={{ fontSize: 34, color: '#39426A', fontWeight: 800 }}>Gapstack for Agents</p>
                                 <p style={{ fontSize: 16, color: '#39426A', lineHeight: '30px' }}>
                                     Gapstack provides and end to end process flow for customer due diligence, financing and guarantee workflows and Automated integrations to the banks you serve.
                                 </p>
-                            </div>
-                        </OwlCarousel>
-                    </Row>
-                </Col>
-            </Row>
-
-            <Row style={{ height: 500 }}>
-                <Col span={24}>
-                    <Row style={{ height: '100%' }}>
-                        <Col span={12} style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', backgroundColor: '#C4C4C4' }}>
-                            <div style={{ display: 'flex', justifyContent: 'center' }}>
-                                <p style={{ fontSize: 44, fontWeight: 800, color: '#39426A' }}>Gapstack At Work</p>
-                            </div>
-
-                            <div style={{ width: '100%', position: 'absolute', bottom: 30 }}>
-                                <p style={{ fontSize: 24, fontWeight: 500, color: '#1E87F0', textAlign: 'center'}}>Our Culture</p>
-                            </div>
-                        </Col>
-                        <Col span={12} style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', backgroundColor: '#39426A' }}>
-                            <div style={{ display: 'flex', justifyContent: 'center' }}>
-                                <p style={{ fontSize: 44, fontWeight: 800, color: '#fff' }}>Join Gapstack</p>
-                            </div>
-
-                            <div style={{ width: '100%', position: 'absolute', bottom: 30 }}>
-                                <p style={{ fontSize: 24, fontWeight: 500, color: '#fff', textAlign: 'center'}}>Apply</p>
-                            </div>
-                        </Col>
-                    </Row>
-                </Col>
-            </Row>
-
-            <Row style={{ minHeight: 500, marginTop: 50, marginBottom: 50 }}>
-                <Col offset={3} span={20}>
-                    <Row>
-                        <Col span={10}>
-                            <p style={{ color: '#39426A', fontSize:44, fontWeight: '800', lineHeight: '135.2%' }}>In The News </p>
-                        </Col>
-                    </Row>
-
-                    <Row style={{ marginTop: 10, marginBottom: 10 }}>
-                        <OwlCarousel items={3}
-                                     className="owl-theme"
-                                     margin={20} >
-                            <div style={{ padding: 20 }}>
-                                <p style={{ fontSize: 34, color: '#39426A', fontWeight: 800 }}>Gapstack receives Ksh. 1.5 Billion funding</p>
-                                <p style={{ fontSize: 20, color: '#777C93' }}>8/10/2020</p>
-                                <p style={{ fontSize: 16, color: '#39426A', lineHeight: '30px' }}>
-                                    Kenyan start up receives Ksh. 1.5 Billion funding from a venture capital. The funds will majorly be used to... <Button type='link'>Read More</Button>
-                                </p>
-                                <Button type='link'>Google</Button>
-                            </div>
-
-                            <div style={{ padding: 20 }}>
-                                <p style={{ fontSize: 34, color: '#39426A', fontWeight: 800 }}>Global trade now faces a $3.4 trillion financing gap</p>
-                                <p style={{ fontSize: 20, color: '#777C93' }}>8/10/2020</p>
-                                <p style={{ fontSize: 16, color: '#39426A', lineHeight: '30px' }}>
-                                    To overcome the financing hurdles faced by SMEs, technology will play an important role. One promising and s... <Button type='link'>Read More</Button>
-                                </p>
-                                <Button type='link'>CNBC</Button>
-                            </div>
-
-                            <div style={{ padding: 20 }}>
-                                <p style={{ fontSize: 34, color: '#39426A', fontWeight: 800 }}>Pandemic boosts social infra PPPs in Peru</p>
-                                <p style={{ fontSize: 20, color: '#777C93' }}>8/10/2020</p>
-                                <p style={{ fontSize: 16, color: '#39426A', lineHeight: '30px' }}>
-                                    The Covid-19 pandemic has highlighted Peru's need for greater investment in social infrastructure, which is d... <Button type='link'>Read More</Button>
-                                </p>
-                                <Button type='link'>Google</Button>
-                            </div>
-
-                            <div style={{ padding: 20 }}>
-                                <p style={{ fontSize: 34, color: '#39426A', fontWeight: 800 }}>Financing in for Serbia/Kosovo Peace Highway</p>
-                                <p style={{ fontSize: 20, color: '#777C93' }}>8/10/2020</p>
-                                <p style={{ fontSize: 16, color: '#39426A', lineHeight: '30px' }}>
-                                    The Development Finance Corporation (DFC) and Export-Import Bank (EXIM) yesterday (15 September 2020) signed L... <Button type='link'>Read More</Button>
-                                </p>
-                                <Button type='link'>Google</Button>
                             </div>
                         </OwlCarousel>
                     </Row>
@@ -322,7 +264,7 @@ const Home = () => {
                     <Row gutter={16}>
                         <Col span={6}>
                             <Row style={{ marginBottom: 10 }}>
-                                <img height={30} src={gapstackLogo} alt='alternate'/>
+                                <img height={40} src={gapstackLogo} alt='alternate'/>
                             </Row>
                             <p style={{ marginBottom: 10, color: '#40a9ff'}}>info@gapstack.com</p>
 
