@@ -1,5 +1,5 @@
 import { css } from 'styled-components';
-// import { device } from '../../../styles/deviceSizes';
+import { device } from '../../../styles/deviceSizes';
 
 const gapstackPurple = '#39426A';
 
@@ -21,11 +21,17 @@ const style = () => css`
   }
   
   .title {
-    font-size: 44px;
+    font-size: 34px;
     color: ${gapstackPurple};
     line-height: 135.2%;
     font-weight: bold;
     font-style: normal;
+  }
+  
+   ${device.largeScreen || device.desktopOrLaptop || device.tabletLandscape || device.tabletPortrait} {
+    .title {
+        font-size: 44px;
+    }
   }
   
   .item {

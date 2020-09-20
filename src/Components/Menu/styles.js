@@ -1,10 +1,10 @@
 import { css } from 'styled-components';
 import { device } from '../../styles/deviceSizes';
-//
+
 // const gapstackPurple = '#39426A';
 
 const style = () => css`
-  .container {
+  .menu-container {
     height: 130px;
     align-items: center;
     padding: 20px 0px;
