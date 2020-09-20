@@ -16,6 +16,7 @@ const options = {
     nav: true,
     responsive: {
         0: {
+            margin: 0,
             items: 1,
         },
         400: {
@@ -39,7 +40,7 @@ const Solutions = ({ refProp }) => {
             <Fade triggerOnce={true} fraction={0.3}>
                 <Row className="container">
                     <Col xs={{ offset: 2, span: 20 }}
-                         sm={{ offset: 2, span: 20 }}
+                         sm={{ offset: 2, span: 22 }}
                          md={{ offset: 2, span: 22 }}
                          lg={{ offset: 2, span: 22 }}
                          xl={{ offset: 2, span: 22 }}>
