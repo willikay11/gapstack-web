@@ -30,10 +30,10 @@ const Why = () => {
                             <Col xs={24} sm={24} md={12} lg={8} xl={8} className="item">
                                 <MdPeople color='#7C60FF' size={54}/>
                                 <p className="title">Connected Buyers & Suppliers</p>
-                                <p className="description" style={{ marginBottom: '.5rem' }}>Create & send your invoices and orders on Gapstack</p>
-                                <p className="description" style={{ marginBottom: '.5rem' }}>- Create, upload & send your orders to suppliers</p>
-                                <p className="description" style={{ marginBottom: '.5rem' }}>- Create, upload & send purchase invoices</p>
-                                <p className="description" style={{ marginBottom: '.5rem' }}>- Track payment of invoices</p>
+                                <p className="description" style={{ marginBottom: '.5rem' }}>Map each relationship between your buyers and suppliers to understand each node</p>
+                                {/*<p className="description" style={{ marginBottom: '.5rem' }}>- Create, upload & send your orders to suppliers</p>*/}
+                                {/*<p className="description" style={{ marginBottom: '.5rem' }}>- Create, upload & send purchase invoices</p>*/}
+                                {/*<p className="description" style={{ marginBottom: '.5rem' }}>- Track payment of invoices</p>*/}
                             </Col>
 
                             <Col xs={24} sm={24} md={12} lg={8} xl={8} className="item">
@@ -46,9 +46,9 @@ const Why = () => {
 
                             <Col xs={24} sm={24} md={12} lg={8} xl={8} className="item">
                                 <MdLocalOffer color='#008D3D' size={54} />
-                                <p className="title">Get Early Payment on Your Invoices</p>
+                                <p className="title">A comprehensive  platform at the core of your operations</p>
                                 <p className="description">
-                                    Connect with your bank and improve your cashflows by discounting or factoring your customer invoices
+                                    Finance, sales, procurement to unlock growth pockets for your business.
                                 </p>
                             </Col>
 
