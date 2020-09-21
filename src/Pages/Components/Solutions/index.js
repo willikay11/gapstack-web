@@ -42,8 +42,8 @@ const Solutions = ({ refProp }) => {
                     <Col xs={{ offset: 2, span: 20 }}
                          sm={{ offset: 2, span: 22 }}
                          md={{ offset: 2, span: 22 }}
-                         lg={{ offset: 2, span: 22 }}
-                         xl={{ offset: 2, span: 22 }}>
+                         lg={{ offset: 4, span: 20 }}
+                         xl={{ offset: 4, span: 20 }}>
                         <Row>
                             <Col xs={24} sm={24} md={24} lg={10} xl={10}>
                                 <p className="sub-title">How we do it</p>
