@@ -30,14 +30,14 @@ const Hero = ({ scrollToSolutions, scrollToContactForm }) => {
                                          md={24}
                                          lg={16}
                                          xl={16} className="banner-container" >
-                                        <p className="title">powerful digital trade & supply chain financing platform</p>
+                                        <p className="title">At Gapstack, we help you automate your business relationships and improve your cash flow. </p>
 
                                         <Row>
                                             <Col xs={24} sm={24} md={24} lg={15} xl={15}>
-                                                <p className="description" >When you register as a supplier, TradeDepot becomes a full-time distributor of your products. We buy and store the inventory, and take care of everything from shipping and pricing to customer service and returns.</p>
+                                                <p className="description">When you register on our platform, Gapstack allows you to automate your buyer & supplier processes and to unlock funding through early payments and order financing.</p>
                                             </Col>
                                         </Row>
-                                        <Button onClick={() => scrollToContactForm()} style={{ color: '#fff', backgroundColor: '#7c60ff', height: 50, borderRadius: 4, marginTop: 50 }}>Contact Sales</Button>
+                                        <Button onClick={() => scrollToContactForm()} style={{ color: '#fff', backgroundColor: '#7c60ff', height: 50, borderRadius: 4, marginTop: 50 }}>Contact Us</Button>
                                     </Col>
                                 </Row>
                             </Col>

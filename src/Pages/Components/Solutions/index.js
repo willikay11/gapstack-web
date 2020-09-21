@@ -1,38 +1,39 @@
 import React from "react";
 import {Fade} from "react-awesome-reveal";
 import {Col, Row} from "antd";
-import OwlCarousel from "react-owl-carousel";
+// import OwlCarousel from "react-owl-carousel";
 import styled from "styled-components";
 import { style } from "./styles";
 import CoolKidsMeeting from "../../../assets/Cool-Kids-Pitch-Meeting.svg";
 import CoolKidsDiscussion from "../../../assets/Cool-Kids-Discussion.svg";
+import CoolKidsHighTech from "../../../assets/Cool-Kids-High-Tech.svg";
 const UsersWrapper = styled.div`
   ${style}
 `;
 
-const options = {
-    margin: 20,
-    loop: true,
-    nav: true,
-    responsive: {
-        0: {
-            margin: 0,
-            items: 1,
-        },
-        400: {
-            items: 1,
-        },
-        600: {
-            items: 1,
-        },
-        700: {
-            items: 1.5,
-        },
-        1000: {
-            items: 2.5
-        }
-    }
-}
+// const options = {
+//     margin: 20,
+//     loop: true,
+//     nav: true,
+//     responsive: {
+//         0: {
+//             margin: 0,
+//             items: 1,
+//         },
+//         400: {
+//             items: 1,
+//         },
+//         600: {
+//             items: 1,
+//         },
+//         700: {
+//             items: 1.5,
+//         },
+//         1000: {
+//             items: 2.5
+//         }
+//     }
+// }
 
 const Solutions = ({ refProp }) => {
     return (
@@ -52,31 +53,91 @@ const Solutions = ({ refProp }) => {
                             </Col>
                         </Row>
                         <Row className="owl-carousel-container">
-                            <OwlCarousel className="owl-theme" {...options}>
-                                <div className="item">
-                                    <img className="img image" src= {CoolKidsDiscussion} height='350px' alt='alternate'/>
-                                    <p className="title">Gapstack for Business</p>
-                                    <p style={{ fontSize: 16, color: '#39426A', lineHeight: '30px' }}>
-                                        Automate & digitize your entire business operations and get funding when you need it. From Bank guarantees such as bid bonds to advance payment guarantees. Get it all.
-                                    </p>
-                                </div>
+                            {/*<OwlCarousel className="owl-theme" {...options}>*/}
+                            {/*    <div className="item">*/}
+                            {/*        <img className="img image" src= {CoolKidsDiscussion} height='350px' alt='alternate'/>*/}
+                            {/*        <p className="title">Gapstack for Business</p>*/}
+                            {/*        <p style={{ fontSize: 16, color: '#39426A', lineHeight: '30px' }}>*/}
+                            {/*            Automate & digitize your entire business operations and get funding when you need it. From Bank guarantees such as bid bonds to advance payment guarantees. Get it all.*/}
+                            {/*        </p>*/}
+                            {/*    </div>*/}
 
-                                <div className="item">
-                                    <img className="img image" src={CoolKidsMeeting} alt='alternate'/>
-                                    <p className="title">Gapstack for Banks</p>
-                                    <p className="description">
-                                        Deepen your relationship with the value chain ecosystem and understand your customer's business more intimately. Gapstack gives you insights to your customers operations and de-risks supply chain financing.
-                                    </p>
-                                </div>
+                            {/*    <div className="item">*/}
+                            {/*        <img className="img image" src={CoolKidsMeeting} alt='alternate'/>*/}
+                            {/*        <p className="title">Gapstack for Banks</p>*/}
+                            {/*        <p className="description">*/}
+                            {/*            Deepen your relationship with the value chain ecosystem and understand your customer's business more intimately. Gapstack gives you insights to your customers operations and de-risks supply chain financing.*/}
+                            {/*        </p>*/}
+                            {/*    </div>*/}
 
-                                <div className="item">
-                                    <img className="img" src= {CoolKidsMeeting} height='350px' alt='alternate'/>
-                                    <p className="title">Gapstack for Agents</p>
-                                    <p className="description">
-                                        Gapstack provides and end to end process flow for customer due diligence, financing and guarantee workflows and Automated integrations to the banks you serve.
-                                    </p>
-                                </div>
-                            </OwlCarousel>
+                            {/*    <div className="item">*/}
+                            {/*        <img className="img" src= {CoolKidsMeeting} height='350px' alt='alternate'/>*/}
+                            {/*        <p className="title">Gapstack for Agents</p>*/}
+                            {/*        <p className="description">*/}
+                            {/*            Gapstack provides and end to end process flow for customer due diligence, financing and guarantee workflows and Automated integrations to the banks you serve.*/}
+                            {/*        </p>*/}
+                            {/*    </div>*/}
+                            {/*</OwlCarousel>*/}
+
+                            <Col xs={20}
+                                 sm={20}
+                                 md={20}
+                                 lg={10}
+                                 xl={10}>
+                                <img className="img image" src= {CoolKidsDiscussion} height='350px' alt='alternate'/>
+                            </Col>
+
+                            <Col xs={20}
+                                 sm={20}
+                                 md={20}
+                                 lg={8}
+                                 xl={8}>
+                                <p className="title">Gapstack for Business</p>
+                                <p style={{ fontSize: 16, color: '#39426A', lineHeight: '30px' }}>
+                                    Automate & digitize your entire business operations and get funding when you need it. From Bank guarantees such as bid bonds to advance payment guarantees. Get it all.
+                                </p>
+                            </Col>
+                        </Row>
+
+                        <Row className="owl-carousel-container" style={{ marginTop: 150 }}>
+                            <Col xs={20}
+                                 sm={20}
+                                 md={20}
+                                 lg={8}
+                                 xl={8}>
+                                <p className="title">Gapstack for Banks</p>
+                                <p style={{ fontSize: 16, color: '#39426A', lineHeight: '30px' }}>
+                                    Deepen your relationship with the value chain ecosystem and understand your customer's business more intimately. Gapstack gives you insights to your customers operations and de-risks supply chain financing.                                </p>
+                            </Col>
+
+                            <Col xs={20}
+                                 sm={20}
+                                 md={20}
+                                 lg={10}
+                                 xl={10}>
+                                <img className="img image" src= {CoolKidsMeeting} height='350px' alt='alternate'/>
+                            </Col>
+                        </Row>
+
+                        <Row className="owl-carousel-container" style={{ marginTop: 150 }}>
+                            <Col xs={20}
+                                 sm={20}
+                                 md={20}
+                                 lg={10}
+                                 xl={10}>
+                                <img className="img image" src= {CoolKidsHighTech} height='350px' alt='alternate'/>
+                            </Col>
+
+                            <Col xs={20}
+                                 sm={20}
+                                 md={20}
+                                 lg={8}
+                                 xl={8}>
+                                <p className="title">Gapstack for Agents</p>
+                                <p style={{ fontSize: 16, color: '#39426A', lineHeight: '30px' }}>
+                                    Gapstack provides and end to end process flow for customer due diligence, financing and guarantee workflows and Automated integrations to the banks you serve.
+                                </p>
+                            </Col>
                         </Row>
                     </Col>
                 </Row>
