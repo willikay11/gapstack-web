@@ -13,6 +13,13 @@ const style = () => css`
   .owl-carousel-container {
     margin-top: 10px;
     margin-bottom: 10px;
+    .description-container {
+        flex: 1;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+    }
   }
     
   .sub-title {

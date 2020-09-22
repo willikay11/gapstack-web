@@ -1,7 +1,7 @@
 import React from "react";
-import {Button, Col, Row} from "antd";
-import {MdLocalOffer, MdPayment, MdPeople} from "react-icons/md";
-import {FaChartBar, FaGlobe, FaWallet} from "react-icons/fa";
+import { Col, Row} from "antd";
+import { MdPayment, MdPeople} from "react-icons/md";
+import {FaChartBar, FaGlobe} from "react-icons/fa";
 import {Fade} from "react-awesome-reveal";
 import styled from "styled-components";
 import { style } from "./styles";
@@ -30,10 +30,16 @@ const Why = () => {
                             <Col xs={24} sm={24} md={12} lg={8} xl={8} className="item">
                                 <MdPeople color='#7C60FF' size={54}/>
                                 <p className="title">Connected Buyers & Suppliers</p>
+                                <p className="description">A comprehensive & AI powered platform at the core of your operations from finance, sales, procurement to technology to identify key levers for growth and scale  in a snapshot.</p>
+                            </Col>
+
+                            <Col xs={24} sm={24} md={12} lg={8} xl={8} className="item">
+                                <MdPeople color='#7C60FF' size={54}/>
+                                <p className="title">Connected Buyers & Suppliers</p>
                                 <p className="description" style={{ marginBottom: '.5rem' }}>Map each relationship between your buyers and suppliers to understand each node</p>
-                                {/*<p className="description" style={{ marginBottom: '.5rem' }}>- Create, upload & send your orders to suppliers</p>*/}
-                                {/*<p className="description" style={{ marginBottom: '.5rem' }}>- Create, upload & send purchase invoices</p>*/}
-                                {/*<p className="description" style={{ marginBottom: '.5rem' }}>- Track payment of invoices</p>*/}
+                                <p className="description" style={{ marginBottom: '.5rem' }}>- Create, upload & send your orders to suppliers</p>
+                                <p className="description" style={{ marginBottom: '.5rem' }}>- Create, upload & send purchase invoices</p>
+                                <p className="description" style={{ marginBottom: '.5rem' }}>- Track payment of invoices</p>
                             </Col>
 
                             <Col xs={24} sm={24} md={12} lg={8} xl={8} className="item">
@@ -41,22 +47,6 @@ const Why = () => {
                                 <p className="title">Seamless Payments</p>
                                 <p className="description">
                                     Pay your suppliers and receive payments from your buyers to your bank account or mobile wallet with the touch of a button
-                                </p>
-                            </Col>
-
-                            <Col xs={24} sm={24} md={12} lg={8} xl={8} className="item">
-                                <MdLocalOffer color='#008D3D' size={54} />
-                                <p className="title">A comprehensive  platform at the core of your operations</p>
-                                <p className="description">
-                                    Finance, sales, procurement to unlock growth pockets for your business.
-                                </p>
-                            </Col>
-
-                            <Col xs={24} sm={24} md={12} lg={8} xl={8} className="item">
-                                <FaWallet color='#39426A' size={54} />
-                                <p className="title">Pay Your Suppliers Early</p>
-                                <p  className="description">
-                                    Drive loyalty with your suppliers and grow your ecosystem by providing faster payments to your suppliers through early payments
                                 </p>
                             </Col>
 
@@ -70,14 +60,9 @@ const Why = () => {
 
                             <Col xs={24} sm={24} md={12} lg={8} xl={8} className="item">
                                 <FaGlobe color='#E55039' size={54} />
-                                <p className="title">Cross Border Payments</p>
+                                <p className="title">Intuitive & Scalable  technology</p>
                                 <p className="description">
-                                    Automate your business and improve cashflow. Create sales orders & invoices or upload supplier documents and connect to your bank to receive early payments
-                                </p>
-                            </Col>
-
-                            <Col span={24}>
-                                <Button style={{ color: '#fff', backgroundColor: '#7C60FF', height: 50, borderRadius: 4 }}>Create Your Free Account Today</Button>
+                                    Built on highly resilient microservices architecture with cloud and on prem hybrid to cater for data residency but at the same time agile technologies to connect to ERPs and Banking systems                                </p>
                             </Col>
                         </Row>
                     </Col>
