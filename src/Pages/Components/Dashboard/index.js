@@ -62,13 +62,6 @@ const Dashboard = () => {
 
                             <Col xs={24} sm={24} md={12} lg={8} xl={8} className="item">
                                 <FaCodeBranch color='#1E87F0' size={54} className="icon" />
-                                <p className="title">Pay early Paid Early</p>
-                                <p className="description"> - Pay suppliers early & directly</p>
-                                <p className="description"> - Receive capital real time</p>
-                            </Col>
-
-                            <Col xs={24} sm={24} md={12} lg={8} xl={8} className="item">
-                                <FaCodeBranch color='#1E87F0' size={54} className="icon" />
                                 <p className="title">Gapstack data network</p>
                                 <p className="description">
                                     Build your business´ unique data trust network by mapping & financing your buyer and seller relationships as a lever of growth

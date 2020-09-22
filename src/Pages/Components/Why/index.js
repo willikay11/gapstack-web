@@ -29,7 +29,7 @@ const Why = () => {
                         <Row gutter={[16, 80]}>
                             <Col xs={24} sm={24} md={12} lg={8} xl={8} className="item">
                                 <MdPeople color='#7C60FF' size={54}/>
-                                <p className="title">Connected Buyers & Suppliers</p>
+                                <p className="title">Digital trade network</p>
                                 <p className="description">A comprehensive & AI powered platform at the core of your operations from finance, sales, procurement to technology to identify key levers for growth and scale  in a snapshot.</p>
                             </Col>
 
