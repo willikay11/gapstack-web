@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import {Fade} from "react-awesome-reveal";
 import {Button, Col, Row} from "antd";
 import styled from "styled-components";
+import ContactForm from "./Components/Form/index";
 import HandImage from "../../../assets/hand-image.png";
 import { style } from "./styles";
 
@@ -10,8 +11,15 @@ const ContactWrapper = styled.div`
 `;
 
 const Contact = ({ refProp }) => {
+    const [visible, setVisibility] = useState(false)
+
+    const setModalVisibility = (visible) => {
+        setVisibility(visible);
+    }
+
     return (
         <ContactWrapper ref={refProp} backgroundImage={HandImage}>
+            <ContactForm visible={visible} setModalVisibility={setModalVisibility} />
             <Fade triggerOnce={true} fraction={0.3}>
                 <Row className="container">
                     <Col span={24}>
@@ -28,7 +36,10 @@ const Contact = ({ refProp }) => {
                                 </p>
                                 <Row gutter={16}>
                                     <Col>
-                                        <Button style={{ color: '#7C60FF', backgroundColor: '#fff', borderRadius: 4, height: 50 }}>Leave us a message</Button>
+                                        <Button onClick={() => setModalVisibility(true)}
+                                                style={{ color: '#7C60FF', backgroundColor: '#fff', borderRadius: 4, height: 50 }}>
+                                            Leave us a message
+                                        </Button>
                                     </Col>
                                     {/*<Col style={{ display: 'flex', alignItems: 'center' }}>*/}
                                     {/*    <Button type='link' style={{ color: '#fff', textDecoration: 'underline' }}>Let Us Call You</Button>*/}
