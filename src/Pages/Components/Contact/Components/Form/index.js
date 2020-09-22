@@ -1,11 +1,32 @@
 import React from "react";
-import { Modal, Row, Col, Form, Input, Button } from 'antd';
+import { Modal, Row, Col, Form, Input, Button, notification } from 'antd';
+import axios from 'axios';
 
 const ContactForm = ({ visible, setModalVisibility }) => {
 
     const sendNotification = (values) => {
         console.log(values);
-        setModalVisibility(false);
+        try {
+            axios.post('http://localhost:4000/api/message', values).then(response => {
+               if (response.status === 201) {
+                    notification.success({
+                        message: 'Success',
+                        description: 'We have received your message and we will contact you'
+                    })
+                   setModalVisibility(false);
+                   return null;
+               }
+
+               notification.error({
+                   message: 'Error',
+                   description: response.data.message
+               });
+            }).catch(error => {
+                console.log('Error: ', error);
+            });
+        } catch (error) {
+
+        }
     }
 
     return (

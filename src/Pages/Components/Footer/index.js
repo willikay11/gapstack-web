@@ -27,9 +27,23 @@ const Footer = ({ scrollToSolutions, scrollToContactForm }) => {
                                 </Row>
                                 <p className="email-link">info@gapstack.com</p>
 
-                                <p>Nairobi</p>
-                                <p>Ankole Grill</p>
-                                <p>Senteu Plaza, Galana Road</p>
+                                <p>NAIROBI – HEAD OFFICE </p>
+                                <p>4th Floor, The Pavilion </p>
+                                <p>Lower Kabete Rd, Nairobi </p>
+                            </Col>
+
+                            <Col xs={24} sm={12} md={12} lg={6} xl={6} className="item">
+                                <p className="title">USA</p>
+                                <p>SAN FRANCISCO</p>
+                                <p>39 East 8th St.</p>
+                                <p>San Francisco, CA 94110</p>
+                            </Col>
+
+                            <Col xs={24} sm={12} md={12} lg={6} xl={6} className="item">
+                                <p className="title">India</p>
+                                <p>NEW DELHI</p>
+                                <p>Jain Insurance Services</p>
+                                <p>Jayendraganj, Gwalior, M.P – Pincode 474009</p>
                             </Col>
 
                             <Col xs={24} sm={12} md={12} lg={6} xl={6} className="item">

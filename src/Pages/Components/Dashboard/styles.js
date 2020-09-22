@@ -17,7 +17,16 @@ const style = () => css`
   
   .title-container {
     margin-top: 50px;
-    margin-bottom: 30px
+  }
+  
+  .description-container {
+    margin-bottom: 30px;
+    .description {
+      color: ${gapstackPurple};
+      font-size: 16px;
+      font-weight: normal;
+      line-height: 30px;
+    }
   }
   
   .title {
