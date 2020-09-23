@@ -38,7 +38,7 @@ const Why = () => {
                                 <MdPeople color='#7C60FF' className="icon" size={40}/>
                                 <p className="title">Connected Buyers & Suppliers</p>
                                 <p className="description" style={{ marginBottom: '.5rem' }}>Map each relationship between your buyers and suppliers to understand each node</p>
-                                <p className="description" style={{ marginBottom: '.5rem' }}>- Create, upload & send your orders to suppliers</p>
+                                <p className="description" style={{ marginBottom: '.5rem' }}>- Create, upload & send your orders to buyers & suppliers</p>
                                 <p className="description" style={{ marginBottom: '.5rem' }}>- Create, upload & send purchase invoices</p>
                                 <p className="description" style={{ marginBottom: '.5rem' }}>- Track payment of invoices</p>
                             </Col>
