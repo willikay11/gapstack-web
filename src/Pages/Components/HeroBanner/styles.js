@@ -7,7 +7,7 @@ const style = () => css`
   background-color: #f3f4f8;  
   .container {
     position: relative;
-     height: 100vh; 
+     min-height: 100vh; 
   }
   
   .fade-container {
@@ -22,7 +22,7 @@ const style = () => css`
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    
+    padding-bottom: 40px;
     .title {
         font-size: 34px;
         color: ${gapstackPurple};
