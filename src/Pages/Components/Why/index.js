@@ -44,7 +44,7 @@ const Why = () => {
                             </Col>
 
                             <Col xs={24} sm={24} md={12} lg={8} xl={8} className="item">
-                                <MdPayment color='#1E87F0' className="icon" size={40} />
+                                <MdPayment color='#2CCC71' className="icon" size={40} />
                                 <p className="title">Seamless Payments</p>
                                 <p className="description">
                                     Pay your suppliers and receive payments from your buyers to your bank account or mobile wallet with the touch of a button
@@ -60,7 +60,7 @@ const Why = () => {
                             </Col>
 
                             <Col xs={24} sm={24} md={12} lg={8} xl={8} className="item">
-                                <FaGlobe color='#E55039' className="icon" size={40} />
+                                <FaGlobe color='#39426A' className="icon" size={40} />
                                 <p className="title">Intuitive & Scalable  technology</p>
                                 <p className="description">
                                     Built on highly resilient microservices architecture with cloud and on prem hybrid to cater for data residency but at the same time agile technologies to connect to ERPs and Banking systems                                </p>
