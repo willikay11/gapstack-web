@@ -23,6 +23,10 @@ const style = () => css`
   }
   
   .item {
+    .icon {
+      margin-bottom: 15px;
+    }
+    
     .title {
       color: ${gapstackPurple};
       font-size: 20px;

@@ -22,7 +22,6 @@ const Solutions = ({ refProp }) => {
                          xl={{ offset: 4, span: 20 }}>
                         <Row>
                             <Col xs={24} sm={24} md={24} lg={10} xl={10}>
-                                <p className="sub-title">How we do it</p>
                                 <p className="title">The Business Growth Platform </p>
                                 <p className="description">Thousands of organizations of all sizes trust Gapstack to grow their business.</p>
                             </Col>

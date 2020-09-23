@@ -1,6 +1,6 @@
 import React from "react";
 import {Fade} from "react-awesome-reveal";
-import {Button, Col, Row} from "antd";
+import { Col, Row } from "antd";
 import gapstackLogo from "../../../assets/gapStackLogo.svg";
 import {MdCopyright} from "react-icons/md";
 import styled from "styled-components";
@@ -25,12 +25,15 @@ const Footer = ({ scrollToSolutions, scrollToContactForm }) => {
                                 <Row style={{ marginBottom: 10 }}>
                                     <img height={40} src={gapstackLogo} alt='alternate'/>
                                 </Row>
-                                <p className="email-link">info@gapstack.com</p>
+                            </Col>
 
-                                <p>NAIROBI – HEAD OFFICE </p>
+                            <Col xs={24} sm={12} md={12} lg={6} xl={6} className="item">
+                                <p className="title">Kenya</p>
+                                <p>NAIROBI – HEAD OFFICE</p>
+                                <p>Kirichwa Rd, Nairobi</p>
+                                <p>P.O. Box 19400 Nairobi, Kenya</p>
                                 <p>(+254) 0717 663 681</p>
-                                <p>4th Floor, The Pavilion </p>
-                                <p>Lower Kabete Rd, Nairobi </p>
+                                <p className="email-link">info@gapstack.com</p>
                             </Col>
 
                             <Col xs={24} sm={12} md={12} lg={6} xl={6} className="item">
@@ -43,36 +46,9 @@ const Footer = ({ scrollToSolutions, scrollToContactForm }) => {
                             <Col xs={24} sm={12} md={12} lg={6} xl={6} className="item">
                                 <p className="title">India</p>
                                 <p>NEW DELHI</p>
-                                <p>Jain Insurance Services</p>
-                                <p>Jayendraganj, Gwalior, M.P – Pincode 474009</p>
+                                <p>Gwalior, M.P</p>
+                                <p>Pincode 474009 </p>
                             </Col>
-
-                            <Col xs={24} sm={12} md={12} lg={6} xl={6} className="item">
-                                <p className="title">Solutions</p>
-
-                                <Button className="button-link" type='link' onClick={() => scrollToSolutions()}>For Banks</Button>
-                                <Button className="button-link" type='link' onClick={() => scrollToSolutions()}>For Businesses</Button>
-                                <Button className="button-link" type='link' onClick={() => scrollToSolutions()}>For Agents</Button>
-                            </Col>
-
-                            {/*<Col xs={24} sm={24} md={24} lg={6} xl={6} className="item">*/}
-                            {/*    <p className="title">Company</p>*/}
-
-                            {/*    <p>About</p>*/}
-                            {/*    <p>Careers</p>*/}
-                            {/*    <p>Contact Us</p>*/}
-                            {/*    <p>Press</p>*/}
-                            {/*    <p>Terms & Conditions</p>*/}
-                            {/*    <p>Privacy Policy</p>*/}
-                            {/*</Col>*/}
-
-                            {/*<Col xs={24} sm={24} md={24} lg={6} xl={6} className="item">*/}
-                            {/*    <p className="title">Resources</p>*/}
-
-                            {/*    <p>Blog</p>*/}
-                            {/*    <p>Support</p>*/}
-                            {/*    <p>Developers</p>*/}
-                            {/*</Col>*/}
                         </Row>
                     </Col>
                 </Row>
