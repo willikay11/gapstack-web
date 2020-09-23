@@ -25,7 +25,7 @@ const Contact = ({ refProp }) => {
                     <Col span={24}>
                         <Row className="background-container">
                             <div className="linear-gradient-background" />
-                            <Col xs={{span:20, offset: 2}}
+                            <Col xs={{ span:20, offset:2 }}
                                  sm={{ span:20, offset:2 }}
                                  md={{ span:20, offset:2 }}
                                  lg={{ span:10, offset:4 }}
