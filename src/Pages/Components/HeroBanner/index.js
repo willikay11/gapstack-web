@@ -55,7 +55,7 @@ const Hero = ({ scrollToSolutions, scrollToContactForm }) => {
                                     }
                                 },
                                 links: {
-                                    color: "#b3b2b2",
+                                    color: "#777C93",
                                     distance: 150,
                                     enable: true,
                                     opacity: 0.5,

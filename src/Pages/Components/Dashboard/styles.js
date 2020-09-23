@@ -45,7 +45,7 @@ const style = () => css`
   
   .item {
     .icon {
-      margin-bottom: 30px;
+      margin-bottom: 15px;
     }
     
     .title {

@@ -27,15 +27,15 @@ const Why = () => {
                             </Col>
                         </Row>
 
-                        <Row gutter={[16, 80]}>
+                        <Row gutter={[32, 42]}>
                             <Col xs={24} sm={24} md={12} lg={8} xl={8} className="item">
-                                <BiChip color='#000000' size={54}/>
+                                <BiChip color='#1E87F0' className="icon" size={40}/>
                                 <p className="title">Digital trade network</p>
                                 <p className="description">A comprehensive & AI powered platform at the core of your operations from finance, sales, procurement to technology to identify key levers for growth and scale  in a snapshot.</p>
                             </Col>
 
                             <Col xs={24} sm={24} md={12} lg={8} xl={8} className="item">
-                                <MdPeople color='#7C60FF' size={54}/>
+                                <MdPeople color='#7C60FF' className="icon" size={40}/>
                                 <p className="title">Connected Buyers & Suppliers</p>
                                 <p className="description" style={{ marginBottom: '.5rem' }}>Map each relationship between your buyers and suppliers to understand each node</p>
                                 <p className="description" style={{ marginBottom: '.5rem' }}>- Create, upload & send your orders to suppliers</p>
@@ -44,7 +44,7 @@ const Why = () => {
                             </Col>
 
                             <Col xs={24} sm={24} md={12} lg={8} xl={8} className="item">
-                                <MdPayment color='#1E87F0' size={54} />
+                                <MdPayment color='#1E87F0' className="icon" size={40} />
                                 <p className="title">Seamless Payments</p>
                                 <p className="description">
                                     Pay your suppliers and receive payments from your buyers to your bank account or mobile wallet with the touch of a button
@@ -52,7 +52,7 @@ const Why = () => {
                             </Col>
 
                             <Col xs={24} sm={24} md={12} lg={8} xl={8} className="item">
-                                <FaChartBar color='#F6B93B' size={54} />
+                                <FaChartBar color='#F6B93B' className="icon" size={40} />
                                 <p className="title">Robust Data & Analytics</p>
                                 <p className="description">
                                     Generate insight into your entire operations by slicing and dicing data on your business through our analytics engine
@@ -60,7 +60,7 @@ const Why = () => {
                             </Col>
 
                             <Col xs={24} sm={24} md={12} lg={8} xl={8} className="item">
-                                <FaGlobe color='#E55039' size={54} />
+                                <FaGlobe color='#E55039' className="icon" size={40} />
                                 <p className="title">Intuitive & Scalable  technology</p>
                                 <p className="description">
                                     Built on highly resilient microservices architecture with cloud and on prem hybrid to cater for data residency but at the same time agile technologies to connect to ERPs and Banking systems                                </p>
