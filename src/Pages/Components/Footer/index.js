@@ -21,33 +21,37 @@ const Footer = ({ scrollToSolutions, scrollToContactForm }) => {
                          lg={{ span:20, offset:4 }}
                          xl={{ span:20, offset:4 }}>
                         <Row gutter={[16, 32]}>
-                            <Col xs={24} sm={12} md={12} lg={6} xl={6} className="item">
+                            <Col xs={24} sm={24} md={24} lg={6} xl={6} className="item">
                                 <Row style={{ marginBottom: 10 }}>
                                     <img height={40} src={gapstackLogo} alt='alternate'/>
+                                </Row>
+
+                                <Row>
+                                    <p className="tag">Automate. Fund. Network.</p>
                                 </Row>
                             </Col>
 
                             <Col xs={24} sm={12} md={12} lg={6} xl={6} className="item">
                                 <p className="title">Kenya</p>
-                                <p>NAIROBI – HEAD OFFICE</p>
-                                <p>Kirichwa Rd, Nairobi</p>
-                                <p>P.O. Box 19400 Nairobi, Kenya</p>
-                                <p>(+254) 0717 663 681</p>
+                                <p className="text">NAIROBI – HEAD OFFICE</p>
+                                <p className="text">Kirichwa Rd, Nairobi</p>
+                                <p className="text">P.O. Box 19400 Nairobi, Kenya</p>
+                                <p className="text">(+254) 0717 663 681</p>
                                 <p className="email-link">info@gapstack.com</p>
                             </Col>
 
                             <Col xs={24} sm={12} md={12} lg={6} xl={6} className="item">
                                 <p className="title">USA</p>
-                                <p>SAN FRANCISCO</p>
-                                <p>39 East 8th St.</p>
-                                <p>San Francisco, CA 94110</p>
+                                <p className="text">SAN FRANCISCO</p>
+                                <p className="text">39 East 8th St.</p>
+                                <p className="text"> San Francisco, CA 94110</p>
                             </Col>
 
                             <Col xs={24} sm={12} md={12} lg={6} xl={6} className="item">
                                 <p className="title">India</p>
-                                <p>NEW DELHI</p>
-                                <p>Gwalior, M.P</p>
-                                <p>Pincode 474009 </p>
+                                <p className="text">NEW DELHI</p>
+                                <p className="text">Gwalior, M.P</p>
+                                <p className="text">Pincode 474009 </p>
                             </Col>
                         </Row>
                     </Col>

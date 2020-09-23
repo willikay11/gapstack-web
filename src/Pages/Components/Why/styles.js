@@ -5,7 +5,6 @@ const gapstackPurple = '#39426A';
 
 const style = () => css`
   .container {
-    min-height: 500px;
     margin-top: 50px;
   }
   

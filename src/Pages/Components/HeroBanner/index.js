@@ -22,7 +22,7 @@ const Hero = ({ scrollToSolutions, scrollToContactForm }) => {
                             <Col xs={{ span: 20, offset: 2 }}
                                  sm={{ span: 20, offset: 2 }}
                                  md={{ span: 20, offset: 2 }}
-                                 lg={{ span: 16, offset: 4 }}
+                                 lg={{ span: 20, offset: 4 }}
                                  xl={{ span: 16, offset: 4 }}>
                                 <Row style={{ height: '100%' }}>
                                     <Col xs={24}
@@ -33,7 +33,7 @@ const Hero = ({ scrollToSolutions, scrollToContactForm }) => {
                                         <p className="title">At Gapstack, we help you automate your business relationships and improve your cash flow. </p>
 
                                         <Row>
-                                            <Col xs={24} sm={24} md={24} lg={15} xl={15}>
+                                            <Col xs={24} sm={24} md={24} lg={24} xl={15}>
                                                 <p className="description">When you register on our platform, Gapstack allows you to automate your buyer & supplier processes and to unlock funding through early payments and order financing.</p>
                                             </Col>
                                         </Row>

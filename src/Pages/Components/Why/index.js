@@ -28,13 +28,13 @@ const Why = () => {
                         </Row>
 
                         <Row gutter={[32, 42]}>
-                            <Col xs={24} sm={24} md={12} lg={8} xl={8} className="item">
+                            <Col xs={24} sm={24} md={12} lg={12} xl={8} className="item">
                                 <BiChip color='#1E87F0' className="icon" size={40}/>
                                 <p className="title">Digital trade network</p>
                                 <p className="description">A comprehensive & AI powered platform at the core of your operations from finance, sales, procurement to technology to identify key levers for growth and scale  in a snapshot.</p>
                             </Col>
 
-                            <Col xs={24} sm={24} md={12} lg={8} xl={8} className="item">
+                            <Col xs={24} sm={24} md={12} lg={12} xl={8} className="item">
                                 <MdPeople color='#7C60FF' className="icon" size={40}/>
                                 <p className="title">Connected Buyers & Suppliers</p>
                                 <p className="description" style={{ marginBottom: '.5rem' }}>Map each relationship between your buyers and suppliers to understand each node</p>
@@ -43,15 +43,15 @@ const Why = () => {
                                 <p className="description" style={{ marginBottom: '.5rem' }}>- Track payment of invoices</p>
                             </Col>
 
-                            <Col xs={24} sm={24} md={12} lg={8} xl={8} className="item">
-                                <MdPayment color='#1E87F0' className="icon" size={40} />
+                            <Col xs={24} sm={24} md={12} lg={12} xl={8} className="item">
+                                <MdPayment color='#2CCC71' className="icon" size={40} />
                                 <p className="title">Seamless Payments</p>
                                 <p className="description">
                                     Pay your suppliers and receive payments from your buyers to your bank account or mobile wallet with the touch of a button
                                 </p>
                             </Col>
 
-                            <Col xs={24} sm={24} md={12} lg={8} xl={8} className="item">
+                            <Col xs={24} sm={24} md={12} lg={12} xl={8} className="item">
                                 <FaChartBar color='#F6B93B' className="icon" size={40} />
                                 <p className="title">Robust Data & Analytics</p>
                                 <p className="description">
@@ -59,8 +59,8 @@ const Why = () => {
                                 </p>
                             </Col>
 
-                            <Col xs={24} sm={24} md={12} lg={8} xl={8} className="item">
-                                <FaGlobe color='#E55039' className="icon" size={40} />
+                            <Col xs={24} sm={24} md={12} lg={12} xl={8} className="item">
+                                <FaGlobe color='#39426A' className="icon" size={40} />
                                 <p className="title">Intuitive & Scalable  technology</p>
                                 <p className="description">
                                     Built on highly resilient microservices architecture with cloud and on prem hybrid to cater for data residency but at the same time agile technologies to connect to ERPs and Banking systems                                </p>
