@@ -1,5 +1,4 @@
 import { css } from 'styled-components';
-// import { device } from '../../../styles/deviceSizes';
 
 const gapstackPurple = '#39426A';
 
@@ -21,6 +20,12 @@ const style = () => css`
         margin-bottom: 10px;
         color: #40a9ff;
     }
+  }
+  
+  .footer-bottom {
+    height: 100px;
+    margin-top: 25px;
+    border-top: 1px solid #F3F4F8;
   }
 `;
 

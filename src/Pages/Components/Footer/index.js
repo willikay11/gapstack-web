@@ -76,7 +76,7 @@ const Footer = ({ scrollToSolutions, scrollToContactForm }) => {
                     </Col>
                 </Row>
 
-                <Row style={{ height: 100, marginTop: 50, marginBottom: 50, borderTop: '1px solid #F3F4F8' }}>
+                <Row className="footer-bottom" >
                     <Col xs={{ span:22, offset:2 }}
                          sm={{ span:22, offset:2 }}
                          md={{ span:22, offset:2 }}
