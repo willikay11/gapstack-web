@@ -61,7 +61,7 @@ const Dashboard = () => {
 
                             <Col xs={24} sm={24} md={12} lg={12} xl={8} className="item">
                                 <IoMdAnalytics color='#E55039' size={40} className="icon" />
-                                <p className="title">Gapstack data network</p>
+                                <p className="title">Gapstack Data Network</p>
                                 <p className="description">
                                     Build your business´ unique data trust network by mapping & financing your buyer and seller relationships as a lever of growth
                                 </p>
@@ -69,7 +69,7 @@ const Dashboard = () => {
 
                             <Col xs={24} sm={24} md={12} lg={12} xl={8} className="item">
                                 <IoIosCash color='#008D3D' size={40} className="icon" />
-                                <p className="title">Gapstack payment solutions</p>
+                                <p className="title">Gapstack Payment</p>
                                 <p className="description">
                                     Process validated accounts payables  by the touch of a button where processing to bank account or a mobile money wallet.  Control funds disbursement processes through our  AI driven credit & macro limits.
                                 </p>
