@@ -21,8 +21,8 @@ const Hero = ({ scrollToSolutions, scrollToContactForm }) => {
                         <Row style={{ height: 'inherit'}}>
                             <Col xs={{ span: 20, offset: 2 }}
                                  sm={{ span: 20, offset: 2 }}
-                                 md={{ span: 22, offset: 2 }}
-                                 lg={{ span: 22, offset: 4 }}
+                                 md={{ span: 20, offset: 2 }}
+                                 lg={{ span: 20, offset: 4 }}
                                  xl={{ span: 16, offset: 4 }}>
                                 <Row style={{ height: '100%' }}>
                                     <Col xs={24}

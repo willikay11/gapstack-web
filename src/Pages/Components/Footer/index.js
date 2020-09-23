@@ -21,7 +21,7 @@ const Footer = ({ scrollToSolutions, scrollToContactForm }) => {
                          lg={{ span:20, offset:4 }}
                          xl={{ span:20, offset:4 }}>
                         <Row gutter={[16, 32]}>
-                            <Col xs={24} sm={12} md={12} lg={6} xl={6} className="item">
+                            <Col xs={24} sm={24} md={24} lg={6} xl={6} className="item">
                                 <Row style={{ marginBottom: 10 }}>
                                     <img height={40} src={gapstackLogo} alt='alternate'/>
                                 </Row>
