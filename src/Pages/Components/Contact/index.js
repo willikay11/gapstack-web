@@ -3,7 +3,7 @@ import {Fade} from "react-awesome-reveal";
 import {Button, Col, Row} from "antd";
 import styled from "styled-components";
 import ContactForm from "./Components/Form/index";
-import HandImage from "../../../assets/hand-image.png";
+import HandImage from "../../../assets/hand-image.jpg";
 import { style } from "./styles";
 
 const ContactWrapper = styled.div`

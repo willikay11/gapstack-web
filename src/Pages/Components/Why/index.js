@@ -1,8 +1,9 @@
 import React from "react";
 import { Col, Row} from "antd";
-import { MdPayment, MdPeople} from "react-icons/md";
-import {FaChartBar, FaGlobe} from "react-icons/fa";
-import {Fade} from "react-awesome-reveal";
+import { MdPayment, MdPeople } from "react-icons/md";
+import { FaChartBar, FaGlobe } from "react-icons/fa";
+import { BiChip } from "react-icons/all";
+import { Fade } from "react-awesome-reveal";
 import styled from "styled-components";
 import { style } from "./styles";
 
@@ -28,7 +29,7 @@ const Why = () => {
 
                         <Row gutter={[16, 80]}>
                             <Col xs={24} sm={24} md={12} lg={8} xl={8} className="item">
-                                <MdPeople color='#7C60FF' size={54}/>
+                                <BiChip color='#000000' size={54}/>
                                 <p className="title">Digital trade network</p>
                                 <p className="description">A comprehensive & AI powered platform at the core of your operations from finance, sales, procurement to technology to identify key levers for growth and scale  in a snapshot.</p>
                             </Col>
@@ -43,7 +44,7 @@ const Why = () => {
                             </Col>
 
                             <Col xs={24} sm={24} md={12} lg={8} xl={8} className="item">
-                                <MdPayment color='#E74C3C' size={54} />
+                                <MdPayment color='#1E87F0' size={54} />
                                 <p className="title">Seamless Payments</p>
                                 <p className="description">
                                     Pay your suppliers and receive payments from your buyers to your bank account or mobile wallet with the touch of a button

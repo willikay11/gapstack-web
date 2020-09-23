@@ -12,8 +12,8 @@ const style = () => css`
   .fade-container {
     position: relative;
     z-index: 10;
-    flex-grow: 1;
-    height: 100%;
+    // flex-grow: 1;
+    height: calc(100% - 130px);
   }
   
   .banner-container {
