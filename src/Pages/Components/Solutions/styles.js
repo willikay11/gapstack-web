@@ -20,8 +20,28 @@ const style = () => css`
         justify-content: center;
         height: 100%;
     }
+    
+    .image {
+      height: 200px;
+    }
+    
+    ${device.largeScreen || device.desktopOrLaptop || device.tabletLandscape || device.tabletPortrait} {
+        .image {
+          height: 350px;
+        }
+    }
   }
     
+  .margin {
+    margin-top: 100px;
+  }
+  
+    ${device.largeScreen || device.desktopOrLaptop || device.tabletLandscape || device.tabletPortrait} {
+      .margin {
+        margin-top: 200px;
+      }
+  }
+  
   .sub-title {
     color: #E74C3C;
     font-size: 16px;
@@ -70,10 +90,6 @@ const style = () => css`
       font-size: 16px;
       color: ${gapstackPurple};
       line-height: 30px;
-    }
-    
-    .image {
-      height: 350px;
     }
   }
 `;

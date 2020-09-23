@@ -28,6 +28,7 @@ const Footer = ({ scrollToSolutions, scrollToContactForm }) => {
                                 <p className="email-link">info@gapstack.com</p>
 
                                 <p>NAIROBI – HEAD OFFICE </p>
+                                <p>(+254) 0717 663 681</p>
                                 <p>4th Floor, The Pavilion </p>
                                 <p>Lower Kabete Rd, Nairobi </p>
                             </Col>
@@ -76,7 +77,7 @@ const Footer = ({ scrollToSolutions, scrollToContactForm }) => {
                     </Col>
                 </Row>
 
-                <Row style={{ height: 100, marginTop: 50, marginBottom: 50, borderTop: '1px solid #F3F4F8' }}>
+                <Row className="footer-bottom" >
                     <Col xs={{ span:22, offset:2 }}
                          sm={{ span:22, offset:2 }}
                          md={{ span:22, offset:2 }}

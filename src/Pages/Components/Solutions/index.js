@@ -28,17 +28,17 @@ const Solutions = ({ refProp }) => {
                             </Col>
                         </Row>
                         <Row className="owl-carousel-container">
-                            <Col xs={20}
-                                 sm={20}
-                                 md={20}
+                            <Col xs={22}
+                                 sm={22}
+                                 md={22}
                                  lg={10}
                                  xl={10}>
-                                <img className="img image" src= {CoolKidsDiscussion} height='350px' alt='alternate'/>
+                                <img className="img image" src= {CoolKidsDiscussion} alt='alternate'/>
                             </Col>
 
-                            <Col xs={20}
-                                 sm={20}
-                                 md={20}
+                            <Col xs={22}
+                                 sm={22}
+                                 md={22}
                                  lg={8}
                                  xl={8}>
                                 <div className="description-container">
@@ -50,10 +50,10 @@ const Solutions = ({ refProp }) => {
                             </Col>
                         </Row>
 
-                        <Row className="owl-carousel-container" style={{ marginTop: 200 }}>
-                                <Col xs={20}
-                                     sm={20}
-                                     md={20}
+                        <Row className="owl-carousel-container margin">
+                                <Col xs={22}
+                                     sm={22}
+                                     md={22}
                                      lg={8}
                                      xl={8}>
                                     <div className="description-container">
@@ -64,27 +64,27 @@ const Solutions = ({ refProp }) => {
                                 </Col>
 
 
-                            <Col xs={20}
-                                 sm={20}
-                                 md={20}
+                            <Col xs={22}
+                                 sm={22}
+                                 md={22}
                                  lg={10}
                                  xl={10}>
-                                <img className="img image" src= {CoolKidsMeeting} height='350px' alt='alternate'/>
+                                <img className="img image" src= {CoolKidsMeeting} alt='alternate'/>
                             </Col>
                         </Row>
 
-                        <Row className="owl-carousel-container" style={{ marginTop: 200 }}>
-                            <Col xs={20}
-                                 sm={20}
-                                 md={20}
+                        <Row className="owl-carousel-container margin">
+                            <Col xs={22}
+                                 sm={22}
+                                 md={22}
                                  lg={10}
                                  xl={10}>
-                                <img className="img image" src= {CoolKidsHighTech} height='350px' alt='alternate'/>
+                                <img className="img image" src= {CoolKidsHighTech} alt='alternate'/>
                             </Col>
 
-                            <Col xs={20}
-                                 sm={20}
-                                 md={20}
+                            <Col xs={22}
+                                 sm={22}
+                                 md={22}
                                  lg={8}
                                  xl={8}>
                                 <div className="description-container">
