@@ -28,7 +28,7 @@ const Hero = ({ scrollToSolutions, scrollToContactForm }) => {
                                     <Col xs={24}
                                          sm={24}
                                          md={24}
-                                         lg={16}
+                                         lg={20}
                                          xl={16} className="banner-container" >
                                         <p className="title">At Gapstack, we help you automate your business relationships and improve your cash flow. </p>
 
