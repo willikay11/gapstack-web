@@ -4,7 +4,7 @@ import { device } from '../../../styles/deviceSizes';
 const gapstackPurple = '#39426A';
 
 const style = () => css`
-  // background-color: #E5E6FC;  
+  background-color: #F8F7FF;  
   .container {
     position: relative;
      height: 100vh; 
