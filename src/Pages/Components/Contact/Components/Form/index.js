@@ -7,7 +7,7 @@ const ContactForm = ({ visible, setModalVisibility }) => {
     const sendNotification = (values) => {
         console.log(values);
         try {
-            axios.post('http://localhost:4000/api/message', values).then(response => {
+            axios.post('http://52.251.75.162/api/message', values).then(response => {
                if (response.status === 201) {
                     notification.success({
                         message: 'Success',

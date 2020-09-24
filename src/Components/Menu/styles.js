@@ -16,6 +16,12 @@ const style = () => css`
     height: 20px
   }
   
+  .action-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
   ${device.largeScreen} {
     .logo {
         height: 25px;

@@ -24,7 +24,7 @@ const Menu = ({ scrollToSolutions, scrollToContactForm }) => {
                      md={{ span: 12, offset: 2 }}
                      lg={{ span: 8, offset: 2 }}
                      xl={{ span: 5, offset: 2 }}>
-                    <Row gutter={42} style={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'center' }}>
+                    <Row gutter={42} className="action-container">
                         <Col xs={9} sm={9} md={9} lg={10} xl={8}>
                             <Button type='link' style={{ color: '#39426A'}} onClick={() => scrollToSolutions()}>Solutions</Button>
                         </Col>
