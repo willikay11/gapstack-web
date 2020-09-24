@@ -28,10 +28,11 @@ const style = () => css`
   
   .tag {
     margin-top: 10px;
-    color: ${gapstackPurple}
+    color: ${gapstackPurple};
     font-weight: 500;
     font-size: 14px;
   }
+  
   .footer-bottom {
     height: 100px;
     margin-top: 25px;

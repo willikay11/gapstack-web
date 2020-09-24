@@ -28,6 +28,10 @@ const Footer = ({ scrollToSolutions, scrollToContactForm }) => {
                                 <Row>
                                     <p className="tag">Automate. Fund. Network.</p>
                                 </Row>
+
+                                <Row>
+                                    <p className="text">Gapstack 2020. All Right Reserved</p>
+                                </Row>
                             </Col>
 
                             <Col xs={24} sm={12} md={12} lg={12} xl={6} className="item">
@@ -53,16 +57,6 @@ const Footer = ({ scrollToSolutions, scrollToContactForm }) => {
                                 <p className="text">Pincode 474009 </p>
                             </Col>
                         </Row>
-                    </Col>
-                </Row>
-
-                <Row className="footer-bottom" >
-                    <Col xs={{ span:22, offset:2 }}
-                         sm={{ span:22, offset:2 }}
-                         md={{ span:22, offset:2 }}
-                         lg={{ span:20, offset:4 }}
-                         xl={{ span:20, offset:4 }} style={{ display: 'flex', alignItems: 'center' }}>
-                        <p>Gapstack 2020. All Right Reserved</p>
                     </Col>
                 </Row>
             </Fade>
