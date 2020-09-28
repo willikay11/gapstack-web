@@ -7,7 +7,7 @@ const style = () => css`
   background-color: #f3f4f8;  
   .container {
     position: relative;
-     min-height: 100vh; 
+     min-height: 85vh; 
   }
   
   .fade-container {

@@ -1,5 +1,5 @@
 import React from "react";
-import {Col, Row} from "antd";
+import { Col, Row, Divider } from "antd";
 import DashboardImage from "../../../assets/Dashboard.svg";
 import { IoIosCog, IoIosDocument, IoIosWallet, IoMdAnalytics, IoIosCash } from "react-icons/all";
 import {Fade} from "react-awesome-reveal";
@@ -28,7 +28,13 @@ const Dashboard = () => {
 
                         <Row className="title-container">
                             <Col xs={24} sm={24} md={24} lg={16} xl={12}>
-                                <p className="title">Automate. Fund. Network.</p>
+                                <p className="title">
+                                    Automate
+                                    <Divider type='vertical' style={{ height: 35, borderLeft: '2px solid #39426A', margin: '0px 15px' }}/>
+                                    Fund
+                                    <Divider type='vertical' style={{ height: 35, borderLeft: '2px solid #39426A', margin: '0px 15px' }}/>
+                                    Network.
+                                </p>
                             </Col>
                         </Row>
 

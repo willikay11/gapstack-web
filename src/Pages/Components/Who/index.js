@@ -16,7 +16,7 @@ const Who = () => {
 
     return (
         <WhoWrapper>
-            <Fade triggerOnce={true} fraction={0.3}>
+            <Fade triggerOnce={true} fraction={0.1}>
                 <Row className="container">
                     <Col xs={{ span: 20, offset: 2 }}
                          sm={{ span: 20, offset: 2 }}
