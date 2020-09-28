@@ -13,7 +13,7 @@ const style = () => css`
   }
   
   .logo {
-    height: 20px
+    height: 60px
   }
   
   .action-container {
