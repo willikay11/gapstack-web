@@ -33,7 +33,7 @@ const Dashboard = () => {
                                     <Divider type='vertical' style={{ height: 35, borderLeft: '2px solid #39426A', margin: '0px 15px' }}/>
                                     Fund
                                     <Divider type='vertical' style={{ height: 35, borderLeft: '2px solid #39426A', margin: '0px 15px' }}/>
-                                    Network.
+                                    Network
                                 </p>
                             </Col>
                         </Row>
