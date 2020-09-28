@@ -13,7 +13,7 @@ const style = () => css`
   }
   
   .logo {
-    height: 60px
+    height: 20px
   }
   
   .action-container {
@@ -24,19 +24,19 @@ const style = () => css`
   
   ${device.largeScreen} {
     .logo {
-        height: 25px;
+        height: 60px;
     }
   }
   
   ${device.tabletPortrait} {
     .logo {
-      height: 25px;
+      height: 60px;
     }
   }
   
  ${device.tabletLandscape} {
     .logo {
-      height: 25px;
+      height: 60px;
     }
   }
  `;
