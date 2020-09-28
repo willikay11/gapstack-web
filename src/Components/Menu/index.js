@@ -17,7 +17,7 @@ const Menu = ({ scrollToSolutions, scrollToContactForm }) => {
                      md={{ span: 8, offset: 2 }}
                      lg={{ span: 8, offset: 4 }}
                      xl={{ span: 8, offset: 4 }} style={{ display: 'flex', alignItems: 'center'}}>
-                    <img height={25} className="logo" src={gapstackLogo} alt='logo'/>
+                    <img height={60} className="logo" src={gapstackLogo} alt='logo'/>
                 </Col>
                 <Col xs={{ span: 11, offset: 1 }}
                      sm={{ span: 11, offset: 1 }}

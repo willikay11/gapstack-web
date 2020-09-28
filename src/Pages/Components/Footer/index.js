@@ -22,11 +22,7 @@ const Footer = ({ scrollToSolutions, scrollToContactForm }) => {
                         <Row gutter={[16, 32]}>
                             <Col xs={24} sm={24} md={24} lg={24} xl={6} className="item">
                                 <Row style={{ marginBottom: 10 }}>
-                                    <img height={30} src={gapstackLogo} alt='alternate'/>
-                                </Row>
-
-                                <Row>
-                                    <p className="tag">Automate. Fund. Network.</p>
+                                    <img height={50} src={gapstackLogo} alt='alternate'/>
                                 </Row>
 
                                 <Row>
