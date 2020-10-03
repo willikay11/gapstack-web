@@ -1,7 +1,8 @@
 import React from "react";
 import {Button, Col, Row} from "antd";
 import Menu from "../../../Components/Menu";
-import {Fade} from "react-awesome-reveal";
+import CoolKidsBrainstorming from '../../../assets/Cool-Kids-Brainstorming.svg';
+import { Fade } from "react-awesome-reveal";
 import Particles from "react-particles-js";
 import styled from "styled-components";
 import { style } from "./styles";
@@ -38,6 +39,9 @@ const Hero = ({ scrollToSolutions, scrollToContactForm }) => {
                                             </Col>
                                         </Row>
                                         <Button onClick={() => scrollToContactForm()} style={{ color: '#fff', backgroundColor: '#7c60ff', height: 50, borderRadius: 4, marginTop: 50 }}>Contact Us</Button>
+                                    </Col>
+                                    <Col xs={24} sm={24} md={24} lg={20} xl={8}>
+                                        <img className="image" src={CoolKidsBrainstorming} alt="Cool Kids Discussion"/>
                                     </Col>
                                 </Row>
                             </Col>

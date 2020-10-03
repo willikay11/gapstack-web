@@ -8,7 +8,7 @@ const ContactForm = ({ visible, setModalVisibility }) => {
     const sendNotification = (values) => {
         try {
             setLoading(true);
-            axios.post('http://52.251.75.162:100/api/message', values).then(response => {
+            axios.post('https://staging.gapstack.tk/website-backend/api/message', values).then(response => {
                 setLoading(false);
                 if (response.status === 201) {
                     notification.success({
