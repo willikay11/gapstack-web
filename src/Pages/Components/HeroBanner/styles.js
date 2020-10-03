@@ -58,6 +58,22 @@ const style = () => css`
         font-style: normal;
     }
   }
+  
+  .image {
+    height: 310px;
+  }
+  
+  ${device.desktopOrLaptop} {
+    .image {
+        height: 450px;
+     }
+  }
+  
+  ${device.largeScreen} {
+    .image {
+        height: 450px;
+    }
+  }
 `;
 
 export { style }
