@@ -19,10 +19,11 @@ const style = () => css`
   
   .banner-container {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-bottom: 40px;
+    margin-bottom: 70px;
+    margin-top: 100px;
     .title {
         font-size: 34px;
         color: ${gapstackPurple};
@@ -34,13 +35,13 @@ const style = () => css`
     
     ${device.desktopOrLaptop} {
         .title {
-            font-size: 44px;
+            font-size: 50px;
         }
     }
     
     ${device.largeScreen} {
         .title {
-            font-size: 44px;
+            font-size: 50px;
         }
     }
     
@@ -74,6 +75,38 @@ const style = () => css`
         height: 450px;
     }
   }
+  
+  .circle {
+      border-radius: 50%;
+      background-color: #ffffff;
+      border: 2px solid #C4C4C4;
+      width: 650px;
+      height: 650px;
+      position: absolute;
+      opacity: 0;
+      animation: scaleIn 15s infinite cubic-bezier(.36, .11, .89, .32);
+  }
+  
+  .first {
+    animation-delay: -8s
+  }
+  .second {
+    animation-delay: -2s
+  }
+  .third {
+     animation-delay: 4s
+  }
+      
+  @keyframes scaleIn {
+      from {
+        transform: scale(.5, .5);
+        opacity: .5;
+      }
+      to {
+        transform: scale(2.5, 2.5);
+        opacity: 0;
+      }
+    }
 `;
 
 export { style }

@@ -32,9 +32,9 @@ const Hero = ({ scrollToSolutions, scrollToContactForm }) => {
                                          sm={24}
                                          md={24}
                                          lg={24}
-                                         xl={24} className="banner-container" >
-                                        <Row>
-                                            <Col xs={24} sm={24} md={24} lg={14} xl={14}>
+                                         xl={24} className="banner-container">
+                                        <Row style={{ marginBottom: 40 }}>
+                                            <Col xs={24} sm={24} md={24} lg={16} xl={16}>
                                                 <p className="title">Powerful Digital Trade  & Supply Chain Financing platform.</p>
                                                 <p className="description">At Gapstack, we believe in giving businesses the liberty to access working capital to launch, grow & scale. When you register on Gapstack, we help you automate your buyer-supplier relationships, unlock funding from your receivables – POs, invoices, orders  and your payables – POs, vendor invoices and build your unique business ecosystem.   </p>
                                             </Col>
@@ -52,6 +52,12 @@ const Hero = ({ scrollToSolutions, scrollToContactForm }) => {
                             </Col>
                         </Row>
                     </Fade>
+
+                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: 0 }}>
+                        <div className="circle first" />
+                        <div className="circle second" />
+                        <div className="circle third" />
+                    </div>
 
                     {/*<Particles*/}
                     {/*    style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: 0 }}*/}
