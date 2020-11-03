@@ -53,11 +53,14 @@ const Hero = ({ scrollToSolutions, scrollToContactForm }) => {
                         </Row>
                     </Fade>
 
-                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: 0 }}>
+                    <Fade
+                        triggerOnce={true}
+                        fraction={0.3}
+                        style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: 0 }}>
                         <div className="circle first" />
                         <div className="circle second" />
                         <div className="circle third" />
-                    </div>
+                    </Fade>
 
                     {/*<Particles*/}
                     {/*    style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: 0 }}*/}
