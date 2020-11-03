@@ -4,10 +4,10 @@ import { device } from '../../../styles/deviceSizes';
 const gapstackPurple = '#39426A';
 
 const style = () => css`
-  background-color: #f3f4f8;  
+  // background-color: #f3f4f8;  
   .container {
     position: relative;
-     min-height: 85vh; 
+    min-height: 100vh; 
   }
   
   .fade-container {

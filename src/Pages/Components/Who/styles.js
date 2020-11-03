@@ -4,6 +4,7 @@ import { device } from '../../../styles/deviceSizes';
 const gapstackPurple = '#39426A';
 
 const style = () => css`
+  background-color: #f3f4f8; 
   .container {
     margin-top: 50px;
   }
