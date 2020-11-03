@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Row, Divider } from "antd";
-import DashboardImage from "../../../assets/Dashboard.svg";
+import FinanceSupplyingMobile from "../../../assets/Finance-Supplying-Mobile.svg";
+import PDQ from "../../../assets/PDQ.svg";
 import { IoIosCog, IoIosDocument, IoIosWallet, IoMdAnalytics, IoIosCash } from "react-icons/all";
 import {Fade} from "react-awesome-reveal";
 import styled from "styled-components";
@@ -19,13 +20,7 @@ const Dashboard = () => {
                          sm={{ span:20, offset:2 }}
                          md={{ span:20, offset:2 }}
                          lg={{ span:16, offset:4 }}
-                         xl={{ span:16, offset:4 }} className="image-container">
-                        <Row>
-                            <Col span={24}>
-                                <img src={DashboardImage} alt="alternate" width='100%' />
-                            </Col>
-                        </Row>
-
+                         xl={{ span:16, offset:4 }}>
                         <Row className="title-container">
                             <Col xs={24} sm={24} md={24} lg={16} xl={12}>
                                 <p className="title">
@@ -79,6 +74,12 @@ const Dashboard = () => {
                                 <p className="description">
                                     Process validated accounts payables  by the touch of a button where processing to bank account or a mobile money wallet.  Control funds disbursement processes through our  AI driven credit & macro limits.
                                 </p>
+                            </Col>
+                            <Col xs={24} sm={24} md={12} lg={12} xl={8} className="item">
+                                <img style={{ position: 'absolute' }} src={FinanceSupplyingMobile} alt="icon" />
+                            </Col>
+                            <Col xs={24} sm={24} md={12} lg={12} xl={16} className="item">
+                                <img style={{ width: '100%' }} src={PDQ} alt="icon" />
                             </Col>
                         </Row>
                     </Col>
