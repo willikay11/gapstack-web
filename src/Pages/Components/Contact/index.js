@@ -3,7 +3,6 @@ import {Fade} from "react-awesome-reveal";
 import {Button, Col, Row} from "antd";
 import styled from "styled-components";
 import ContactForm from "./Components/Form/index";
-import HandImage from "../../../assets/hand-image.svg";
 import { style } from "./styles";
 
 const ContactWrapper = styled.div`
@@ -18,13 +17,13 @@ const Contact = ({ refProp }) => {
     }
 
     return (
-        <ContactWrapper ref={refProp} backgroundImage={HandImage}>
+        <ContactWrapper ref={refProp}>
             <ContactForm visible={visible} setModalVisibility={setModalVisibility} />
             <Fade triggerOnce={true} fraction={0.3}>
                 <Row className="container">
                     <Col span={24}>
-                        <Row className="background-container">
-                            <div className="linear-gradient-background" />
+                        <Row>
+                            {/*<div className="linear-gradient-background" />*/}
                             <Col xs={{ span:20, offset:2 }}
                                  sm={{ span:20, offset:2 }}
                                  md={{ span:20, offset:2 }}
@@ -37,7 +36,7 @@ const Contact = ({ refProp }) => {
                                 <Row gutter={16}>
                                     <Col>
                                         <Button onClick={() => setModalVisibility(true)}
-                                                style={{ color: '#7C60FF', backgroundColor: '#fff', borderRadius: 4, height: 50 }}>
+                                                style={{ color: '#fff', backgroundColor: '#7C60FF', borderRadius: 4, height: 50 }}>
                                             Leave us a message
                                         </Button>
                                     </Col>

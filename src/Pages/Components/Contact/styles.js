@@ -1,18 +1,22 @@
 import { css } from 'styled-components';
 import { device } from '../../../styles/deviceSizes';
 
-// const gapstackPurple = '#39426A';
+const gapstackPurple = '#39426A';
 
 const style = ({ backgroundImage }) => css`
+  background-color: #f3f4f8;
   .container {
     height: 400px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 50px;  
+    align-items: center;
+    display: flex;
   }
   
   .background-container {
     background-image: url(${backgroundImage});
-    height: 100%;
+    height: 600px;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -32,7 +36,7 @@ const style = ({ backgroundImage }) => css`
   }
   
   .title {
-    color: #fff;
+    color: ${gapstackPurple};
     font-size: 34px;
     lineHeight: 135.2%;
     z-index: 10;
@@ -47,7 +51,7 @@ const style = ({ backgroundImage }) => css`
   .description {
     font-size: 16px;
     line-height: 30px;
-    color: #fff;
+    color: ${gapstackPurple};
   }
 `;
 
