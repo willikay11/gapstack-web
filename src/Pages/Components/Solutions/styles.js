@@ -19,6 +19,7 @@ const style = () => css`
         display: flex;
         justify-content: center;
         height: 100%;
+        margin-top: 20px;
     }
     
     .image {
@@ -27,7 +28,7 @@ const style = () => css`
     
     ${device.largeScreen || device.desktopOrLaptop || device.tabletLandscape || device.tabletPortrait} {
         .image {
-          height: 350px;
+          height: 250px;
         }
     }
   }
@@ -51,14 +52,14 @@ const style = () => css`
   
   .title {
     color: ${gapstackPurple};
-    font-size: 34px;
+    font-size: 20px;
     font-weight: 800;
     line-height: 135.2%
   }
   
   ${device.largeScreen || device.desktopOrLaptop || device.tabletLandscape || device.tabletPortrait} {
     .title {
-        font-size: 44px;
+        font-size: 20px;
     }
   }
   
