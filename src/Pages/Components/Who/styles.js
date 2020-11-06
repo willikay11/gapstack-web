@@ -17,9 +17,17 @@ const style = () => css`
     font-weight: 800
   }
   
+  .left-content {
+    padding-right: 0px;
+  }
+  
   ${device.largeScreen || device.desktopOrLaptop || device.tabletLandscape || device.tabletPortrait} {
     .title {
         font-size: 44px;
+    }
+    
+    .left-content {
+      padding-right: 40px;
     }
   }
   .sub-title {
@@ -40,7 +48,7 @@ const style = () => css`
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     min-height: 470px;
-    width: 400px;
+    // width: 400px;
     padding: 40px;
     .icon {
       margin-bottom: 30px;
