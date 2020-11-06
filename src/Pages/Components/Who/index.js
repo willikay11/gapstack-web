@@ -27,7 +27,7 @@ const Who = () => {
                         <Row>
                             <Col xs={24} sm={24} md={24} lg={18} xl={18}>
                                 <p className="sub-title">Who we are</p>
-                                <p className="title">At Gap stack, we are on a mission to build a trade operating system for Businesses.</p>
+                                <p className="title">At Gap stack, we are on a mission to build a trade operating system for all Businesses.</p>
                             </Col>
                         </Row>
                     </Col>
@@ -55,18 +55,19 @@ const Who = () => {
                                     <div className="owl-container">
                                         <BiChip color='#1E87F0' className="icon" size={40}/>
                                         <p className="title">Digital trade network</p>
-                                        <p className="description">An AI powered platform at the core of your operations. In a snapshot, our demand and supply prediction tools will highlight cash drivers in your business from  finance, sales, procurement for smarter decision making.</p>
+                                        <p className="description">Like Social Networks & friends,
+                                            Gapstack helps organizations digitize supply chain networks with our AI powered platform at the core of your operations. Whether local or global, go beyond transactional engagements with your relationships to understand dependencies with your business and their impact.</p>
                                     </div>
                                     <div className="owl-container">
                                         <MdPeople color='#7C60FF' className="icon" size={40}/>
                                         <p className="title">Connected Buyers & Suppliers</p>
-                                        <p className="description">Comprehensively map relationships between your buyers and suppliers nodes and optimize each with the ability to create, send  and receive your invoices & purchase orders from a unified platform.</p>
+                                        <p className="description">With Gapstack´s ecosystem tool, comprehensively map relationships between your buyers and supplier nodes and optimize for each. Our demand and supply prediction tools will highlight cash drivers in your business from  finance, sales, supply, distribution, procurement for efficient, smarter and data driven business decision making.</p>
                                     </div>
                                     <div className="owl-container">
                                         <MdPayment color='#2CCC71' className="icon" size={40} />
                                         <p className="title">Seamless Payments</p>
                                         <p className="description">
-                                            Securely  Pay your suppliers and receive payments from your buyers to your bank account or mobile wallet with the ability to  tag each transaction to your business processes. Our payment tracker offers live status updates of your money transfer, due payables and receivables making it easier for you to forecast cash flow
+                                            Securely  Pay your suppliers and receive payments from your buyers, both local and global to your bank account or mobile wallet with the ability to  tag each transaction to your business processes. Our payment tracker offers live status updates of your money transfer, due payables and receivables making it easier for you to forecast cash flow
                                         </p>
                                     </div>
                                     <div className="owl-container">

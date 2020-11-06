@@ -11,9 +11,9 @@ const DashboardWrapper = styled.div`
   ${style}
 `;
 
-const Dashboard = () => {
+const Dashboard = ({ refProp }) => {
     return (
-        <DashboardWrapper>
+        <DashboardWrapper ref={refProp}>
             <Fade triggerOnce={true} fraction={0.1}>
                 <Row className="container">
                     <Col xs={{ span:20, offset:2 }}
