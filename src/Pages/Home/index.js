@@ -36,9 +36,9 @@ const Home = () => {
 
                 {/*<Why />*/}
 
-                <Dashboard />
+                <Dashboard refProp={solutions}/>
 
-                <Solutions refProp={solutions}/>
+                <Solutions />
 
                 <Row>
                     <div className="background-container"/>

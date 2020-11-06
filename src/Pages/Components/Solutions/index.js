@@ -10,9 +10,9 @@ const UsersWrapper = styled.div`
   ${style}
 `;
 
-const Solutions = ({ refProp }) => {
+const Solutions = () => {
     return (
-        <UsersWrapper ref={refProp}>
+        <UsersWrapper>
             <Fade triggerOnce={true} fraction={0.3}>
                 <Row className="container">
                     <Col xs={{ offset: 2, span: 20 }}
