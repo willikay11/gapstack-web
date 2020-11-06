@@ -98,7 +98,7 @@ const Dashboard = ({ refProp }) => {
                             </Col>
 
                             <Col xs={24} sm={24} md={12} lg={12} xl={8} className="item">
-                                <img src={FinanceSupplyingMobile} alt="icon" />
+                                <img style={{ width: '100%' }} src={FinanceSupplyingMobile} alt="icon" />
                             </Col>
                         </Row>
                     </Col>
