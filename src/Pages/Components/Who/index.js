@@ -37,7 +37,7 @@ const Who = () => {
                          lg={{ span: 20, offset: 4 }}
                          xl={{ span: 20, offset: 4 }}>
                         <Row>
-                            <Col xs={24} sm={24} md={24} lg={24} xl={8} style={{ paddingRight: 40 }}>
+                            <Col xs={24} sm={24} md={24} lg={24} xl={10} className="left-content">
                                 <p className="description">
                                     In a unified and connected technology platform, businesses of all sizes can start their digitization journey targeting the heart of their operations – the source of their cash. A business can automate their accounts payables and accounts receivables, eliminating the need for paper based transactions.
                                 </p>
@@ -50,34 +50,55 @@ const Who = () => {
                                     Whether sourcing or selling, locally or globally efficiency is of critical importance. A true digital business cannot exist without understanding its dependencies and we map your entire business network around your buying and selling relationships through our AI powered engine, to identify important nodes in your network and how they affect your growth and scale.
                                 </p>
                             </Col>
-                            <Col xs={24} sm={24} md={24} lg={24} xl={16}>
-                                <OwlCarousel items={2.75} className="owl-theme" loop nav margin={20} autoWidth>
-                                    <div className="owl-container">
+                            <Col xs={24} sm={24} md={24} lg={24} xl={14}>
+                                <OwlCarousel className="owl-carousel owl-theme"
+                                             loop
+                                             responsiveClass={true}
+                                             nav
+                                             margin={30}
+                                             responsive={
+                                                 {
+                                                     0: {
+                                                         items: 1
+                                                     },
+                                                     600: {
+                                                         items: 2
+                                                     },
+                                                     1000: {
+                                                         items: 2
+                                                     },
+                                                     1800: {
+                                                         items: 2
+                                                     }
+                                                 }
+                                             }
+                                >
+                                    <div className="owl-container item">
                                         <BiChip color='#1E87F0' className="icon" size={40}/>
                                         <p className="title">Digital trade network</p>
                                         <p className="description">Like Social Networks & friends,
                                             Gapstack helps organizations digitize supply chain networks with our AI powered platform at the core of your operations. Whether local or global, go beyond transactional engagements with your relationships to understand dependencies with your business and their impact.</p>
                                     </div>
-                                    <div className="owl-container">
+                                    <div className="owl-container item">
                                         <MdPeople color='#7C60FF' className="icon" size={40}/>
                                         <p className="title">Connected Buyers & Suppliers</p>
                                         <p className="description">With Gapstack´s ecosystem tool, comprehensively map relationships between your buyers and supplier nodes and optimize for each. Our demand and supply prediction tools will highlight cash drivers in your business from  finance, sales, supply, distribution, procurement for efficient, smarter and data driven business decision making.</p>
                                     </div>
-                                    <div className="owl-container">
+                                    <div className="owl-container item">
                                         <MdPayment color='#2CCC71' className="icon" size={40} />
                                         <p className="title">Seamless Payments</p>
                                         <p className="description">
                                             Securely  Pay your suppliers and receive payments from your buyers, both local and global to your bank account or mobile wallet with the ability to  tag each transaction to your business processes. Our payment tracker offers live status updates of your money transfer, due payables and receivables making it easier for you to forecast cash flow
                                         </p>
                                     </div>
-                                    <div className="owl-container">
+                                    <div className="owl-container item">
                                         <FaChartBar color='#F6B93B' className="icon" size={40} />
                                         <p className="title">Robust Data & Analytics</p>
                                         <p className="description">
                                             Visualize your data across your different business segments to generate insight into your entire operations by slicing and dicing data on your business through our analytics engine
                                         </p>
                                     </div>
-                                    <div className="owl-container">
+                                    <div className="owl-container item">
                                         <FaGlobe color='#39426A' className="icon" size={40} />
                                         <p className="title">Intuitive & Scalable  technology</p>
                                         <p className="description">

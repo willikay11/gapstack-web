@@ -3,6 +3,7 @@ import { Col, Row, Divider } from "antd";
 import FinanceSupplyingMobile from "../../../assets/Finance-Supplying-Mobile.svg";
 import PDQ from "../../../assets/PDQ.svg";
 import { IoIosCog, IoIosDocument, IoIosWallet, IoMdAnalytics, IoIosCash } from "react-icons/all";
+import ImportExport from '../../../assets/ImportExport.svg';
 import {Fade} from "react-awesome-reveal";
 import styled from "styled-components";
 import { style } from "./styles";
@@ -83,11 +84,21 @@ const Dashboard = ({ refProp }) => {
                                     Process validated accounts payables  by the touch of a button where processing to bank account or a mobile money wallet.  Control funds disbursement processes through our  AI driven credit & macro limits. Track the live status updates of money transfer, due payables and receivables making it easier for you to forecast cash flow
                                 </p>
                             </Col>
+
                             <Col xs={24} sm={24} md={12} lg={12} xl={8} className="item">
-                                <img style={{ position: 'absolute' }} src={FinanceSupplyingMobile} alt="icon" />
+                                <img src={ImportExport} className="icon" />
+                                <p className="title">Gapstack Trade Finance Solutions</p>
+                                <p className="description">
+                                    Unlock strategic funding pockets for international trade through our trade capital financing for pre & post shipment, inventory, freight, and duty charges. Reduce the tie up of capital in global trade  with solutions customized to your exact business needs
+                                </p>
                             </Col>
+
                             <Col xs={24} sm={24} md={12} lg={12} xl={16} className="item">
                                 <img style={{ width: '100%' }} src={PDQ} alt="icon" />
+                            </Col>
+
+                            <Col xs={24} sm={24} md={12} lg={12} xl={8} className="item">
+                                <img src={FinanceSupplyingMobile} alt="icon" />
                             </Col>
                         </Row>
                     </Col>
