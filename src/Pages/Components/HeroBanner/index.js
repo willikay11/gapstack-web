@@ -35,7 +35,7 @@ const Hero = ({ scrollToSolutions, scrollToContactForm }) => {
                                          xl={24} className="banner-container">
                                         <Row style={{ marginBottom: 40 }}>
                                             <Col xs={24} sm={24} md={24} lg={16} xl={16}>
-                                                <p className="title">Powerful Supply Chain & Digital Trade  Financing Platform.</p>
+                                                <p className="title">Powerful Digital Supply Chain & Trade Finance Platform.</p>
                                                 <p className="description">At Gapstack, we believe in giving businesses the liberty to access working capital to launch, grow & scale.  We have built a trade operating system to allow businesses of all sizes whether operating in local or global value chains to do more.</p>
                                                 <p className="description">When you register on Gapstack, we help you automate your buyer-supplier relationships, unlock funding from your receivables – POs, invoices, orders  and your payables – POs, vendor invoices and build your unique business ecosystem.</p>
                                                 <p className="description">Automate.  Fund. Network. </p>
