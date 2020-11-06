@@ -86,7 +86,7 @@ const Dashboard = ({ refProp }) => {
                             </Col>
 
                             <Col xs={24} sm={24} md={12} lg={12} xl={8} className="item">
-                                <img src={ImportExport} className="icon" />
+                                <img src={ImportExport} className="icon" alt="trade" />
                                 <p className="title">Gapstack Trade Finance Solutions</p>
                                 <p className="description">
                                     Unlock strategic funding pockets for international trade through our trade capital financing for pre & post shipment, inventory, freight, and duty charges. Reduce the tie up of capital in global trade  with solutions customized to your exact business needs
