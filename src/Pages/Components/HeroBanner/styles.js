@@ -64,15 +64,61 @@ const style = () => css`
     height: 310px;
   }
   
+  .mobile-image {
+    display: none;
+  }
+  
+  .circular {
+    display: none
+  }
+  
   ${device.desktopOrLaptop} {
     .image {
         height: 450px;
      }
+     
+    .mobile-image {
+      position: absolute;
+      width: 25%;
+      top: 250px;
+      right: -120px;
+    }
+    
+    .circular {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        zIndex: 0;
+    }
   }
   
   ${device.largeScreen} {
     .image {
         height: 450px;
+    }
+    
+    .mobile-image {
+      position: absolute;
+      width: 25%;
+      top: 250px;
+      right: -120px;
+    }
+    
+    .circular {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        zIndex: 0;
     }
   }
   

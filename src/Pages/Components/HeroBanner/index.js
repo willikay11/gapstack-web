@@ -45,7 +45,7 @@ const Hero = ({ scrollToSolutions, scrollToContactForm }) => {
                                         <Row style={{ width: '100%' }}>
                                             <Col span={24}>
                                                 <img width='100%' src={FirstTimeRegistrationDashboard} alt="Dashboard" />
-                                                <img src={mobile} alt="mobile" style={{ position: 'absolute', width: '25%', top: 250, right: -120 }} />
+                                                <img src={mobile} alt="mobile" className="mobile-image" />
                                             </Col>
                                         </Row>
                                         {/*<Button onClick={() => scrollToContactForm()} style={{ color: '#fff', backgroundColor: '#7c60ff', height: 50, borderRadius: 4, marginTop: 50 }}>Contact Us</Button>*/}
@@ -58,7 +58,7 @@ const Hero = ({ scrollToSolutions, scrollToContactForm }) => {
                     <Fade
                         triggerOnce={true}
                         fraction={0.3}
-                        style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: 0 }}>
+                        className="circular">
                         <div className="circle first" />
                         <div className="circle second" />
                         <div className="circle third" />
