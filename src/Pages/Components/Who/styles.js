@@ -41,7 +41,7 @@ const style = () => css`
     border-radius: 5px;
     min-height: 470px;
     width: 400px;
-    padding: 20px;
+    padding: 40px;
     .icon {
       margin-bottom: 30px;
     }

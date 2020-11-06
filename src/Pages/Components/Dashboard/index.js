@@ -44,35 +44,43 @@ const Dashboard = () => {
                                 <IoIosCog color='#7C60FF' size={40} className="icon" />
                                 <p className="title">Gapstack Automation</p>
                                 <p className="description">
-                                    Leverage Gapstack´s automation suite to build a true digital business around your supply chain processes from   Invoicing,  - Ordering, - Payments and - Bonds.  Our agile automation kits connect to your existing business flows and are available both on cloud and on premise.
+                                    Leverage Gapstack´s automation suite to build a true digital business around your supply chain processes from Invoicing, - Ordering, - Payments and - Bonds. Our agile automation kits connect to your existing business flows and are available both on cloud and on premise to allow your begin your digitization journey today!
                                 </p>
                             </Col>
 
                             <Col xs={24} sm={24} md={12} lg={12} xl={8} className="item">
                                 <IoIosDocument color='#1E87F0' size={40} className="icon" />
                                 <p className="title">Gapstack Working Capital Solution</p>
-                                <p className="description">Improve your cash flow by receiving early payments on your invoices to your customers. Liberate the cash needed for your working capital by connecting with your bank to receive capital in real time.  Our AI powered working capital solution allows you to forecast your larger orders and to fulfill them.</p>
+                                <p className="description">
+                                    Improve your cash flow by receiving early payments on your invoices to your customers. Liberate the cash needed for your working capital by connecting with your bank  or financing partner to receive capital in real time on al your receivables.
+                                </p>
+
+                                <p className="description">
+                                    Our AI powered working capital solution allows you to forecast your larger orders and to  unlock the financing needed to fulfil them.
+                                </p>
                             </Col>
 
                             <Col xs={24} sm={24} md={12} lg={12} xl={8} className="item">
                                 <IoIosWallet color='#F6B93B' size={40} className="icon" />
                                 <p className="title">Gapstack Purchasing Finance</p>
-                                <p className="description">Drive loyalty with your suppliers and grow your ecosystem by providing faster payments to your suppliers through early payments.  Validate their invoices via the Gapstack platform to allow for faster processing. Whether on web, app or USSD, offer your suppliers the ability to access their cash in minutes and to do more</p>
+                                <p className="description">
+                                    Drive loyalty with your suppliers and grow your ecosystem by providing faster payments to your suppliers through early payments.  Validate their invoices via the Gapstack platform to allow for faster processing. Whether on web, app or USSD, offer your suppliers the ability to access their cash in minutes and to do more
+                                </p>
                             </Col>
 
                             <Col xs={24} sm={24} md={12} lg={12} xl={8} className="item">
                                 <IoMdAnalytics color='#E55039' size={40} className="icon" />
                                 <p className="title">Gapstack Data Network</p>
                                 <p className="description">
-                                    Build your business´ unique data trust network by mapping & financing your buyer and seller relationships as a lever of growth
+                                    Build your business´ unique data trust network by mapping & financing your buyer and seller relationships as a lever of growth.
                                 </p>
                             </Col>
 
                             <Col xs={24} sm={24} md={12} lg={12} xl={8} className="item">
                                 <IoIosCash color='#008D3D' size={40} className="icon" />
-                                <p className="title">Gapstack Payment</p>
+                                <p className="title">Gapstack payment solutions</p>
                                 <p className="description">
-                                    Process validated accounts payables  by the touch of a button where processing to bank account or a mobile money wallet.  Control funds disbursement processes through our  AI driven credit & macro limits.
+                                    Process validated accounts payables  by the touch of a button where processing to bank account or a mobile money wallet.  Control funds disbursement processes through our  AI driven credit & macro limits. Track the live status updates of money transfer, due payables and receivables making it easier for you to forecast cash flow
                                 </p>
                             </Col>
                             <Col xs={24} sm={24} md={12} lg={12} xl={8} className="item">
