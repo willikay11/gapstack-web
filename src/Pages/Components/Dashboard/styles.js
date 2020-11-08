@@ -7,7 +7,7 @@ const style = () => css`
   .container {
     min-height: 400px;
     margin-top: 50px;
-    // background-color: #f3f4f8;
+    background-color: #f3f4f8;
   }
   
   .image-container {
@@ -16,7 +16,7 @@ const style = () => css`
   }
   
   .title-container {
-    // margin-top: 50px;
+    margin-top: 50px;
   }
   
   .description-container {

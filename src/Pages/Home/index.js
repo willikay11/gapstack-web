@@ -1,8 +1,7 @@
 import React, { useRef } from "react";
-import { Row } from "antd";
 import styled from 'styled-components';
 import Who from "../Components/Who";
-// import Why from "../Components/Why";
+import Why from "../Components/Why";
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import { style } from './styles';
@@ -11,8 +10,6 @@ import Solutions from "../Components/Solutions";
 import Footer from "../Components/Footer";
 import Contact from "../Components/Contact";
 import Hero from "../Components/HeroBanner";
-import MarketImage from "../../assets/market.svg";
-
 
 const HomeWrapper = styled.div`
   ${style}
@@ -28,21 +25,17 @@ const Home = () => {
     const executeScrollToContactForm = () => scrollContactForm(contactForm);
 
     return (
-        <HomeWrapper backgroundImage={MarketImage}>
+        <HomeWrapper>
             <div className="home-container">
                 <Hero scrollToSolutions={executeScrollToSolutions} scrollToContactForm={executeScrollToContactForm}/>
 
                 <Who />
 
-                {/*<Why />*/}
+                <Why />
 
-                <Dashboard refProp={solutions}/>
+                <Dashboard />
 
-                <Solutions />
-
-                <Row>
-                    <div className="background-container"/>
-                </Row>
+                <Solutions refProp={solutions}/>
 
                 <Contact refProp={contactForm}/>
 
