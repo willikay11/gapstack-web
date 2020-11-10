@@ -93,8 +93,8 @@ const Dashboard = ({ refProp }) => {
                                 </p>
                             </Col>
 
-                            <Col xs={24} sm={24} md={12} lg={12} xl={16} className="item">
-                                <img style={{ width: '100%' }} src={PDQ} alt="icon" />
+                            <Col xs={24} sm={24} md={12} lg={12} xl={14} className="item">
+                                <img style={{ width: '100%', height: '90%' }} src={PDQ} alt="icon" />
                             </Col>
 
                             <Col xs={24} sm={24} md={12} lg={12} xl={8} className="item">
