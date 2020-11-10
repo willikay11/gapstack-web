@@ -125,7 +125,7 @@ const style = () => css`
   .circle {
       border-radius: 50%;
       background-color: #ffffff;
-      border: 2px solid #C4C4C4;
+      border: 3px solid #DFDCDC;
       width: 650px;
       height: 650px;
       position: absolute;

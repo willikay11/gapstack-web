@@ -70,18 +70,18 @@ const Dashboard = ({ refProp }) => {
                             </Col>
 
                             <Col xs={24} sm={24} md={12} lg={12} xl={8} className="item">
-                                <IoMdAnalytics color='#E55039' size={40} className="icon" />
-                                <p className="title">Gapstack Data Network</p>
-                                <p className="description">
-                                    Build your business´ unique data trust network by mapping & financing your buyer and seller relationships as a lever of growth.
-                                </p>
-                            </Col>
-
-                            <Col xs={24} sm={24} md={12} lg={12} xl={8} className="item">
                                 <IoIosCash color='#008D3D' size={40} className="icon" />
                                 <p className="title">Gapstack payment solutions</p>
                                 <p className="description">
                                     Process validated accounts payables  by the touch of a button where processing to bank account or a mobile money wallet.  Control funds disbursement processes through our  AI driven credit & macro limits. Track the live status updates of money transfer, due payables and receivables making it easier for you to forecast cash flow
+                                </p>
+                            </Col>
+
+                            <Col xs={24} sm={24} md={12} lg={12} xl={8} className="item">
+                                <IoMdAnalytics color='#E55039' size={40} className="icon" />
+                                <p className="title">Gapstack Data Network</p>
+                                <p className="description">
+                                    Build your business´ unique data trust network by mapping & financing your buyer and seller relationships as a lever of growth.
                                 </p>
                             </Col>
 
@@ -93,8 +93,8 @@ const Dashboard = ({ refProp }) => {
                                 </p>
                             </Col>
 
-                            <Col xs={24} sm={24} md={12} lg={12} xl={16} className="item">
-                                <img style={{ width: '100%' }} src={PDQ} alt="icon" />
+                            <Col xs={24} sm={24} md={12} lg={12} xl={14} className="item">
+                                <img style={{ width: '100%', height: '90%' }} src={PDQ} alt="icon" />
                             </Col>
 
                             <Col xs={24} sm={24} md={12} lg={12} xl={8} className="item">
