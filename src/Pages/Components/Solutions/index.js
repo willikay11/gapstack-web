@@ -37,7 +37,7 @@ const Solutions = () => {
                                     <div className="description-container">
                                         <p className="title">Gapstack for Banks</p>
                                         <p style={{ fontSize: 16, color: '#39426A', lineHeight: '30px' }}>
-                                            Automate & digitize your entire business operations and get funding when you need it. From Bank guarantees such as bid bonds to advance payment guarantees. Get it all.
+                                            Gapstack provides and end to end process flow for customer due diligence, financing and guarantee workflows and Automated integrations to the banks you serve.
                                         </p>
                                     </div>
                                 </div>
@@ -53,7 +53,7 @@ const Solutions = () => {
                                     <div className="description-container">
                                         <p className="title">Gapstack for Businesses</p>
                                         <p style={{ fontSize: 16, color: '#39426A', lineHeight: '30px' }}>
-                                            Gapstack provides and end to end process flow for customer due diligence, financing and guarantee workflows and Automated integrations to the banks you serve.
+                                            Automate & digitize your entire business operations and get funding when you need it. From Bank guarantees such as bid bonds to advance payment guarantees. Get it all.
                                         </p>
                                     </div>
                                 </div>
