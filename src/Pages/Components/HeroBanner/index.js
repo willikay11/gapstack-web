@@ -7,7 +7,7 @@ import { Fade } from "react-awesome-reveal";
 import styled from "styled-components";
 import { style } from "./styles";
 import FirstTimeRegistrationDashboard from "../../../assets/First-Time-Registration-Dashboard.webp";
-import mobile from "../../../assets/Finance-Supplying-Mobile.svg";
+import mobile from "../../../assets/mobile.webp";
 
 const HeroWrapper = styled.div`
   ${style}
