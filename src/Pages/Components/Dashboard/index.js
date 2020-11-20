@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row, Divider } from "antd";
-import FinanceSupplyingMobile from "../../../assets/Finance-Supplying-Mobile.svg";
+import FinanceSupplyingMobile from "../../../assets/mobile.webp";
 import PDQ from "../../../assets/PDQ.webp";
 import { IoIosCog, IoIosDocument, IoIosWallet, IoMdAnalytics, IoIosCash } from "react-icons/all";
 import ImportExport from '../../../assets/ImportExport.svg';

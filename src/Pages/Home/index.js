@@ -11,7 +11,7 @@ import Solutions from "../Components/Solutions";
 import Footer from "../Components/Footer";
 import Contact from "../Components/Contact";
 import Hero from "../Components/HeroBanner";
-import MarketImage from "../../assets/market.svg";
+import MarketImage from "../../assets/market.webp";
 
 
 const HomeWrapper = styled.div`
