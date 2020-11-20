@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row, Divider } from "antd";
 import FinanceSupplyingMobile from "../../../assets/Finance-Supplying-Mobile.svg";
-import PDQ from "../../../assets/PDQ.svg";
+import PDQ from "../../../assets/PDQ.jpg";
 import { IoIosCog, IoIosDocument, IoIosWallet, IoMdAnalytics, IoIosCash } from "react-icons/all";
 import ImportExport from '../../../assets/ImportExport.svg';
 import {Fade} from "react-awesome-reveal";

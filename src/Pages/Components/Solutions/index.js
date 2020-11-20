@@ -3,9 +3,9 @@ import {Fade} from "react-awesome-reveal";
 import {Col, Row} from "antd";
 import styled from "styled-components";
 import { style } from "./styles";
-import CoolKidsMeeting from "../../../assets/Cool-Kids-Pitch-Meeting.svg";
-import CoolKidsDiscussion from "../../../assets/Cool-Kids-Discussion.svg";
-import CoolKidsStanding from "../../../assets/Cool-Kids-Standing.svg";
+import CoolKidsMeeting from "../../../assets/Cool-Kids-Pitch-Meeting.jpg";
+import CoolKidsDiscussion from "../../../assets/Cool-Kids-Discussion.jpg";
+import CoolKidsStanding from "../../../assets/Cool-Kids-Standing.jpg";
 const UsersWrapper = styled.div`
   ${style}
 `;
