@@ -6,7 +6,7 @@ import { Fade } from "react-awesome-reveal";
 // import Particles from "react-particles-js";
 import styled from "styled-components";
 import { style } from "./styles";
-import FirstTimeRegistrationDashboard from "../../../assets/First-Time-Registration-Dashboard.svg";
+import FirstTimeRegistrationDashboard from "../../../assets/First-Time-Registration-Dashboard.webp";
 import mobile from "../../../assets/mobile.svg";
 
 const HeroWrapper = styled.div`
