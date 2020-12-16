@@ -27,7 +27,7 @@ const Who = () => {
                         <Row>
                             <Col xs={24} sm={24} md={24} lg={18} xl={18}>
                                 <p className="sub-title">Who we are</p>
-                                <p className="title">At Gap stack, we are on a mission to build a trade operating system for all Businesses.</p>
+                                <p className="title">At Gapstack, we are on a mission to build a trade operating system for all Businesses.</p>
                             </Col>
                         </Row>
                     </Col>
