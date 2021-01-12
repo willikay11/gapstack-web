@@ -13,7 +13,7 @@ const style = ({backgroundImage}) => css`
   
   .background-container {
     background-image: url(${backgroundImage});
-    height: 600px;
+    height: 800px;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;

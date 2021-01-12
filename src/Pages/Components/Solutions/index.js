@@ -23,7 +23,7 @@ const Solutions = () => {
                         <Row>
                             <Col xs={24} sm={24} md={24} lg={10} xl={10}>
                                 <p className="title">The Business Growth Platform </p>
-                                <p className="description">Thousands of organizations of all sizes trust Gapstack to grow their business.</p>
+                                {/*<p className="description">Thousands of organizations of all sizes trust Gapstack to grow their business.</p>*/}
                             </Col>
                         </Row>
                         <Row className="owl-carousel-container" gutter={20}>
@@ -32,13 +32,12 @@ const Solutions = () => {
                                  md={22}
                                  lg={8}
                                  xl={8}>
-                                <div>
+                                <div className="item">
                                     <img className="img image" src={CoolKidsMeeting} alt='alternate'/>
                                     <div className="description-container">
                                         <p className="title">Gapstack for Banks</p>
                                         <p style={{ fontSize: 16, color: '#39426A', lineHeight: '30px' }}>
-                                            Gapstack provides and end to end process flow for customer due diligence, financing and guarantee workflows and Automated integrations to the banks you serve.
-                                        </p>
+                                            Optimize your eco-system and value chain financing processes. Enrich your market acquisition strategy and grow your customer wallet share.                                        </p>
                                     </div>
                                 </div>
                             </Col>
@@ -48,13 +47,12 @@ const Solutions = () => {
                                  md={22}
                                  lg={8}
                                  xl={8}>
-                                <div>
+                                <div className="item">
                                     <img className="img image" src={CoolKidsDiscussion} alt='alternate'/>
                                     <div className="description-container">
                                         <p className="title">Gapstack for Businesses</p>
                                         <p style={{ fontSize: 16, color: '#39426A', lineHeight: '30px' }}>
-                                            Automate & digitize your entire business operations and get funding when you need it. From Bank guarantees such as bid bonds to advance payment guarantees. Get it all.
-                                        </p>
+                                            Automate & digitize your entire business operations. Scale and grow your business by faster access to finance when you need it.                                        </p>
                                     </div>
                                 </div>
                             </Col>
@@ -64,12 +62,12 @@ const Solutions = () => {
                                  md={22}
                                  lg={8}
                                  xl={8}>
-                                <div>
+                                <div className="item">
                                     <img className="img image" src= {CoolKidsStanding} alt='alternate'/>
                                     <div className="description-container">
                                         <p className="title">Gapstack for Agents</p>
                                         <p style={{ fontSize: 16, color: '#39426A', lineHeight: '30px' }}>
-                                            Gapstack provides and end to end process flow for customer due diligence, financing and guarantee workflows and Automated integrations to the banks you serve.
+                                            Digitize connections to your financial partners. Realize greater opportunities to scale and grow your network’s access to financing.
                                         </p>
                                     </div>
                                 </div>

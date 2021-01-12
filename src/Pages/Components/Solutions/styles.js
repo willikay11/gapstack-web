@@ -52,14 +52,14 @@ const style = () => css`
   
   .title {
     color: ${gapstackPurple};
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 800;
     line-height: 135.2%
   }
   
   ${device.largeScreen || device.desktopOrLaptop || device.tabletLandscape || device.tabletPortrait} {
     .title {
-        font-size: 20px;
+        font-size: 50px;
     }
   }
   
@@ -70,20 +70,20 @@ const style = () => css`
   }
   
   .item {
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    //background-color: #fff;
+    //border-radius: 5px;
+    //box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    //padding: 20px;
 
     .title {
-      font-size: 30px;
+      font-size: 18px;
       color: ${gapstackPurple};
       font-weight: 800
     }
     
       ${device.largeScreen || device.desktopOrLaptop || device.tabletLandscape || device.tabletPortrait} {
         .title {
-            font-size: 34px;
+            font-size: 20px;
         }
       }
       
