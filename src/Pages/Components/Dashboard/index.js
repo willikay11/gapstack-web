@@ -1,6 +1,6 @@
 import React from "react";
-import { Col, Row, Divider } from "antd";
-import { IoIosCog, IoIosDocument, IoIosWallet, IoMdAnalytics, IoIosCash } from "react-icons/all";
+import { Col, Row } from "antd";
+import { IoIosCog, IoIosDocument, IoIosWallet } from "react-icons/all";
 import CountryFlags from '../../../assets/country-flags.webp';
 import {Fade} from "react-awesome-reveal";
 import styled from "styled-components";

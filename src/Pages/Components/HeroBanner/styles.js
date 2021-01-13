@@ -1,8 +1,6 @@
 import { css } from 'styled-components';
 import { device } from '../../../styles/deviceSizes';
 
-const gapstackPurple = '#39426A';
-
 const style = ({ backgroundImage }) => css`
   background-image: url(${backgroundImage});
   background-size: cover;

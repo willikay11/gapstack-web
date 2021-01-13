@@ -7,8 +7,8 @@ import OwlCarousel from 'react-owl-carousel';
 import styled from "styled-components";
 import { style } from "./styles";
 import {BiChip, IoMdAnalytics} from "react-icons/all";
-import {MdPayment, MdPeople} from "react-icons/md";
-import {FaChartBar, FaGlobe} from "react-icons/fa";
+import {MdPayment } from "react-icons/md";
+import {FaGlobe} from "react-icons/fa";
 
 const WhoWrapper = styled.div`
   ${style}
