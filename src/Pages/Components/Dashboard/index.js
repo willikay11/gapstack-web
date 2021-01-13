@@ -67,7 +67,7 @@ const Dashboard = ({ refProp }) => {
                                     </p>
                                 </Col>
 
-                                <Col xs={24} sm={24} md={12} lg={12} xl={9} className="item">
+                                <Col xs={24} sm={24} md={12} lg={12} xl={8} className="item">
                                     <p className="title">The Gapstack Advantage</p>
                                     <p className="description">
                                         - Growth in business networks and net worth. <br/>

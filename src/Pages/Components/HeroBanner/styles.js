@@ -8,7 +8,6 @@ const style = ({ backgroundImage }) => css`
   .container {
     position: relative;
     min-height: 100vh;
-    background: linear-gradient(71.25deg, rgba(124, 96, 255, 0.2) 43.89%, rgba(124, 96, 255, 0.2) 86.03%);
   }
   
   .fade-container {

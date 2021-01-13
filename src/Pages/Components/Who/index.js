@@ -94,13 +94,6 @@ const Who = () => {
                                             Execute and track payments using your bank account or mobile wallet from one place. Get real time updates on all your money matters.
                                         </p>
                                     </div>
-                                    <div className="owl-container item">
-                                        <FaGlobe color='#39426A' className="icon" size={40} />
-                                        <p className="title">Intuitive & Scalable  technology</p>
-                                        <p className="description">
-                                            Built on highly resilient microservices architecture with cloud and on prem hybrid to cater for data residency but at the same time agile technologies to connect to ERPs and Banking systems at scale.
-                                        </p>
-                                    </div>
                                 </OwlCarousel>
                             </Col>
                         </Row>
