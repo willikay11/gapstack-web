@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col, Button } from "antd";
-import gapstackLogo from '../../assets/gapStackLogo.svg';
+import gapstackLogo from '../../assets/Logo.svg';
 import styled from "styled-components";
 import { style } from "./styles";
 
@@ -26,10 +26,10 @@ const Menu = ({ scrollToSolutions, scrollToContactForm }) => {
                      xl={{ span: 5, offset: 2 }}>
                     <Row gutter={42} className="action-container">
                         <Col xs={9} sm={9} md={9} lg={10} xl={8}>
-                            <Button type='link' style={{ color: '#39426A'}} onClick={() => scrollToSolutions()}>Solutions</Button>
+                            <Button type='link' style={{ color: '#ffffff'}} onClick={() => scrollToSolutions()}>Solutions</Button>
                         </Col>
                         <Col xs={12} sm={12} md={12} lg={10} xl={6}>
-                            <Button style={{ color: '#fff', backgroundColor: '#7c60ff', height: 50, borderRadius: 4}}
+                            <Button style={{ color: '#fff', backgroundColor: '#7c60ff', height: 50, borderRadius: 4, borderColor: '#7c60ff', minWidth: 140 }}
                                     onClick={() => scrollToContactForm()}
                             >Contact Us</Button>
                         </Col>

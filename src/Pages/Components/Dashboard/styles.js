@@ -3,11 +3,16 @@ import { device } from '../../../styles/deviceSizes';
 
 const gapstackPurple = '#39426A';
 
-const style = () => css`
+const style = ({ backgroundImage }) => css`
   .container {
     min-height: 400px;
-    margin-top: 50px;
-    // background-color: #f3f4f8;
+    background-image: url(${backgroundImage});
+    background-size: cover;
+    background-repeat: no-repeat;
+     .container-two {
+        background: linear-gradient(113.53deg, #F3F4F8 41.45%, rgba(248, 249, 251, 0.658783) 83.36%, rgba(255, 255, 255, 0.2) 118.9%);
+        padding: 100px 0px;
+     }
   }
   
   .image-container {

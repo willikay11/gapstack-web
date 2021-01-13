@@ -3,11 +3,14 @@ import { device } from '../../../styles/deviceSizes';
 
 const gapstackPurple = '#39426A';
 
-const style = () => css`
-  // background-color: #f3f4f8;  
+const style = ({ backgroundImage }) => css`
+  background-image: url(${backgroundImage});
+  background-size: cover;
+  background-repeat: no-repeat;
   .container {
     position: relative;
-    min-height: 100vh; 
+    min-height: 100vh;
+    background: linear-gradient(71.25deg, rgba(124, 96, 255, 0.2) 43.89%, rgba(124, 96, 255, 0.2) 86.03%);
   }
   
   .fade-container {
@@ -24,13 +27,22 @@ const style = () => css`
     flex-direction: column;
     margin-bottom: 70px;
     margin-top: 100px;
+    .sub-title {
+      font-size: 40px;
+      line-height: 135.2%;
+      font-weight: 800;
+      font-style: normal;
+      color: #ffffff;
+      margin-bottom: 5px;
+    }
     .title {
-        font-size: 34px;
-        color: ${gapstackPurple};
+        font-size: 60px;
         text-transform: capitalize;
         line-height: 135.2%;
-        font-weight: bold;
-        font-style: normal
+        font-weight: 800;
+        font-style: normal;
+        color: #ffffff;
+        margin-bottom: 15px;
     }
     
     ${device.desktopOrLaptop} {
@@ -52,8 +64,8 @@ const style = () => css`
     }
     
     .description {
-        font-size: 16px;
-        color: ${gapstackPurple};
+        font-size: 20px;
+        color: #ffffff;
         line-height: 30px;
         font-weight: 500;
         font-style: normal;

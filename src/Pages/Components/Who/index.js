@@ -1,12 +1,12 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
-import { Col, Row } from "antd";
+import { Col, Row, Divider } from "antd";
 import OwlCarousel from 'react-owl-carousel';
 // import 'owl.carousel/dist/assets/owl.carousel.css';
 // import 'owl.carousel/dist/assets/owl.theme.default.css';
 import styled from "styled-components";
 import { style } from "./styles";
-import { BiChip } from "react-icons/all";
+import {BiChip, IoMdAnalytics} from "react-icons/all";
 import {MdPayment, MdPeople} from "react-icons/md";
 import {FaChartBar, FaGlobe} from "react-icons/fa";
 
@@ -26,8 +26,14 @@ const Who = () => {
                          xl={{ span: 16, offset: 4 }}>
                         <Row>
                             <Col xs={24} sm={24} md={24} lg={18} xl={18}>
-                                <p className="sub-title">Who we are</p>
-                                <p className="title">At Gapstack, we are on a mission to build a trade operating system for all Businesses.</p>
+                                <p className="title">
+                                    Automate
+                                    <Divider type='vertical' style={{ height: 35, borderLeft: '2px solid #39426A', margin: '0px 15px' }}/>
+                                    Fund
+                                    <Divider type='vertical' style={{ height: 35, borderLeft: '2px solid #39426A', margin: '0px 15px' }}/>
+                                    Network
+                                </p>
+                                <p className="sub-title">Trade made easy. Manage all your business transactions, local and global on one platform.</p>
                             </Col>
                         </Row>
                     </Col>
@@ -37,25 +43,12 @@ const Who = () => {
                          lg={{ span: 20, offset: 4 }}
                          xl={{ span: 20, offset: 4 }}>
                         <Row>
-                            <Col xs={24} sm={24} md={24} lg={24} xl={10} className="left-content">
-                                <p className="description">
-                                    In a unified and connected technology platform, businesses of all sizes can start their digitization journey targeting the heart of their operations – the source of their cash. A business can automate their accounts payables and accounts receivables, eliminating the need for paper based transactions.
-                                </p>
-
-                                <p className="description">
-                                    We understand the importance of working capital to the operations of a business and have offered a unique ability to liberate this cash from your accounts receivables. Instead of waiting 30- 180 days to get paid, access your capital in days to grow and scale. We know you want to fund larger orders as part of your growth mission and avail a seamless channel to access the capital needed to unlock these opportunities.
-                                </p>
-
-                                <p className="description">
-                                    Whether sourcing or selling, locally or globally efficiency is of critical importance. A true digital business cannot exist without understanding its dependencies and we map your entire business network around your buying and selling relationships through our AI powered engine, to identify important nodes in your network and how they affect your growth and scale.
-                                </p>
-                            </Col>
-                            <Col xs={24} sm={24} md={24} lg={24} xl={14}>
+                            <Col xs={24} sm={24} md={24} lg={24} xl={24}>
                                 <OwlCarousel className="owl-carousel owl-theme"
                                              loop
                                              responsiveClass={true}
                                              nav
-                                             margin={30}
+                                             margin={10}
                                              responsive={
                                                  {
                                                      0: {
@@ -65,37 +58,40 @@ const Who = () => {
                                                          items: 2
                                                      },
                                                      1000: {
-                                                         items: 2
+                                                         items: 3.5
                                                      },
                                                      1800: {
-                                                         items: 2
+                                                         items: 3.5
                                                      }
                                                  }
                                              }
                                 >
                                     <div className="owl-container item">
-                                        <BiChip color='#1E87F0' className="icon" size={40}/>
-                                        <p className="title">Digital trade network</p>
-                                        <p className="description">Like Social Networks & friends,
-                                            Gapstack helps organizations digitize supply chain networks with our AI powered platform at the core of your operations. Whether local or global, go beyond transactional engagements with your relationships to understand dependencies with your business and their impact.</p>
-                                    </div>
-                                    <div className="owl-container item">
-                                        <MdPeople color='#7C60FF' className="icon" size={40}/>
-                                        <p className="title">Connected Buyers & Suppliers</p>
-                                        <p className="description">With Gapstack´s ecosystem tool, comprehensively map relationships between your buyers and supplier nodes and optimize for each. Our demand and supply prediction tools will highlight cash drivers in your business from  finance, sales, supply, distribution, procurement for efficient, smarter and data driven business decision making.</p>
-                                    </div>
-                                    <div className="owl-container item">
-                                        <MdPayment color='#2CCC71' className="icon" size={40} />
-                                        <p className="title">Seamless Payments</p>
+                                        <FaGlobe color='#39426A' className="icon" size={40} />
+                                        <p className="title">Working Capital Finance</p>
                                         <p className="description">
-                                            Securely  Pay your suppliers and receive payments from your buyers, both local and global to your bank account or mobile wallet with the ability to  tag each transaction to your business processes. Our payment tracker offers live status updates of your money transfer, due payables and receivables making it easier for you to forecast cash flow
+                                            Improve the liquidity of your business by faster financing options including invoice discounting, inventory, trade and distributor finance. Access business financing when you need it.
                                         </p>
                                     </div>
                                     <div className="owl-container item">
-                                        <FaChartBar color='#F6B93B' className="icon" size={40} />
-                                        <p className="title">Robust Data & Analytics</p>
+                                        <BiChip color='#1E87F0' className="icon" size={40}/>
+                                        <p className="title">Digital Trade</p>
                                         <p className="description">
-                                            Visualize your data across your different business segments to generate insight into your entire operations by slicing and dicing data on your business through our analytics engine
+                                            Connect with your domestic and international buyers & suppliers on a single trade platform. View your financial capacity, trends and relationships.
+                                        </p>
+                                    </div>
+                                    <div className="owl-container item">
+                                        <IoMdAnalytics color='#E55039' className="icon" size={40} />
+                                        <p className="title">Data Analytics</p>
+                                        <p className="description">
+                                            Using our dashboard, monitor your company’s performance at a glance. Make sound business decisions based on data-driven insights.
+                                        </p>
+                                    </div>
+                                    <div className="owl-container item">
+                                        <MdPayment color='#2CCC71' className="icon" size={40} />
+                                        <p className="title">Secure Payments</p>
+                                        <p className="description">
+                                            Execute and track payments using your bank account or mobile wallet from one place. Get real time updates on all your money matters.
                                         </p>
                                     </div>
                                     <div className="owl-container item">

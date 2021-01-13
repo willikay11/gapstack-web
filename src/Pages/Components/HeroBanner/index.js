@@ -6,8 +6,7 @@ import { Fade } from "react-awesome-reveal";
 // import Particles from "react-particles-js";
 import styled from "styled-components";
 import { style } from "./styles";
-import FirstTimeRegistrationDashboard from "../../../assets/First-Time-Registration-Dashboard.webp";
-import mobile from "../../../assets/mobile.webp";
+import PortImage from "../../../assets/Port.webp";
 
 const HeroWrapper = styled.div`
   ${style}
@@ -15,7 +14,7 @@ const HeroWrapper = styled.div`
 
 const Hero = ({ scrollToSolutions, scrollToContactForm }) => {
     return(
-        <HeroWrapper>
+        <HeroWrapper backgroundImage={PortImage}>
             <Row className="container">
                 <Col span={24}>
                     <Menu scrollToSolutions={scrollToSolutions} scrollToContactForm={scrollToContactForm} />
@@ -34,20 +33,20 @@ const Hero = ({ scrollToSolutions, scrollToContactForm }) => {
                                          lg={24}
                                          xl={24} className="banner-container">
                                         <Row style={{ marginBottom: 40 }}>
-                                            <Col xs={24} sm={24} md={24} lg={16} xl={16}>
-                                                <p className="title">Powerful Digital Supply Chain & Trade Finance Platform.</p>
-                                                <p className="description">At Gapstack, we believe in giving businesses the liberty to access working capital to launch, grow & scale.  We have built a trade operating system to allow businesses of all sizes, in local or global value chains to do more.</p>
-                                                <p className="description">When you register on Gapstack, we help you automate your buyer-supplier relationships, unlock funding from your receivables – POs, invoices, orders  and your payables – POs, vendor invoices and build your unique business ecosystem.</p>
-                                                <p className="description">Automate.  Fund. Network. </p>
+                                            <Col xs={24} sm={24} md={24} lg={16} xl={14}>
+                                                <p className="sub-title">Your Business</p>
+                                                <p className="title">Growth Platform</p>
+                                                <p className="description">We are passionate about empowering businesses of all sizes with the tools to trade, grow and scale. We go straight to the heart of your operations – cash and business connections.</p>
+                                                <p className="description">We simplify the way you trade across the world and get financing to grow your business.</p>
                                             </Col>
                                         </Row>
 
-                                        <Row style={{ width: '100%' }}>
-                                            <Col span={24}>
-                                                <img width='100%' src={FirstTimeRegistrationDashboard} alt="Dashboard" />
-                                                <img src={mobile} alt="mobile" className="mobile-image" />
-                                            </Col>
-                                        </Row>
+                                        {/*<Row style={{ width: '100%' }}>*/}
+                                        {/*    <Col span={24}>*/}
+                                        {/*        <img width='100%' src={FirstTimeRegistrationDashboard} alt="Dashboard" />*/}
+                                        {/*        <img src={mobile} alt="mobile" className="mobile-image" />*/}
+                                        {/*    </Col>*/}
+                                        {/*</Row>*/}
                                         {/*<Button onClick={() => scrollToContactForm()} style={{ color: '#fff', backgroundColor: '#7c60ff', height: 50, borderRadius: 4, marginTop: 50 }}>Contact Us</Button>*/}
                                     </Col>
                                 </Row>
@@ -55,14 +54,14 @@ const Hero = ({ scrollToSolutions, scrollToContactForm }) => {
                         </Row>
                     </Fade>
 
-                    <Fade
-                        triggerOnce={true}
-                        fraction={0.3}
-                        className="circular">
-                        <div className="circle first" />
-                        <div className="circle second" />
-                        <div className="circle third" />
-                    </Fade>
+                    {/*<Fade*/}
+                    {/*    triggerOnce={true}*/}
+                    {/*    fraction={0.3}*/}
+                    {/*    className="circular">*/}
+                    {/*    <div className="circle first" />*/}
+                    {/*    <div className="circle second" />*/}
+                    {/*    <div className="circle third" />*/}
+                    {/*</Fade>*/}
 
                     {/*<Particles*/}
                     {/*    style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: 0 }}*/}
