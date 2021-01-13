@@ -43,7 +43,7 @@ const Contact = ({ refProp }) => {
                                  md={{ span:10 }}
                                  lg={{ span:8 }}
                                  xl={{ span:8 }}>
-                                <div style={{ marginTop: '7.5vh' }} />
+                                <div style={{ marginTop: '11.5%' }} />
                                 <p className="description">
                                     We can’t wait to have a chat with you and start the journey together.
                                 </p>

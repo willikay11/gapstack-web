@@ -76,7 +76,7 @@ const Dashboard = ({ refProp }) => {
                                 </Col>
 
                                 <Col xs={24} sm={24} md={12} lg={12} xl={8} className="item">
-                                    <p className="title"></p>
+                                    <div style={{ marginTop: '11.5%' }}/>
                                     <p className="description">
                                         - Get paid early and pay early. <br />
                                         - Real time view of business performance.
