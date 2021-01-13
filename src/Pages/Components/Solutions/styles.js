@@ -6,8 +6,8 @@ const gapstackPurple = '#39426A';
 const style = () => css`
   .container {
     min-height: 500px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
   
   .owl-carousel-container {

@@ -6,9 +6,9 @@ const gapstackPurple = '#39426A';
 const style = ({ backgroundImage }) => css`
   background-color: #f3f4f8;
   .container {
-    height: 400px;
-    margin-top: 50px;
-    margin-bottom: 50px;  
+    min-height: 400px;
+    padding-top: 100px;
+    padding-bottom: 50px;  
     align-items: center;
     display: flex;
   }
@@ -48,6 +48,13 @@ const style = ({ backgroundImage }) => css`
     }
   }
   
+  .title-two {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 135.2%;
+    color: ${gapstackPurple};
+  }
   .description {
     font-size: 16px;
     line-height: 30px;
