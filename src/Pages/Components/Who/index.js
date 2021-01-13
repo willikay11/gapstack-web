@@ -48,6 +48,7 @@ const Who = () => {
                                              loop
                                              responsiveClass={true}
                                              nav
+                                             dots={false}
                                              margin={10}
                                              responsive={
                                                  {
