@@ -54,6 +54,7 @@ const style = ({ backgroundImage }) => css`
     font-size: 20px;
     line-height: 135.2%;
     color: ${gapstackPurple};
+    margin-top: 20px;
   }
   .description {
     font-size: 16px;

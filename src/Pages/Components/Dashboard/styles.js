@@ -65,7 +65,17 @@ const style = ({ backgroundImage }) => css`
       font-size: 16px;
       font-weight: normal;
       line-height: 30px;
+      margin-bottom: 0px;
     }
+
+     .bullet {
+        content: "";
+        border: 1.33333px solid #777C93;
+        width: 10px;
+        height: 10px;
+        border-radius: 5px;
+        margin-right: 10px;
+     }
   }
 `;
 

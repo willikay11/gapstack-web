@@ -55,7 +55,7 @@ const Dashboard = ({ refProp }) => {
                                     <IoIosDocument color='#1E87F0' size={40} className="icon" />
                                     <p className="title">Working Capital & Order Financing</p>
                                     <p className="description">
-                                        Improve your cash flow and supplier loyalty by making and receiving early payments on your invoices and orders.
+                                        Liberate cash to boost and grow your business through faster access to financing from your invoices and orders.
                                     </p>
                                 </Col>
 
@@ -69,18 +69,39 @@ const Dashboard = ({ refProp }) => {
 
                                 <Col xs={24} sm={24} md={12} lg={12} xl={8} className="item">
                                     <p className="title">The Gapstack Advantage</p>
-                                    <p className="description">
-                                        - Growth in business networks and net worth. <br/>
-                                        - Cross border trade financing.
-                                    </p>
+
+                                    <div style={{ display: 'flex', alignItems: 'center' }}>
+                                        <div className="bullet" />
+                                        <p className="description">
+                                            Cross border trade financing.
+                                        </p>
+                                    </div>
+
+                                    <div style={{ display: 'flex', alignItems: 'center' }}>
+                                        <div className="bullet" />
+                                        <p className="description">
+                                            Growth in business networks and net worth.
+                                        </p>
+                                    </div>
+
                                 </Col>
 
                                 <Col xs={24} sm={24} md={12} lg={12} xl={8} className="item">
                                     <div style={{ marginTop: '11.5%' }}/>
-                                    <p className="description">
-                                        - Get paid early and pay early. <br />
-                                        - Real time view of business performance.
-                                    </p>
+
+                                    <div style={{ display: 'flex', alignItems: 'center' }}>
+                                        <div className="bullet" />
+                                        <p className="description">
+                                            Get paid early and pay early.
+                                        </p>
+                                    </div>
+
+                                    <div style={{ display: 'flex', alignItems: 'center' }}>
+                                        <div className="bullet" />
+                                        <p className="description">
+                                            Real time view of business performance.
+                                        </p>
+                                    </div>
                                 </Col>
                             </Row>
                         </Col>

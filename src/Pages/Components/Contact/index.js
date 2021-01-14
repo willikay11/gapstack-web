@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import {Fade} from "react-awesome-reveal";
 import {Button, Col, Row} from "antd";
-import {BiGitBranch, IoIosWallet} from "react-icons/all";
+import {IoIosCall, IoIosEasel} from "react-icons/all";
 import styled from "styled-components";
 import ContactForm from "./Components/Form/index";
 import { style } from "./styles";
+import ConnectedIcon from '../../../assets/Connected.png';
 
 const ContactWrapper = styled.div`
   ${style}
@@ -43,7 +44,10 @@ const Contact = ({ refProp }) => {
                                  md={{ span:10 }}
                                  lg={{ span:8 }}
                                  xl={{ span:8 }}>
-                                <div style={{ marginTop: '11.5%' }} />
+                                <IoIosCall color='#1E87F0' size={40} className="icon" />
+                                <p className="title-two">
+                                    Contact Us Now
+                                </p>
                                 <p className="description">
                                     We can’t wait to have a chat with you and start the journey together.
                                 </p>
@@ -57,12 +61,12 @@ const Contact = ({ refProp }) => {
                                  md={{ span:8 }}
                                  lg={{ span:8 }}
                                  xl={{ span:8 }}>
-                                <IoIosWallet color='#008D3D' size={40} className="icon" />
+                                <img src={ConnectedIcon} width={40} alt="Connected Icon" />
                                 <p className="title-two">
-                                    Always know what you pay
+                                    Get Connected
                                 </p>
                                 <p className="description">
-                                    Drive loyalty with your suppliers and grow your ecosystem by providing faster payments to your suppliers through early payments.
+                                    Start your integration with our user friendly and state of the art technology.
                                 </p>
                             </Col>
 
@@ -71,16 +75,16 @@ const Contact = ({ refProp }) => {
                                  md={{ span:8 }}
                                  lg={{ span:8 }}
                                  xl={{ span:8 }}>
-                                <BiGitBranch color='#FE9902' size={40} className="icon" />
+                                <IoIosEasel color='#39426A' size={40} className="icon" />
                                 <p className="title-two">
-                                    Start your integration
+                                    Personalize Your Platform
                                 </p>
                                 <p className="description">
-                                    Built on highly resilient microservices architecture with cloud and on prem hybrid to
+                                    Automate your business while maintaining your business processes & branding.
                                 </p>
                             </Col>
                         </Row>
-                        <Row style={{ display: 'flex', justifyContent: 'flex-end' }}>
+                        <Row style={{ display: 'flex', justifyContent: 'flex-start' }}>
                             <Col>
                                 <Button onClick={() => setModalVisibility(true)}
                                         style={{ color: '#fff', backgroundColor: '#7C60FF', borderRadius: 4, height: 50 }}>
