@@ -69,7 +69,7 @@ const Who = () => {
                                 >
                                     <div className="owl-container item">
                                         <FaGlobe color='#39426A' className="icon" size={40} />
-                                        <p className="title">Working Capital Finance</p>
+                                        <p className="title">Working Capital</p>
                                         <p className="description">
                                             Improve the liquidity of your business by faster financing options including invoice discounting, inventory, trade and distributor finance. Access business financing when you need it.
                                         </p>
