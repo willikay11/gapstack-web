@@ -61,7 +61,7 @@ const Contact = ({ refProp }) => {
                                  md={{ span:8 }}
                                  lg={{ span:8 }}
                                  xl={{ span:8 }}>
-                                <img src={ConnectedIcon} width={40} alt="Connected Icon" />
+                                <img src={ConnectedIcon} width={40} style={{ marginBottom: 5 }} alt="Connected Icon" />
                                 <p className="title-two">
                                     Get Connected
                                 </p>
