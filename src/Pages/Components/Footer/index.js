@@ -35,7 +35,7 @@ const Footer = ({ scrollToSolutions, scrollToContactForm }) => {
                                 <p className="text">NAIROBI – HEAD OFFICE</p>
                                 <p className="text">Kirichwa Rd, Nairobi</p>
                                 <p className="text">P.O. Box 19400 Nairobi, Kenya</p>
-                                <p className="text">(+254) 0717 663 681</p>
+                                {/*<p className="text">(+254) 0717 663 681</p>*/}
                                 <p className="email-link">info@gapstack.com</p>
                             </Col>
 
