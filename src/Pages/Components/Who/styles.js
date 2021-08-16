@@ -46,10 +46,10 @@ const style = () => css`
     border-radius: 5px;
     min-height: 300px;
     // width: 400px;
-    padding: 40px;
+    padding: 40px 40px 40px 0px;
     &:hover {
-      box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1);
-      border-radius: 5px;
+      //box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1);
+      //border-radius: 5px;
     }
     .icon {
       margin-bottom: 30px;
