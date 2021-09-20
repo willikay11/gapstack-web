@@ -27,11 +27,11 @@ const Who = () => {
                         <Row>
                             <Col xs={24} sm={24} md={24} lg={18} xl={18}>
                                 <p className="title">
-                                    Automate
+                                    Digitize
                                     <Divider type='vertical' style={{ height: 35, borderLeft: '2px solid #39426A', margin: '0px 15px' }}/>
                                     Fund
                                     <Divider type='vertical' style={{ height: 35, borderLeft: '2px solid #39426A', margin: '0px 15px' }}/>
-                                    Network
+                                    Trade
                                 </p>
                                 <p className="sub-title">Trade made easy. Manage all your business transactions, local and global on one platform.</p>
                             </Col>

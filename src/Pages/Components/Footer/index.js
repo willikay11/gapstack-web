@@ -1,7 +1,7 @@
 import React from "react";
 import {Fade} from "react-awesome-reveal";
 import { Col, Row } from "antd";
-import gapstackLogo from "../../../assets/gapStackLogo.svg";
+import gapstackLogo from "../../../assets/GapstackPurpleLogo.svg";
 import styled from "styled-components";
 import { style } from "./styles";
 

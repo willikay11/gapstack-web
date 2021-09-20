@@ -40,9 +40,9 @@ const Home = () => {
 
                 <Solutions />
 
-                <Row>
-                    <div className="background-container"/>
-                </Row>
+                {/*<Row>*/}
+                {/*    <div className="background-container"/>*/}
+                {/*</Row>*/}
 
                 <Contact refProp={contactForm}/>
 
