@@ -12,6 +12,7 @@ import Footer from "../Components/Footer";
 import Contact from "../Components/Contact";
 import Hero from "../Components/HeroBanner";
 import bulbImage from "../../assets/bulb.webp";
+import { LinearCanvas } from "../../Components/LinearCanvas";
 
 
 const HomeWrapper = styled.div`
@@ -32,6 +33,7 @@ const Home = () => {
             <div className="home-container">
                 <Hero scrollToSolutions={executeScrollToSolutions} scrollToContactForm={executeScrollToContactForm}/>
 
+                <LinearCanvas />
                 <Who />
 
                 {/*<Why />*/}
