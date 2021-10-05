@@ -3,9 +3,11 @@ import {Fade} from "react-awesome-reveal";
 import {Col, Row} from "antd";
 import styled from "styled-components";
 import { style } from "./styles";
-import CoolKidsMeeting from "../../../assets/Cool-Kids-Pitch-Meeting.webp";
-import CoolKidsDiscussion from "../../../assets/Cool-Kids-Discussion.webp";
-import CoolKidsStanding from "../../../assets/Cool-Kids-Standing.webp";
+import {GapstackButton} from "../../../Components/Buttons";
+import SailingShip from "../../../assets/SailingShip.svg";
+import Port from "../../../assets/Port.svg";
+import PortDock from "../../../assets/PortDock.svg";
+
 const UsersWrapper = styled.div`
   ${style}
 `;
@@ -22,55 +24,37 @@ const Solutions = () => {
                          xl={{ offset: 4, span: 16 }}>
                         <Row>
                             <Col xs={24} sm={24} md={24} lg={10} xl={10}>
-                                <p className="title">The Business Growth Platform </p>
-                                {/*<p className="description">Thousands of organizations of all sizes trust Gapstack to grow their business.</p>*/}
+                                <p className="title">Explore the Gapstack Advantage Now</p>
+                            </Col>
+                            <Col className="button-container" xs={24} sm={24} md={24} lg={14} xl={14}>
+                                <GapstackButton type="orange" buttonName="Contact Sales" />
                             </Col>
                         </Row>
-                        <Row className="owl-carousel-container" gutter={20}>
-                            <Col xs={22}
-                                 sm={22}
-                                 md={22}
-                                 lg={8}
-                                 xl={8}>
-                                <div className="item">
-                                    <img className="img image" src={CoolKidsMeeting} alt='alternate'/>
-                                    <div className="description-container">
+                        <Row style={{ marginTop: 20 }} gutter={20}>
+                            <Col xs={24} sm={24} md={24} lg={14} xl={14}>
+                                <div className="background-content" style={{ backgroundImage: `url(${SailingShip})`, height: '620px' }}>
+                                    <div className="text-container">
                                         <p className="title">Gapstack for Banks</p>
-                                        <p style={{ fontSize: 16, color: '#39426A', lineHeight: '30px' }}>
-                                            Optimize your eco-system and value chain financing processes. Enrich your market acquisition strategy and grow your customer wallet share.                                        </p>
+                                        <p className="description">Optimize your eco-system and value chain financing processes. Enrich your market acquisition strategy and grow your customer wallet share</p>
                                     </div>
                                 </div>
                             </Col>
-
-                            <Col xs={22}
-                                 sm={22}
-                                 md={22}
-                                 lg={8}
-                                 xl={8}>
-                                <div className="item">
-                                    <img className="img image" src={CoolKidsDiscussion} alt='alternate'/>
-                                    <div className="description-container">
-                                        <p className="title">Gapstack for Businesses</p>
-                                        <p style={{ fontSize: 16, color: '#39426A', lineHeight: '30px' }}>
-                                            Automate & digitize your entire business operations. Scale and grow your business by faster access to finance when you need it.                                        </p>
+                            <Col xs={24} sm={24} md={24} lg={10} xl={10}>
+                                <Row>
+                                    <div className="background-content" style={{ backgroundImage: `url(${Port})`, height: '300px' }}>
+                                        <div className="text-container">
+                                            <p className="title">Gapstack for Businesses</p>
+                                            <p className="description">Automate & digitize your entire business operations. Scale and grow your business by faster access to finance when you need it.</p>
+                                        </div>
                                     </div>
-                                </div>
-                            </Col>
 
-                            <Col xs={22}
-                                 sm={22}
-                                 md={22}
-                                 lg={8}
-                                 xl={8}>
-                                <div className="item">
-                                    <img className="img image" src= {CoolKidsStanding} alt='alternate'/>
-                                    <div className="description-container">
-                                        <p className="title">Gapstack for Agents</p>
-                                        <p style={{ fontSize: 16, color: '#39426A', lineHeight: '30px' }}>
-                                            Digitize connections to your financial partners. Realize greater opportunities to scale and grow your network’s access to financing.
-                                        </p>
+                                    <div className="background-content" style={{ marginTop: 20, backgroundImage: `url(${PortDock})`, height: '300px' }}>
+                                        <div className="text-container">
+                                            <p className="title">Gapstack for Agents</p>
+                                            <p className="description">Digitize connections to your financial partners. Realize greater opportunities to scale and grow your network’s access to financing.</p>
+                                        </div>
                                     </div>
-                                </div>
+                                </Row>
                             </Col>
                         </Row>
                     </Col>

@@ -7,7 +7,7 @@ import { Fade } from "react-awesome-reveal";
 import styled from "styled-components";
 import { style } from "./styles";
 import PortImage from "../../../assets/Port.webp";
-import { PurpleButton } from "../../../Components/Buttons";
+import { GapstackButton } from "../../../Components/Buttons";
 
 const HeroWrapper = styled.div`
   ${style}
@@ -39,7 +39,7 @@ const Hero = ({ scrollToSolutions, scrollToContactForm }) => {
                                                 <p className="title">The single Digital Trade Financing Platform</p>
                                                 <p className="description">At Gapstack, we digitize your buyer- supplier relationships; unlock funding from your account receivables and account pay-ables while building your unique business ecosystem.</p>
                                                 {/*<p className="description">We simplify the way you trade across the world and get financing to grow your business.</p>*/}
-                                                <PurpleButton buttonName="Get Started" />
+                                                <GapstackButton type="purple" buttonName="Get Started" />
                                             </Col>
                                         </Row>
 

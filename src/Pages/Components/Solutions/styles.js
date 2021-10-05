@@ -3,34 +3,11 @@ import { device } from '../../../styles/deviceSizes';
 
 const gapstackPurple = '#39426A';
 
-const style = () => css`
+const style = ({backgroundImage, size}) => css`
   .container {
     min-height: 500px;
     padding-top: 100px;
     padding-bottom: 100px;
-  }
-  
-  .owl-carousel-container {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    .description-container {
-        flex: 1;
-        flex-direction: column;
-        display: flex;
-        justify-content: center;
-        height: 100%;
-        margin-top: 20px;
-    }
-    
-    .image {
-      height: 200px;
-    }
-    
-    ${device.largeScreen || device.desktopOrLaptop || device.tabletLandscape || device.tabletPortrait} {
-        .image {
-          height: 250px;
-        }
-    }
   }
     
   .margin {
@@ -54,7 +31,8 @@ const style = () => css`
     color: ${gapstackPurple};
     font-size: 30px;
     font-weight: 800;
-    line-height: 135.2%
+    line-height: 135.2%;
+    margin-bottom: 0px;
   }
   
   ${device.largeScreen || device.desktopOrLaptop || device.tabletLandscape || device.tabletPortrait} {
@@ -69,28 +47,55 @@ const style = () => css`
     line-height: 30px;
   }
   
-  .item {
-    //background-color: #fff;
-    //border-radius: 5px;
-    //box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
-    //padding: 20px;
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
 
-    .title {
-      font-size: 18px;
-      color: ${gapstackPurple};
-      font-weight: 800
-    }
-    
-      ${device.largeScreen || device.desktopOrLaptop || device.tabletLandscape || device.tabletPortrait} {
-        .title {
-            font-size: 20px;
-        }
+  .background-container {
+    background-image: url(${backgroundImage});
+    height: ${size}px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-position: right;
+    position: relative;
+  }
+  
+  .background-content {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    background-position: right;
+    align-items: flex-end;
+    border-radius: 5px;
+    .text-container {
+      flex: 1;
+      flex-direction: column;
+      display: flex;
+      align-items: flex-start;
+      z-index: 100;
+      padding: 20px;
+      .title {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 31px;
+        color: #FFFFFF;
+        margin-bottom: 10px;
       }
-      
-    .description {
-      font-size: 16px;
-      color: ${gapstackPurple};
-      line-height: 30px;
+      .description {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+      }
     }
   }
 `;

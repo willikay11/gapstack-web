@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-// import { Row } from "antd";
+import { Row } from "antd";
 import styled from 'styled-components';
 import Who from "../Components/Who";
 // import Why from "../Components/Why";
@@ -12,8 +12,6 @@ import Footer from "../Components/Footer";
 import Contact from "../Components/Contact";
 import Hero from "../Components/HeroBanner";
 import bulbImage from "../../assets/bulb.webp";
-import { LinearCanvas } from "../../Components/LinearCanvas";
-
 
 const HomeWrapper = styled.div`
   ${style}
@@ -35,17 +33,21 @@ const Home = () => {
 
                 <Who />
 
-                {/*<Why />*/}
+                <Row>
+                    <div className="background-container">
+                        <div className="overlay" />
+                        <div className="container">
+                            <p className="title">Built for Global Scale</p>
+                            <p className="description">Whether sourcing or selling, locally or globally, Gapstack provides a frictionless, digital first trade platform. Our AI driven engine will understand your trade dependencies, avail the funding nodes to reduce friction wrapped into an intuitive business solution.</p>
+                        </div>
+                    </div>
+                </Row>
 
-                <Dashboard refProp={solutions}/>
+                {/*<Dashboard refProp={solutions}/>*/}
 
                 <Solutions />
 
-                {/*<Row>*/}
-                {/*    <div className="background-container"/>*/}
-                {/*</Row>*/}
-
-                <Contact refProp={contactForm}/>
+                {/*<Contact refProp={contactForm}/>*/}
 
                 <Footer scrollToSolutions={executeScrollToSolutions} scrollToContactForm={executeScrollToContactForm} />
             </div>
