@@ -33,7 +33,6 @@ const Home = () => {
             <div className="home-container">
                 <Hero scrollToSolutions={executeScrollToSolutions} scrollToContactForm={executeScrollToContactForm}/>
 
-                <LinearCanvas />
                 <Who />
 
                 {/*<Why />*/}

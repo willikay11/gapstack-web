@@ -1,6 +1,6 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
-import { Col, Row, Divider } from "antd";
+import { Col, Row } from "antd";
 import OwlCarousel from 'react-owl-carousel';
 // import 'owl.carousel/dist/assets/owl.carousel.css';
 // import 'owl.carousel/dist/assets/owl.theme.default.css';
@@ -25,15 +25,12 @@ const Who = () => {
                          lg={{ span: 16, offset: 4 }}
                          xl={{ span: 16, offset: 4 }}>
                         <Row>
-                            <Col xs={24} sm={24} md={24} lg={18} xl={18}>
+                            <Col className="title-container" xs={24} sm={24} md={24} lg={24} xl={24}>
+                                <p className="sub-sub-title ">Digitize your business</p>
                                 <p className="title">
-                                    Digitize
-                                    <Divider type='vertical' style={{ height: 35, borderLeft: '2px solid #39426A', margin: '0px 15px' }}/>
-                                    Fund
-                                    <Divider type='vertical' style={{ height: 35, borderLeft: '2px solid #39426A', margin: '0px 15px' }}/>
-                                    Trade
+                                    Trade Operating System
                                 </p>
-                                <p className="sub-title">Trade made easy. Manage all your business transactions, local and global on one platform.</p>
+                                <p className="sub-title">At Gapstack, we digitize your buyer- supplier relationships; unlock funding from your account receivables and account payables while building your unique business ecosystem. </p>
                             </Col>
                         </Row>
                     </Col>

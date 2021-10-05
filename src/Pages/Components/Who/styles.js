@@ -1,18 +1,35 @@
 import { css } from 'styled-components';
 import { device } from '../../../styles/deviceSizes';
 
-const gapstackPurple = '#39426A';
+const gapstackDarkBlue = '#39426A';
+const gapstackPurple = '#7C60FF';
 
 const style = () => css`
   .container {
     padding: 100px 0px;
   }
   
+  .title-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sub-sub-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: ${gapstackPurple};
+    margin-bottom: 0px;
+  }
+
   .title {
     font-size: 34px;
-    color: ${gapstackPurple};
+    color: ${gapstackDarkBlue};
     line-height: 135.2%;
-    font-weight: 800
+    font-weight: 800;
+    margin-bottom: 20px;
   }
   
   .left-content {
@@ -28,15 +45,27 @@ const style = () => css`
       padding-right: 40px;
     }
   }
+
   .sub-title {
-    color: ${gapstackPurple};
+    color: ${gapstackDarkBlue};
     font-size: 16px;
     font-weight: 500;
     line-height: 25px;
+    text-align: center;
+  }
+
+  ${device.largeScreen || device.desktopOrLaptop || device.tabletLandscape || device.tabletPortrait} {
+    .sub-title {
+      width: 40%;
+    }
+
+    .left-content {
+      width: 100%;
+    }
   }
   
   .description {
-    color: ${gapstackPurple};
+    color: ${gapstackDarkBlue};
     font-size: 16px;
     line-height: 30px;
   }
@@ -58,12 +87,12 @@ const style = () => css`
       font-weight: 600;
       font-size: 34px;
       line-height: 135.2%;      
-      color: ${gapstackPurple};
+      color: ${gapstackDarkBlue};
     }
     .description {
       font-size: 16px;
       line-height: 165.8%;      
-      color: ${gapstackPurple};
+      color: ${gapstackDarkBlue};
     }
   }
 `
