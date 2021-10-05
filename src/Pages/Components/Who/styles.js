@@ -5,6 +5,8 @@ const gapstackDarkBlue = '#39426A';
 const gapstackPurple = '#7C60FF';
 
 const style = () => css`
+  background: #fbfaff;
+
   .container {
     padding: 100px 0px;
   }
@@ -38,7 +40,7 @@ const style = () => css`
   
   ${device.largeScreen || device.desktopOrLaptop || device.tabletLandscape || device.tabletPortrait} {
     .title {
-        font-size: 44px;
+        font-size: 46px;
     }
     
     .left-content {
