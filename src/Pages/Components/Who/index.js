@@ -15,17 +15,17 @@ const firstListItems = [
     title: 'Gapstack Digital Trade',
     description: 'At Gapstack, we digitize your buyer- supplier relationships; unlock funding from your account receivables and account payables while building your unique business ecosystem.',
     icon: Star,
-    borderColor: '#d8cfff'
+    borderColor: '#7C60FF4D'
 }, {
     title: 'Gapstack Purchase Finance',
     description: 'Drive loyalty with your suppliers and grow your ecosystem by providing faster payments to your suppliers through early payments. Validate their invoices via the Gapstack platform to allow for faster processing. Whether on web, app or USSD, offer your suppliers the ability to access their cash in minutes and to do more.',
     icon: Hand,
-    borderColor: '#FFF4CC80'
+    borderColor: '#FE99024D'
 }, {
     title: 'Gapstack Business Connections',
     description: 'Build your business´ unique and strategic data trust network by mapping & financing your buyer and seller relationships as a lever of growth. Understand the interdependencies in your business for scale and growth.',
     icon: Link,
-    borderColor: '#B9C0FF80'
+    borderColor: '#39426A4D'
 }];
 
 const secondListItems = [
@@ -33,12 +33,12 @@ const secondListItems = [
     title: 'Gapstack Working Capital',
     description: 'Improve your cash flow by receiving early payments on your invoices to your customers. Liberate the cash needed for your working capital by connecting with your bank or financing partner to receive capital in real time on all your receivables. Our AI powered working capital solution allows you to forecast your larger orders and to unlock the financing needed to fulfil them.',
     icon: Truck,
-    borderColor: '#AEFFD180'
+    borderColor: '#1E87F04D'
 },{
     title: 'Gapstack Trade Finance Solutions',
     description: 'Unlock strategic funding pockets for international trade through trade capital financing for pre & post shipment, inventory, freight, and duty charges. Reduce the tie up of capital in global trade with solutions customized to your exact business needs.',
     icon: Boat,
-    borderColor: '#6FF9F080'
+    borderColor: '#2CCC714D'
 }];
 
 const WhoWrapper = styled.div`
