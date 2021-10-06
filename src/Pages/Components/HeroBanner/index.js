@@ -6,7 +6,7 @@ import { Fade } from "react-awesome-reveal";
 // import Particles from "react-particles-js";
 import styled from "styled-components";
 import { style } from "./styles";
-import PortImage from "../../../assets/Port.webp";
+import Header from "../../../assets/Header.svg";
 import { GapstackButton } from "../../../Components/Buttons";
 
 const HeroWrapper = styled.div`
@@ -15,7 +15,7 @@ const HeroWrapper = styled.div`
 
 const Hero = ({ scrollToSolutions, scrollToContactForm }) => {
     return(
-        <HeroWrapper backgroundImage={PortImage}>
+        <HeroWrapper backgroundImage={Header}>
             <Row className="container">
                 <Col span={24}>
                     <Menu scrollToSolutions={scrollToSolutions} scrollToContactForm={scrollToContactForm} />
@@ -34,7 +34,7 @@ const Hero = ({ scrollToSolutions, scrollToContactForm }) => {
                                          lg={24}
                                          xl={24} className="banner-container">
                                         <Row style={{ marginBottom: 40 }}>
-                                            <Col xs={24} sm={24} md={24} lg={16} xl={14}>
+                                            <Col xs={24} sm={24} md={24} lg={14} xl={12}>
                                                 {/*<p className="sub-title">Your Business</p>*/}
                                                 <p className="title">The single Digital Trade Financing Platform</p>
                                                 <p className="description">At Gapstack, we digitize your buyer- supplier relationships; unlock funding from your account receivables and account pay-ables while building your unique business ecosystem.</p>

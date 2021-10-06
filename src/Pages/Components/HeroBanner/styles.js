@@ -1,6 +1,8 @@
 import { css } from 'styled-components';
 import { device } from '../../../styles/deviceSizes';
 
+const gapstackDarkPurple = '#39426A';
+
 const style = ({ backgroundImage }) => css`
   background-image: url(${backgroundImage});
   background-size: cover;
@@ -9,7 +11,7 @@ const style = ({ backgroundImage }) => css`
   .container {
     position: relative;
     min-height: 100vh;
-    background: linear-gradient(71.25deg, rgba(124, 96, 255, 0.2) 43.89%, rgba(124, 96, 255, 0.2) 86.03%);
+    //background: linear-gradient(71.25deg, rgba(124, 96, 255, 0.2) 43.89%, rgba(124, 96, 255, 0.2) 86.03%);
   }
   
   .fade-container {
@@ -31,7 +33,7 @@ const style = ({ backgroundImage }) => css`
       line-height: 135.2%;
       font-weight: 800;
       font-style: normal;
-      color: #ffffff;
+      color: ${gapstackDarkPurple};
       margin-bottom: 5px;
     }
     .title {
@@ -40,7 +42,7 @@ const style = ({ backgroundImage }) => css`
         line-height: 135.2%;
         font-weight: 800;
         font-style: normal;
-        color: #ffffff;
+        color: ${gapstackDarkPurple};
         margin-bottom: 15px;
     }
     
@@ -63,9 +65,9 @@ const style = ({ backgroundImage }) => css`
     }
     
     .description {
-        font-size: 20px;
-        color: #ffffff;
-        line-height: 30px;
+        font-size: 18px;
+        color: ${gapstackDarkPurple};
+        line-height: 32px;
         font-weight: 500;
         font-style: normal;
     }
