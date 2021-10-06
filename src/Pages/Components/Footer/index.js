@@ -1,7 +1,8 @@
 import React from "react";
 import {Fade} from "react-awesome-reveal";
 import { Col, Row } from "antd";
-import gapstackLogo from "../../../assets/GapstackPurpleLogo.svg";
+import gapstackLogo from "../../../assets/Logo.svg";
+import FooterImage from "../../../assets/Footer.svg";
 import styled from "styled-components";
 import { style } from "./styles";
 
@@ -11,7 +12,7 @@ const FooterWrapper = styled.div`
 
 const Footer = ({ scrollToSolutions, scrollToContactForm }) => {
     return (
-        <FooterWrapper>
+        <FooterWrapper backgroundImage={FooterImage}>
             <Fade triggerOnce={true} fraction={0.3}>
                 <Row className="container">
                     <Col xs={{ span:22, offset:2 }}

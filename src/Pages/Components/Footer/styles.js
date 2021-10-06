@@ -2,7 +2,11 @@ import { css } from 'styled-components';
 
 const gapstackPurple = '#39426A';
 
-const style = () => css`
+const style = ({ backgroundImage }) => css`
+  background-image: url(${backgroundImage});
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   .container {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -10,7 +14,7 @@ const style = () => css`
   
   .item {
     .title {
-        color: ${gapstackPurple};
+        color: #ffffff;
         margin-bottom: 10px;
         font-weight: 600;
         font-size: 18px;
@@ -18,17 +22,17 @@ const style = () => css`
     
     .email-link {
         margin-bottom: 10px;
-        color: #40a9ff;
+        color: #ffffff;
     }
   }
   
   .text {
-    color: ${gapstackPurple}
+    color: #ffffff;
   }
   
   .tag {
     margin-top: 10px;
-    color: ${gapstackPurple};
+    color: #ffffff;
     font-weight: 500;
     font-size: 14px;
   }
