@@ -1,6 +1,8 @@
 import React from "react";
 import {Fade} from "react-awesome-reveal";
 import { Col, Row } from "antd";
+import { RiCopyrightLine, RiLinkedinFill } from "react-icons/ri";
+import moment from "moment";
 import gapstackLogo from "../../../assets/Logo.svg";
 import FooterImage from "../../../assets/Footer.svg";
 import styled from "styled-components";
@@ -53,6 +55,15 @@ const Footer = ({ scrollToSolutions, scrollToContactForm }) => {
                                 <p className="text">Gwalior, M.P</p>
                                 <p className="text">Pincode 474009 </p>
                             </Col>
+                        </Row>
+                        <Row className="footer-footer">
+                            <div className="first-container">
+                                <RiCopyrightLine color="#ffffff" size={16} />
+                                <span className="text">Gapstack {moment().year()}. All Rights Reserved</span>
+                            </div>
+                            <div className="second-container">
+                                <RiLinkedinFill color="#ffffff" size={16} />
+                            </div>
                         </Row>
                     </Col>
                 </Row>

@@ -42,6 +42,26 @@ const style = ({ backgroundImage }) => css`
     margin-top: 25px;
     border-top: 1px solid #F3F4F8;
   }
+  .footer-footer {
+    border-top: 1px solid #ffffff;
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+    justify-content: space-between;
+    .first-container {
+      display: flex;
+      align-items: center;
+      .text {
+        margin-left: 10px;
+        color: #ffffff;
+      }
+    }
+    .second-container {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+  }
 `;
 
 export {style }
