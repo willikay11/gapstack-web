@@ -27,7 +27,7 @@ const style = ({ backgroundImage }) => css`
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 70px;
+    //margin-bottom: 70px;
     margin-top: 100px;
     .sub-title {
       font-size: 40px;

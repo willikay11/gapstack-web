@@ -34,7 +34,7 @@ const Hero = ({ scrollToSolutions, scrollToContactForm }) => {
                                          md={24}
                                          lg={24}
                                          xl={24} className="banner-container">
-                                        <Row style={{ marginBottom: 40 }}>
+                                        <Row>
                                             <Col xs={24} sm={24} md={24} lg={8} xl={8}>
                                                 {/*<p className="sub-title">Your Business</p>*/}
                                                 <p className="title">The single Digital Trade Financing Platform</p>
