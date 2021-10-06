@@ -7,6 +7,7 @@ import { Fade } from "react-awesome-reveal";
 import styled from "styled-components";
 import { style } from "./styles";
 import Header from "../../../assets/Header.svg";
+import HeaderBanner from "../../../assets/HeroBanner.svg";
 import { GapstackButton } from "../../../Components/Buttons";
 
 const HeroWrapper = styled.div`
@@ -25,8 +26,8 @@ const Hero = ({ scrollToSolutions, scrollToContactForm }) => {
                             <Col xs={{ span: 20, offset: 2 }}
                                  sm={{ span: 20, offset: 2 }}
                                  md={{ span: 20, offset: 2 }}
-                                 lg={{ span: 16, offset: 4 }}
-                                 xl={{ span: 16, offset: 4 }}>
+                                 lg={{ span: 20, offset: 4 }}
+                                 xl={{ span: 20, offset: 4 }}>
                                 <Row style={{ height: '100%' }}>
                                     <Col xs={24}
                                          sm={24}
@@ -34,22 +35,17 @@ const Hero = ({ scrollToSolutions, scrollToContactForm }) => {
                                          lg={24}
                                          xl={24} className="banner-container">
                                         <Row style={{ marginBottom: 40 }}>
-                                            <Col xs={24} sm={24} md={24} lg={14} xl={12}>
+                                            <Col xs={24} sm={24} md={24} lg={8} xl={8}>
                                                 {/*<p className="sub-title">Your Business</p>*/}
                                                 <p className="title">The single Digital Trade Financing Platform</p>
                                                 <p className="description">At Gapstack, we digitize your buyer- supplier relationships; unlock funding from your account receivables and account pay-ables while building your unique business ecosystem.</p>
                                                 {/*<p className="description">We simplify the way you trade across the world and get financing to grow your business.</p>*/}
                                                 <GapstackButton type="purple" buttonName="Get Started" />
                                             </Col>
+                                            <Col xs={24} sm={24} md={24} lg={16} xl={16}>
+                                                <img width='100%' src={HeaderBanner} alt="Dashboard" />
+                                            </Col>
                                         </Row>
-
-                                        {/*<Row style={{ width: '100%' }}>*/}
-                                        {/*    <Col span={24}>*/}
-                                        {/*        <img width='100%' src={FirstTimeRegistrationDashboard} alt="Dashboard" />*/}
-                                        {/*        <img src={mobile} alt="mobile" className="mobile-image" />*/}
-                                        {/*    </Col>*/}
-                                        {/*</Row>*/}
-                                        {/*<Button onClick={() => scrollToContactForm()} style={{ color: '#fff', backgroundColor: '#7c60ff', height: 50, borderRadius: 4, marginTop: 50 }}>Contact Us</Button>*/}
                                     </Col>
                                 </Row>
                             </Col>

@@ -1,6 +1,6 @@
 import { css } from 'styled-components';
 
-const gapstackPurple = '#39426A';
+// const gapstackPurple = '#39426A';
 
 const style = ({ backgroundImage }) => css`
   background-image: url(${backgroundImage});

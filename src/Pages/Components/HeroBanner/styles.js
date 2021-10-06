@@ -8,6 +8,7 @@ const style = ({ backgroundImage }) => css`
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  height: 919px;
   .container {
     position: relative;
     min-height: 100vh;

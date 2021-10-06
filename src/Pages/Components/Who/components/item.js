@@ -11,7 +11,7 @@ const Item = ({title, description, icon, borderColor}) => {
         <ItemWrapper borderColor={borderColor}>
             <div className="item-container">
                 <div className="inner-container">
-                    <img className="icon" src={icon} />
+                    <img className="icon" alt="item-icon" src={icon} />
                     <p className="title">{title}</p>
                     <p className="description">{description}</p>
                 </div>

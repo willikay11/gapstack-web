@@ -6,10 +6,10 @@ import Who from "../Components/Who";
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import { style } from './styles';
-import Dashboard from "../Components/Dashboard";
+// import Dashboard from "../Components/Dashboard";
 import Solutions from "../Components/Solutions";
 import Footer from "../Components/Footer";
-import Contact from "../Components/Contact";
+// import Contact from "../Components/Contact";
 import Hero from "../Components/HeroBanner";
 import bulbImage from "../../assets/bulb.webp";
 
