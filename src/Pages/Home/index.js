@@ -11,7 +11,7 @@ import Solutions from "../Components/Solutions";
 import Footer from "../Components/Footer";
 // import Contact from "../Components/Contact";
 import Hero from "../Components/HeroBanner";
-import bulbImage from "../../assets/bulb.webp";
+import Ship2Image from "../../assets/Ship-2.svg";
 
 const HomeWrapper = styled.div`
   ${style}
@@ -27,7 +27,7 @@ const Home = () => {
     const executeScrollToContactForm = () => scrollContactForm(contactForm);
 
     return (
-        <HomeWrapper backgroundImage={bulbImage}>
+        <HomeWrapper backgroundImage={Ship2Image}>
             <div className="home-container">
                 <Hero scrollToSolutions={executeScrollToSolutions} scrollToContactForm={executeScrollToContactForm}/>
 
