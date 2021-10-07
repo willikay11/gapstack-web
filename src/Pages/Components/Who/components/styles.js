@@ -1,4 +1,5 @@
 import { css } from 'styled-components';
+import { device } from '../../../../styles/deviceSizes';
 
 const gapstackDarkBlue = '#39426A';
 
@@ -19,9 +20,14 @@ const style = ({borderColor}) => css`
       }
       .title {
         font-weight: bold;
-        font-size: 24px;
+        font-size: 20px;
         line-height: 37px;
         color: ${gapstackDarkBlue};
+        ${device.largeScreen || device.desktopOrLaptop || device.tabletLandscape || device.tabletPortrait} {
+          .title {
+            font-size: 24px;
+          }
+        }
       }
 
       .description {
