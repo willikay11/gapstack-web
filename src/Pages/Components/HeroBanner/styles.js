@@ -8,8 +8,11 @@ const style = ({ backgroundImage }) => css`
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 919px;
+  height: 100%;
   overflow: hidden;
+  ${device.largeScreen} {
+    height: 919px;
+  }
   .container {
     position: relative;
     min-height: 100vh;
@@ -39,7 +42,7 @@ const style = ({ backgroundImage }) => css`
       margin-bottom: 5px;
     }
     .title {
-        font-size: 60px;
+        font-size: 38px;
         text-transform: capitalize;
         line-height: 135.2%;
         font-weight: 800;
@@ -72,6 +75,16 @@ const style = ({ backgroundImage }) => css`
         line-height: 32px;
         font-weight: 500;
         font-style: normal;
+    }
+    
+    .dashboard-image {
+      display: none;
+    }
+
+    ${device.largeScreen || device.tabletLandscape || device.tabletPortrait} {
+      .dashboard-image {
+        display: block;
+      }
     }
   }
   

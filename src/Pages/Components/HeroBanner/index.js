@@ -36,14 +36,12 @@ const Hero = ({ scrollToSolutions, scrollToContactForm }) => {
                                          xl={24} className="banner-container">
                                         <Row>
                                             <Col xs={24} sm={24} md={24} lg={8} xl={8}>
-                                                {/*<p className="sub-title">Your Business</p>*/}
                                                 <p className="title">The single Digital Trade Financing Platform</p>
                                                 <p className="description">At Gapstack, we digitize your buyer- supplier relationships; unlock funding from your account receivables and account pay-ables while building your unique business ecosystem.</p>
-                                                {/*<p className="description">We simplify the way you trade across the world and get financing to grow your business.</p>*/}
                                                 <GapstackButton type="purple" buttonName="Get Started" />
                                             </Col>
                                             <Col xs={24} sm={24} md={24} lg={16} xl={16}>
-                                                <img width='100%' src={HeaderBanner} alt="Dashboard" />
+                                                <img width='100%' src={HeaderBanner} alt="Dashboard" className="dashboard-image" />
                                             </Col>
                                         </Row>
                                     </Col>
