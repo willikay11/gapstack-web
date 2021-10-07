@@ -42,7 +42,7 @@ const Hero = ({ scrollToSolutions, scrollToContactForm }) => {
                                                 {/*<p className="description">We simplify the way you trade across the world and get financing to grow your business.</p>*/}
                                                 <GapstackButton type="purple" buttonName="Get Started" />
                                             </Col>
-                                            <Col xs={24} sm={24} md={24} lg={16} xl={16} style={{ height: '99vh', overflow: "hidden" }}>
+                                            <Col xs={24} sm={24} md={24} lg={16} xl={16}>
                                                 <img width='100%' src={HeaderBanner} alt="Dashboard" />
                                             </Col>
                                         </Row>

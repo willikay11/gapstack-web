@@ -9,6 +9,7 @@ const style = ({ backgroundImage }) => css`
   background-repeat: no-repeat;
   background-position: center;
   height: 919px;
+  overflow: hidden;
   .container {
     position: relative;
     min-height: 100vh;
