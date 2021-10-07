@@ -1,6 +1,6 @@
 import { css } from 'styled-components';
-// import { device } from '../../styles/deviceSizes';
-//
+import { device } from '../../styles/deviceSizes';
+
 // const gapstackPurple = '#39426A';
 
 const style = ({backgroundImage}) => css`
@@ -40,18 +40,31 @@ const style = ({backgroundImage}) => css`
       z-index: 100;
       .title {
         font-weight: bold;
-        font-size: 46px;
-        line-height: 63px;
+        font-size: 38px;
+        line-height: 44px;
         text-align: center;
         color: #FFFFFF;
       }
+      ${device.largeScreen || device.desktopOrLaptop || device.tabletLandscape || device.tabletPortrait} {
+        .title {
+         font-size: 46px;
+         line-height: 63px;
+        }
+      }
       .description {
         font-weight: normal;
-        font-size: 24px;
-        line-height: 33px;
+        font-size: 20px;
+        line-height: 30px;
         text-align: center;
         color: #FFFFFF;
-        width: 50%;
+        width: 100%;
+      }
+      ${device.largeScreen || device.desktopOrLaptop || device.tabletLandscape || device.tabletPortrait} {
+       .description {
+         font-size: 24px;
+         line-height: 33px;
+         width: 50%;
+       }
       }
     }
   }
