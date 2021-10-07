@@ -20,7 +20,7 @@ const style = ({backgroundImage}) => css`
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background-position: right;
+    background-position: center;
     position: relative;
     .overlay {
       position: absolute;

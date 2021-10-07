@@ -32,7 +32,7 @@ const Solutions = () => {
                         </Row>
                         <Row style={{ marginTop: 20 }} gutter={20}>
                             <Col xs={24} sm={24} md={24} lg={14} xl={14}>
-                                <div className="background-content" style={{ backgroundImage: `url(${SailingShip})`, height: '620px' }}>
+                                <div className="background-content large-image" style={{ backgroundImage: `url(${SailingShip})` }}>
                                     <div className="text-container">
                                         <p className="title">Gapstack for Banks</p>
                                         <p className="description">Optimize your eco-system and value chain financing processes. Enrich your market acquisition strategy and grow your customer wallet share</p>
@@ -41,14 +41,14 @@ const Solutions = () => {
                             </Col>
                             <Col xs={24} sm={24} md={24} lg={10} xl={10}>
                                 <Row>
-                                    <div className="background-content" style={{ backgroundImage: `url(${Port})`, height: '300px' }}>
+                                    <div className="background-content small-image" style={{ backgroundImage: `url(${Port})` }}>
                                         <div className="text-container">
                                             <p className="title">Gapstack for Businesses</p>
                                             <p className="description">Automate & digitize your entire business operations. Scale and grow your business by faster access to finance when you need it.</p>
                                         </div>
                                     </div>
 
-                                    <div className="background-content" style={{ marginTop: 20, backgroundImage: `url(${PortDock})`, height: '300px' }}>
+                                    <div className="background-content small-image" style={{ marginTop: 20, backgroundImage: `url(${PortDock})` }}>
                                         <div className="text-container">
                                             <p className="title">Gapstack for Agents</p>
                                             <p className="description">Digitize connections to your financial partners. Realize greater opportunities to scale and grow your network’s access to financing.</p>

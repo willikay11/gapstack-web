@@ -29,7 +29,7 @@ const style = ({backgroundImage, size}) => css`
   
   .title {
     color: ${gapstackPurple};
-    font-size: 30px;
+    font-size: 38px;
     font-weight: 800;
     line-height: 135.2%;
     margin-bottom: 0px;
@@ -50,10 +50,19 @@ const style = ({backgroundImage, size}) => css`
   .button-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-end;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 10px;
   }
 
+  ${device.largeScreen || device.desktopOrLaptop || device.tabletLandscape || device.tabletPortrait} {
+    .button-container {
+      margin-top: 0px;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+  }
+  
   .background-container {
     background-image: url(${backgroundImage});
     height: ${size}px;
@@ -73,7 +82,7 @@ const style = ({backgroundImage, size}) => css`
     background-repeat: no-repeat;
     display: flex;
     justify-content: flex-start;
-    background-position: right;
+    background-position: center;
     align-items: flex-end;
     border-radius: 5px;
     .text-container {
@@ -97,6 +106,22 @@ const style = ({backgroundImage, size}) => css`
         color: #FFFFFF;
       }
     }
+  }
+  
+  .large-image {
+    height: 450px;
+    margin-bottom: 20px;
+  }
+
+  ${device.largeScreen || device.desktopOrLaptop || device.tabletLandscape || device.tabletPortrait} {
+    .large-image {
+      height: 620px;
+      margin-bottom: 0px;
+    }
+  }
+  
+  .small-image {
+    height: 300px;
   }
 `;
 

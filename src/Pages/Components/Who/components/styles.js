@@ -32,8 +32,8 @@ const style = ({borderColor}) => css`
 
       .description {
         font-weight: normal;
-        font-size: 13px;
-        line-height: 20px;
+        font-size: 14px;
+        line-height: 24px;
         color: ${gapstackDarkBlue};
         margin-bottom: 0px;
       }
