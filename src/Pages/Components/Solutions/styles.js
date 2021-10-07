@@ -58,8 +58,8 @@ const style = ({backgroundImage, size}) => css`
   ${device.largeScreen || device.desktopOrLaptop || device.tabletLandscape || device.tabletPortrait} {
     .button-container {
       margin-top: 0px;
-      align-items: flex-start;
-      justify-content: flex-start;
+      align-items: flex-end;
+      justify-content: flex-end;
     }
   }
   

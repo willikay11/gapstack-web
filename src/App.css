@@ -56,3 +56,11 @@ canvas {
   width: 100%;
   height: 100%
 }
+
+.ant-input {
+  background: #FAFAFA;
+  border: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 45px;
+}
