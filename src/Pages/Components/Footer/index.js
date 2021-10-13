@@ -27,10 +27,6 @@ const Footer = ({ scrollToSolutions, scrollToContactForm }) => {
                                 <Row style={{ marginBottom: 24 }}>
                                     <img height={50} src={gapstackLogo} alt='alternate'/>
                                 </Row>
-
-                                <Row>
-                                    <p className="text">Gapstack 2020. All Right Reserved</p>
-                                </Row>
                             </Col>
 
                             <Col xs={24} sm={12} md={12} lg={12} xl={6} className="item">
