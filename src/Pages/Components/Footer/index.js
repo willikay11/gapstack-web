@@ -4,7 +4,7 @@ import { Col, Row } from "antd";
 import { RiCopyrightLine, RiLinkedinFill } from "react-icons/ri";
 import moment from "moment";
 import gapstackLogo from "../../../assets/Logo.svg";
-import FooterImage from "../../../assets/Footer.svg";
+import FooterImage from "../../../assets/Footer.webp";
 import styled from "styled-components";
 import { style } from "./styles";
 
@@ -13,6 +13,9 @@ const FooterWrapper = styled.div`
 `;
 
 const Footer = ({ scrollToSolutions, scrollToContactForm }) => {
+    const goToLinkedIN = () => {
+        window.open("https://www.linkedin.com/company/gapstack/about/", "_blank");
+    }
     return (
         <FooterWrapper backgroundImage={FooterImage}>
             <Fade triggerOnce={true} fraction={0.3}>
@@ -58,7 +61,7 @@ const Footer = ({ scrollToSolutions, scrollToContactForm }) => {
                                 <span className="text">Gapstack {moment().year()}. All Rights Reserved</span>
                             </div>
                             <div className="second-container">
-                                <RiLinkedinFill color="#ffffff" size={16} />
+                                <RiLinkedinFill style={{ cursor: 'pointer' }} color="#ffffff" size={16} onClick={goToLinkedIN} />
                             </div>
                         </Row>
                     </Col>

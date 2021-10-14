@@ -11,7 +11,7 @@ import Solutions from "../Components/Solutions";
 import Footer from "../Components/Footer";
 // import Contact from "../Components/Contact";
 import Hero from "../Components/HeroBanner";
-import Ship2Image from "../../assets/Ship-2.svg";
+import Ship2Image from "../../assets/Ship-2.webp";
 
 const HomeWrapper = styled.div`
   ${style}

@@ -6,8 +6,8 @@ import { Fade } from "react-awesome-reveal";
 // import Particles from "react-particles-js";
 import styled from "styled-components";
 import { style } from "./styles";
-import Header from "../../../assets/Header.svg";
-import HeaderBanner from "../../../assets/HeroBanner.svg";
+import Header from "../../../assets/Header.webp";
+import HeaderBanner from "../../../assets/HeroBanner.webp";
 import { GapstackButton } from "../../../Components/Buttons";
 
 const HeroWrapper = styled.div`
