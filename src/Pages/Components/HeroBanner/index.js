@@ -6,7 +6,7 @@ import { Fade } from "react-awesome-reveal";
 // import Particles from "react-particles-js";
 import styled from "styled-components";
 import { style } from "./styles";
-import Header from "../../../assets/Header.webp";
+import Header from "../../../assets/Header.jpg";
 import HeaderBanner from "../../../assets/HeroBanner.webp";
 import { GapstackButton } from "../../../Components/Buttons";
 
