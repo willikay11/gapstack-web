@@ -4,7 +4,7 @@ import { Col, Row } from "antd";
 import { RiCopyrightLine, RiLinkedinFill } from "react-icons/ri";
 import moment from "moment";
 import gapstackLogo from "../../../assets/Logo.svg";
-import FooterImage from "../../../assets/Footer.webp";
+import FooterImage from "../../../assets/Footer.jpg";
 import styled from "styled-components";
 import { style } from "./styles";
 
