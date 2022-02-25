@@ -37,7 +37,7 @@ const Home = () => {
                     <div className="background-container">
                         <div className="overlay" />
                         <div className="container">
-                            <p className="title">Built for Global Progress</p>
+                            <p className="title" style={{ marginBottom: 15 }}>Built for Global Progress</p>
                             <p className="description">We are passionate about trade. We understand trade is the true agent of economic transformation for the world. Gapstack´s platform is a comprehensive suite of automation, financing & community to let businesses grow, trading domestically and internationally.</p>
                         </div>
                     </div>
