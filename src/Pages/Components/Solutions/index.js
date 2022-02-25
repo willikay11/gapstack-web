@@ -34,7 +34,7 @@ const Solutions = () => {
                                 <p className="title">Explore the Gapstack Advantage Now</p>
                             </Col>
                             <Col className="button-container" xs={24} sm={24} md={24} lg={14} xl={14}>
-                                <GapstackButton type="orange" buttonName="Contact Sales" onClick={() => setModalVisibility(true)} />
+                                <GapstackButton type="purple" buttonName="Contact Sales" onClick={() => setModalVisibility(true)} />
                             </Col>
                         </Row>
                         <Row style={{ marginTop: 20 }} gutter={20}>
