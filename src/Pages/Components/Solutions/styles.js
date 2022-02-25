@@ -104,6 +104,7 @@ const style = ({backgroundImage, size}) => css`
         font-size: 16px;
         line-height: 26px;
         color: #FFFFFF;
+        margin-bottom: 0;
       }
     }
   }
@@ -113,7 +114,22 @@ const style = ({backgroundImage, size}) => css`
     margin-bottom: 20px;
   }
 
-  ${device.largeScreen || device.desktopOrLaptop || device.tabletLandscape || device.tabletPortrait} {
+  .small-image {
+    height: 400px;
+  }
+
+  ${device.largeScreen} {
+    .large-image {
+      height: 1020px;
+      margin-bottom: 0px;
+    }
+
+    .small-image {
+      height: 500px;
+    }
+  }
+  
+  ${device.desktopOrLaptop || device.tabletLandscape || device.tabletPortrait} {
     .large-image {
       height: 820px;
       margin-bottom: 0px;
@@ -122,10 +138,6 @@ const style = ({backgroundImage, size}) => css`
     .small-image {
       height: 400px;
     }
-  }
-  
-  .small-image {
-    height: 400px;
   }
 `;
 

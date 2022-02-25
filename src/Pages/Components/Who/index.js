@@ -4,9 +4,9 @@ import { Col, Row } from "antd";
 import styled from "styled-components";
 // import { RiUserSearchLine} from 'react-icons/ri'
 import { style } from "./styles";
-import Star from "../../../assets/star.svg";
+import Star from "../../../assets/User.png";
 import Truck from "../../../assets/Truck.svg"
-import Hand from "../../../assets/Hand.svg"
+import Hand from "../../../assets/Hand.png"
 import Boat from "../../../assets/Boat.svg"
 import Item from "./components/item";
 

@@ -15,6 +15,7 @@ const style = ({borderColor}) => css`
       padding: 40px 20px 20px 20px;
       position: relative;
       .icon {
+          width: 10%;
           position: absolute;
           top: -30px;
       }
