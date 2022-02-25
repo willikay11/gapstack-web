@@ -2,41 +2,36 @@ import React from "react";
 import { Fade } from "react-awesome-reveal";
 import { Col, Row } from "antd";
 import styled from "styled-components";
+// import { RiUserSearchLine} from 'react-icons/ri'
 import { style } from "./styles";
 import Star from "../../../assets/star.svg";
 import Truck from "../../../assets/Truck.svg"
 import Hand from "../../../assets/Hand.svg"
-import Link from "../../../assets/Link.svg"
 import Boat from "../../../assets/Boat.svg"
 import Item from "./components/item";
 
 const firstListItems = [
 {
-    title: 'Gapstack Digital Trade',
-    description: 'At Gapstack, we digitize your buyer- supplier relationships; unlock funding from your account receivables and account payables while building your unique business ecosystem.',
+    title: 'Onboarding For Finance',
+    description: 'Our solution, powered by artificial intelligence and connected to key government and business databases, cuts from days to minutes KnowYour Customer (KYC) and Know Your Business (KYB) compliance, resulting in faster decision making.',
     icon: Star,
     borderColor: '#7C60FF4D'
 }, {
-    title: 'Gapstack Purchase Finance',
-    description: 'Drive loyalty with your suppliers and grow your ecosystem by providing faster payments to your suppliers through early payments. Validate their invoices via the Gapstack platform to allow for faster processing. Whether on web, app or USSD, offer your suppliers the ability to access their cash in minutes and to do more.',
+    title: 'Enterprise Management',
+    description: 'We even provide the ERP tools for you tomanage business flows, optimise your finance and improve your credit scoring.',
     icon: Hand,
     borderColor: '#FE99024D'
-}, {
-    title: 'Gapstack Business Connections',
-    description: 'Build your business´ unique and strategic data trust network by mapping & financing your buyer and seller relationships as a lever of growth. Understand the interdependencies in your business for scale and growth.',
-    icon: Link,
-    borderColor: '#39426A4D'
 }];
 
 const secondListItems = [
 {
-    title: 'Gapstack Working Capital',
-    description: 'Improve your cash flow by receiving early payments on your invoices to your customers. Liberate the cash needed for your working capital by connecting with your bank or financing partner to receive capital in real time on all your receivables. Our AI powered working capital solution allows you to forecast your larger orders and to unlock the financing needed to fulfil them.',
+    title: 'Supply Chain Finance',
+    description: 'From invoice discounting, reverse factoring to distributor finance, Gapstack unlocks working capital for your trade transactions , allowing you to access finance immediately, via USSD, WhatsApp, Web & Telegram, wherever you are.',
     icon: Truck,
     borderColor: '#1E87F04D'
 },{
-    title: 'Gapstack Trade Finance Solutions',
-    description: 'Unlock strategic funding pockets for international trade through trade capital financing for pre & post shipment, inventory, freight, and duty charges. Reduce the tie up of capital in global trade with solutions customized to your exact business needs.',
+    title: 'Trade Finance Solutions',
+    description: 'Unlock strategic funding pockets for international trade. We have uniquely built robust automation to manage all your trade finance processes while reducing friction in accessing import and export financing.',
     icon: Boat,
     borderColor: '#2CCC714D'
 }];
@@ -57,11 +52,11 @@ const Who = () => {
                          xl={{ span: 16, offset: 4 }}>
                         <Row>
                             <Col className="title-container" xs={24} sm={24} md={24} lg={24} xl={24}>
-                                <p className="sub-sub-title ">Digitize your business</p>
+                                <p className="sub-sub-title ">Digitize. Fund. Trade</p>
                                 <p className="title">
                                     Trade Operating System
                                 </p>
-                                <p className="sub-title">At Gapstack, we digitize your buyer- supplier relationships; unlock funding from your account receivables and account payables while building your unique business ecosystem. </p>
+                                <p className="sub-title">Using a single technology platform, and working with key financiers, we provide all the solutions for business to access trade and supply chain finance to expand their markets.</p>
                             </Col>
                         </Row>
                     </Col>

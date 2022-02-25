@@ -5,9 +5,9 @@ import styled from "styled-components";
 import { style } from "./styles";
 import ContactForm from "../Contact/Components/Form";
 import {GapstackButton} from "../../../Components/Buttons";
-import SailingShip from "../../../assets/SailingShip.webp";
-import Port from "../../../assets/Port.webp";
-import PortDock from "../../../assets/PortDort.webp";
+import SailingShip from "../../../assets/Member1.jpg";
+import Port from "../../../assets/Member2.png";
+import PortDock from "../../../assets/Member3.png";
 
 const UsersWrapper = styled.div`
   ${style}
@@ -42,7 +42,7 @@ const Solutions = () => {
                                 <div className="background-content large-image" style={{ backgroundImage: `url(${SailingShip})` }}>
                                     <div className="text-container">
                                         <p className="title">Gapstack for Banks</p>
-                                        <p className="description">Optimize your eco-system and value chain financing processes. Enrich your market acquisition strategy and grow your customer wallet share</p>
+                                        <p className="description">Optimize your eco-system and value chain financing processes with Gapstack. Enrich your market acquisition strategy through our comprehensive digital onboarding tool and manage credit risk dynamically through our data engine to grow profitable relationship with new and existing customers.</p>
                                     </div>
                                 </div>
                             </Col>
@@ -51,14 +51,14 @@ const Solutions = () => {
                                     <div className="background-content small-image" style={{ backgroundImage: `url(${Port})` }}>
                                         <div className="text-container">
                                             <p className="title">Gapstack for Businesses</p>
-                                            <p className="description">Automate & digitize your entire business operations. Scale and grow your business by faster access to finance when you need it.</p>
+                                            <p className="description">Access working capital. Grow your business. Gapstack provides the means to scale , allowing you to manage your relationships with your buyers, suppliers and financiers.</p>
                                         </div>
                                     </div>
 
                                     <div className="background-content small-image" style={{ marginTop: 20, backgroundImage: `url(${PortDock})` }}>
                                         <div className="text-container">
                                             <p className="title">Gapstack for Agents</p>
-                                            <p className="description">Digitize connections to your financial partners. Realize greater opportunities to scale and grow your network’s access to financing.</p>
+                                            <p className="description">Digitize your capital deployment and explore new trade asset classes. Build verticals of interest to your investment strategy. Manage your portfolio directly on the platform..</p>
                                         </div>
                                     </div>
                                 </Row>

@@ -102,7 +102,7 @@ const style = ({backgroundImage, size}) => css`
       .description {
         font-weight: normal;
         font-size: 16px;
-        line-height: 20px;
+        line-height: 26px;
         color: #FFFFFF;
       }
     }
@@ -115,13 +115,17 @@ const style = ({backgroundImage, size}) => css`
 
   ${device.largeScreen || device.desktopOrLaptop || device.tabletLandscape || device.tabletPortrait} {
     .large-image {
-      height: 620px;
+      height: 820px;
       margin-bottom: 0px;
+    }
+
+    .small-image {
+      height: 400px;
     }
   }
   
   .small-image {
-    height: 300px;
+    height: 400px;
   }
 `;
 

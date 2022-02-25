@@ -1,7 +1,7 @@
 import React from "react";
 import {Fade} from "react-awesome-reveal";
 import { Col, Row } from "antd";
-import { RiCopyrightLine, RiLinkedinFill } from "react-icons/ri";
+import { RiCopyrightLine, RiLinkedinFill, RiMapPin2Line } from "react-icons/ri";
 import moment from "moment";
 import gapstackLogo from "../../../assets/Logo.svg";
 import FooterImage from "../../../assets/Footer.jpg";
@@ -34,25 +34,25 @@ const Footer = ({ scrollToSolutions, scrollToContactForm }) => {
 
                             <Col xs={24} sm={12} md={12} lg={12} xl={6} className="item">
                                 <p className="title">Kenya</p>
-                                <p className="text">NAIROBI – HEAD OFFICE</p>
-                                <p className="text">Kirichwa Rd, Nairobi</p>
-                                <p className="text">P.O. Box 19400 Nairobi, Kenya</p>
+                                <p className="text"><RiMapPin2Line style={{ marginRight: 10 }} />NAIROBI</p>
+                                {/*<p className="text">Kirichwa Rd, Nairobi</p>*/}
+                                {/*<p className="text">P.O. Box 19400 Nairobi, Kenya</p>*/}
                                 {/*<p className="text">(+254) 0717 663 681</p>*/}
-                                <p className="email-link">info@gapstack.com</p>
+                                {/*<p className="email-link">info@gapstack.com</p>*/}
                             </Col>
 
                             <Col xs={24} sm={12} md={12} lg={12} xl={6} className="item">
                                 <p className="title">USA</p>
-                                <p className="text">SAN FRANCISCO</p>
-                                <p className="text">39 East 8th St.</p>
-                                <p className="text"> San Francisco, CA 94110</p>
+                                <p className="text"><RiMapPin2Line style={{ marginRight: 10 }} />SAN FRANCISCO</p>
+                                {/*<p className="text">39 East 8th St.</p>*/}
+                                {/*<p className="text"> San Francisco, CA 94110</p>*/}
                             </Col>
 
                             <Col xs={24} sm={12} md={12} lg={12} xl={6} className="item">
                                 <p className="title">India</p>
-                                <p className="text">NEW DELHI</p>
-                                <p className="text">Gwalior, M.P</p>
-                                <p className="text">Pincode 474009 </p>
+                                <p className="text"><RiMapPin2Line style={{ marginRight: 10 }} />NEW DELHI</p>
+                                {/*<p className="text">Gwalior, M.P</p>*/}
+                                {/*<p className="text">Pincode 474009 </p>*/}
                             </Col>
                         </Row>
                         <Row className="footer-footer">
@@ -61,6 +61,7 @@ const Footer = ({ scrollToSolutions, scrollToContactForm }) => {
                                 <span className="text">Gapstack {moment().year()}. All Rights Reserved</span>
                             </div>
                             <div className="second-container">
+                                <span className="text" style={{ marginRight: 10 }}>sales@gapstack.com</span>
                                 <RiLinkedinFill style={{ cursor: 'pointer' }} color="#ffffff" size={16} onClick={goToLinkedIN} />
                             </div>
                         </Row>

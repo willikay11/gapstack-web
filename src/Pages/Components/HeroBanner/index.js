@@ -37,7 +37,7 @@ const Hero = ({ scrollToSolutions, scrollToContactForm }) => {
                                         <Row>
                                             <Col xs={24} sm={24} md={24} lg={8} xl={8}>
                                                 <p className="title">The single Digital Trade Financing Platform</p>
-                                                <p className="description">At Gapstack, we digitize your buyer- supplier relationships; unlock funding from your account receivables and account pay-ables while building your unique business ecosystem.</p>
+                                                <p className="description">At Gapstack, we digitize your buyer- supplier arrangements; unlock and accelerate funding from your international and domestic value chain while expanding your unique business relationships.</p>
                                                 <GapstackButton type="purple" buttonName="Get Started" />
                                             </Col>
                                             <Col xs={24} sm={24} md={24} lg={16} xl={16}>

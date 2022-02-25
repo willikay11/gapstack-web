@@ -37,8 +37,8 @@ const Home = () => {
                     <div className="background-container">
                         <div className="overlay" />
                         <div className="container">
-                            <p className="title">Built for Global Scale</p>
-                            <p className="description">Whether sourcing or selling, locally or globally, Gapstack provides a frictionless, digital first trade platform. Our AI driven engine will understand your trade dependencies, avail the funding nodes to reduce friction wrapped into an intuitive business solution.</p>
+                            <p className="title">Built for Global Progress</p>
+                            <p className="description">We are passionate about trade. We understand trade is the true agent of economic transformation for the world. Gapstack´s platform is a comprehensive suite of automation, financing & community to let businesses grow, trading domestically and internationally.</p>
                         </div>
                     </div>
                 </Row>
