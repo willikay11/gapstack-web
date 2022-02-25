@@ -102,7 +102,7 @@ const style = ({backgroundImage, size}) => css`
       .description {
         font-weight: normal;
         font-size: 16px;
-        line-height: 26px;
+        line-height: 22px;
         color: #FFFFFF;
         margin-bottom: 0;
       }
