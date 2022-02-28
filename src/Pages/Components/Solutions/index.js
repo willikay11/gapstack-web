@@ -5,9 +5,9 @@ import styled from "styled-components";
 import { style } from "./styles";
 import ContactForm from "../Contact/Components/Form";
 import {GapstackButton} from "../../../Components/Buttons";
-import SailingShip from "../../../assets/Member1.jpg";
-import Port from "../../../assets/Member2.png";
-import PortDock from "../../../assets/Member3.png";
+import SailingShip from "../../../assets/Member1.webp";
+import Port from "../../../assets/Member2.webp";
+import PortDock from "../../../assets/Member3.webp";
 
 const UsersWrapper = styled.div`
   ${style}
