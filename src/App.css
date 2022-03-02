@@ -64,3 +64,27 @@ canvas {
   border-radius: 5px;
   height: 45px;
 }
+
+.ant-drawer-right.ant-drawer-open .ant-drawer-content-wrapper {
+  width: 50% !important;
+}
+
+.ant-progress-inner {
+  border-radius: 0 !important;
+}
+
+.ant-progress-success-bg, .ant-progress-bg {
+  border-radius: 0 !important;
+}
+.slick-list,
+.slick-track {
+  height: calc(100vh - 12px) !important;
+}
+
+.slick-vertical .slick-slide {
+  height: inherit;
+}
+.slick-vertical .slick-slide > div:nth-of-type(1) {
+  height: 100%;
+}
+
