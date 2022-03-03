@@ -1,7 +1,7 @@
 import {css} from 'styled-components';
 // import { device } from "../../../../../styles/deviceSizes";
 
-const gapstackPurple = '#7c60ff';
+// const gapstackPurple = '#7c60ff';
 
 const style = () => css`
   height: 100%;

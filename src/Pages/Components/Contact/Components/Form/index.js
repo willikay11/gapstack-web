@@ -1,5 +1,5 @@
 import React, {useRef, useState} from "react";
-import { Modal, Row, Col, Form, Input, Button, notification, Drawer, Progress } from 'antd';
+import { Col, Form, Input, Button, notification, Drawer, Progress } from 'antd';
 import axios from 'axios';
 import styled from "styled-components";
 import Slider from "react-slick";
@@ -25,6 +25,8 @@ const ContactForm = ({ visible, setModalVisibility }) => {
     const carousel = useRef(null);
     const [completeFields, setCompleteFields] = useState(0);
     const [ loading, setLoading ] = useState(false);
+
+    console.log(loading);
 
     const settings = {
         dots: false,
