@@ -9,7 +9,7 @@ const styles = ({type}) => css`
     height: 50px;
     border-radius: 4px;
     border-color: ${type === 'purple' ? '#7c60ff' : type === 'orange' ? '#FE9902' : ''};
-    min-width: 140px;
+    //min-width: 140px;
   }
 `;
 

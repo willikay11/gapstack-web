@@ -7,10 +7,10 @@ const ButtonWrapper = styled.div`
   ${styles}
 `;
 
-export const GapstackButton = ({buttonName, type, onClick}) => {
+export const GapstackButton = ({buttonName, type, onClick, icon, style}) => {
     return (
         <ButtonWrapper type={type}>
-            <Button onClick={onClick} className="purple">{buttonName}</Button>
+            <Button onClick={onClick} style={{ ...style }} icon={icon} className="purple">{buttonName}</Button>
         </ButtonWrapper>
     );
 }

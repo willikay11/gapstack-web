@@ -58,24 +58,23 @@ canvas {
 }
 
 .ant-input {
-  background: #FAFAFA;
-  border: 1px solid #E5E5E5;
+  background: #ffffff;
+  border: 0 solid #E5E5E5;
+  border-bottom-width: 1px;
   box-sizing: border-box;
-  border-radius: 5px;
-  height: 45px;
+  border-radius: 0px;
+  height: 55px;
+}
+
+.ant-input:focus, .ant-input:hover, .ant-input-focused {
+  box-shadow: none !important;
+  border-right-width: 0 !important;
 }
 
 .ant-drawer-right.ant-drawer-open .ant-drawer-content-wrapper {
-  width: 50% !important;
+  width: 40% !important;
 }
 
-.ant-progress-inner {
-  border-radius: 0 !important;
-}
-
-.ant-progress-success-bg, .ant-progress-bg {
-  border-radius: 0 !important;
-}
 .slick-list,
 .slick-track {
   height: calc(100vh - 12px) !important;
