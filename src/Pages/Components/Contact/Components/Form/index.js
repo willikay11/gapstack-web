@@ -1,6 +1,6 @@
 import React, {useRef, useState} from "react";
 import { Col, Form, Input, notification, Drawer } from 'antd';
-import { RiArrowLeftFill, RiArrowRightFill } from "react-icons/ri";
+import {RiArrowLeftFill, RiArrowRightFill, RiCloseFill} from "react-icons/ri";
 import axios from 'axios';
 import styled from "styled-components";
 import Slider from "react-slick";
@@ -25,8 +25,6 @@ const ContactForm = ({ visible, setModalVisibility }) => {
     const carousel = useRef(null);
     const [currentItem, setCurrentItem] = useState(1);
     const [ loading, setLoading ] = useState(false);
-
-    console.log(loading);
 
     const settings = {
         dots: false,
@@ -86,7 +84,7 @@ const ContactForm = ({ visible, setModalVisibility }) => {
         }
     }
     return (
-        <Drawer title={null} closeIcon={null} size={"large"} placement="right" onClose={() => setModalVisibility(false)} visible={visible}>
+        <Drawer title={null} closeIcon={<RiCloseFill size={20} />} size={"large"} placement="right" onClose={() => setModalVisibility(false)} visible={visible}>
             <FormWrapper>
                 <div className="pagination-container">
                     <span className="current-item">{currentItem}</span><span className="total-item">/04</span>
@@ -164,10 +162,10 @@ const ContactForm = ({ visible, setModalVisibility }) => {
                                     rules={[{ required: true, message: 'Please input your message!' }]}
                                     style={{ width: '100%' }}
                                 >
-                                    <Input.TextArea rows={5} placeholder="Message" onKeyDown={(e) => checkPressedKey(e, 'message')} />
+                                    <Input.TextArea rows={1} placeholder="Message" onKeyDown={(e) => checkPressedKey(e, 'message')} />
                                 </Form.Item>
 
-                                <GapstackButton type="purple" onClick={onNext} buttonName="Complete" />
+                                <GapstackButton type="purple" htmlType="submit" loading={loading} onClick={onNext}  buttonName="Complete" />
                             </Col>
                         </CustomSlide>
                     </Slider>
